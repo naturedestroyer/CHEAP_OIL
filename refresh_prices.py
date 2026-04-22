@@ -1,5 +1,6 @@
 """Refresh Opinet prices and rebuild index.html for GitHub Pages."""
 import json, urllib.request, urllib.parse, time, re, sys
+from datetime import datetime
 from pathlib import Path
 from string import Template
 
@@ -56,25 +57,27 @@ for r in rows:
         r["price_num"] = None
     time.sleep(0.15)  # rate limit
 
+for r in rows:
+    td = str(r.get("trade_dt") or "").strip()
+    tm = str(r.get("trade_tm") or "").strip().zfill(6)
+    if td and tm:
+        try:
+            dt = datetime.strptime(td + tm, "%Y%m%d%H%M%S")
+            r["updated_at_fmt"] = dt.strftime("%y.%m.%d %H:%M")
+            r["_updated_at_dt"] = dt.isoformat()
+        except Exception:
+            r["updated_at_fmt"] = ""
+            r["_updated_at_dt"] = ""
+    else:
+        r["updated_at_fmt"] = ""
+        r["_updated_at_dt"] = ""
+
 # Save updated data
 data_file.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
 
-# Stats
-yemin = [r for r in rows if r["currency"] == "여민전"]
-cheongju = [r for r in rows if r["currency"] == "청주페이"]
-yemin_total, yemin_priced = len(yemin), len([r for r in yemin if r.get("price_num") is not None])
-cheongju_total, cheongju_priced = len(cheongju), len([r for r in cheongju if r.get("price_num") is not None])
-print(f"여민전: {yemin_total}건 중 가격 {yemin_priced}건 / 청주페이: {cheongju_total}건 중 가격 {cheongju_priced}건")
-
-# Rebuild HTML
+# Rebuild HTML by replacing embedded rows array in template
 html_rows = json.dumps(rows, ensure_ascii=False)
-
-tmpl = Template((BASE / "template.html").read_text(encoding="utf-8"))
-html = tmpl.substitute(
-    html_rows=html_rows,
-    yemin_total=yemin_total, yemin_priced=yemin_priced,
-    cheongju_total=cheongju_total, cheongju_priced=cheongju_priced
-)
-
+tmpl = (BASE / "template.html").read_text(encoding="utf-8")
+html = re.sub(r"const rows=\[.*?\];", f"const rows={html_rows};", tmpl, count=1, flags=re.S)
 (BASE / "index.html").write_text(html, encoding="utf-8")
 print("index.html rebuilt successfully")
