@@ -31,13 +31,13 @@
     "opinet_uni_id": "A0025577",
     "trade_dt": "20260420",
     "trade_tm": "092725",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2025원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "중앙주유소",
     "opinet_new_adr": "경북 문경시 문경읍 새재로 444",
-    "price_num": null,
-    "updated_at_fmt": "26.04.20 09:27",
-    "_updated_at_dt": "2026-04-20T09:27:25"
+    "price_num": 2025,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "세종",
@@ -109,13 +109,13 @@
     "opinet_uni_id": "A0026124",
     "trade_dt": "20260422",
     "trade_tm": "153924",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1964원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행복주유소",
     "opinet_new_adr": "경북 구미시 송선로 507",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:39",
-    "_updated_at_dt": "2026-04-22T15:39:24"
+    "price_num": 1964,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "세종",
@@ -324,15 +324,15 @@
     "opinet_uni_id": "A0025528",
     "trade_dt": "20260422",
     "trade_tm": "174312",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1996원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "평산주유소",
     "opinet_new_adr": "경북 상주시 경상대로 2474 (지천동)",
     "latitude": "36.5883979088914",
     "longitude": "127.299262675396",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:43",
-    "_updated_at_dt": "2026-04-22T17:43:12"
+    "price_num": 1996,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "세종",
@@ -347,13 +347,13 @@
     "opinet_uni_id": "A0024621",
     "trade_dt": "20260422",
     "trade_tm": "085457",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2085원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "태산주유소",
     "opinet_new_adr": "경북 포항시 북구 기계면 기계로 459",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 08:54",
-    "_updated_at_dt": "2026-04-22T08:54:57"
+    "price_num": 2085,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "세종",
@@ -368,15 +368,15 @@
     "opinet_uni_id": "A0025383",
     "trade_dt": "20260422",
     "trade_tm": "094437",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1980원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "그린주유소",
     "opinet_new_adr": "경북 김천시 아포읍 포아로 103",
     "latitude": "36.6275450603875",
     "longitude": "127.289825863859",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 09:44",
-    "_updated_at_dt": "2026-04-22T09:44:37"
+    "price_num": 1980,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "세종",
@@ -659,13 +659,13 @@
     "opinet_uni_id": "A0012403",
     "trade_dt": "20260422",
     "trade_tm": "174003",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2038원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "SK오창주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 팔결로 579",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:40",
-    "_updated_at_dt": "2026-04-22T17:40:03"
+    "price_num": 2038,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -680,13 +680,13 @@
     "opinet_uni_id": "A0017279",
     "trade_dt": "20260422",
     "trade_tm": "153519",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "가덕주유소",
     "opinet_new_adr": "충북 청주시 상당구 가덕면 상장인차로 570",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:35",
-    "_updated_at_dt": "2026-04-22T15:35:19"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -720,13 +720,13 @@
     "opinet_uni_id": "A0017180",
     "trade_dt": "20260422",
     "trade_tm": "171504",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2040원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "고향주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 두릉유리로 1129",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:15",
-    "_updated_at_dt": "2026-04-22T17:15:04"
+    "price_num": 2040,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -741,13 +741,13 @@
     "opinet_uni_id": "A0017317",
     "trade_dt": "20260422",
     "trade_tm": "175736",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2037원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "골든벨주유소",
     "opinet_new_adr": "충북 청주시 상당구 용담동 산성로183",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:57",
-    "_updated_at_dt": "2026-04-22T17:57:36"
+    "price_num": 2037,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -762,13 +762,13 @@
     "opinet_uni_id": "A0012194",
     "trade_dt": "20260422",
     "trade_tm": "175759",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1995원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "공단주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 가로수로 1315",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:57",
-    "_updated_at_dt": "2026-04-22T17:57:59"
+    "price_num": 1995,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -783,13 +783,13 @@
     "opinet_uni_id": "A0011962",
     "trade_dt": "20260422",
     "trade_tm": "164749",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "기령주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 1009",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 16:47",
-    "_updated_at_dt": "2026-04-22T16:47:49"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -804,13 +804,13 @@
     "opinet_uni_id": "A0012084",
     "trade_dt": "20260422",
     "trade_tm": "174427",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "남일주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 828",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:44",
-    "_updated_at_dt": "2026-04-22T17:44:27"
+    "price_num": 1998,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -825,13 +825,13 @@
     "opinet_uni_id": "A0016634",
     "trade_dt": "20260422",
     "trade_tm": "175657",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1980원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "남청주동자주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 청남로 1040",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:56",
-    "_updated_at_dt": "2026-04-22T17:56:57"
+    "price_num": 1980,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -846,13 +846,13 @@
     "opinet_uni_id": "A0012064",
     "trade_dt": "20260422",
     "trade_tm": "170336",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1991원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "다복주유소",
     "opinet_new_adr": "충북 청주시 서원구 현도면 시목부강로 199",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:03",
-    "_updated_at_dt": "2026-04-22T17:03:36"
+    "price_num": 1991,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -886,13 +886,13 @@
     "opinet_uni_id": "A0012026",
     "trade_dt": "20260422",
     "trade_tm": "171520",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2025원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대명주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 직지대로 674",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:15",
-    "_updated_at_dt": "2026-04-22T17:15:20"
+    "price_num": 2025,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -907,13 +907,13 @@
     "opinet_uni_id": "A0016627",
     "trade_dt": "20260422",
     "trade_tm": "175929",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1994원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대박주유소",
     "opinet_new_adr": "충북 청주시 상당구  쇠내로 133 (금천동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:59",
-    "_updated_at_dt": "2026-04-22T17:59:29"
+    "price_num": 1994,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -928,13 +928,13 @@
     "opinet_uni_id": "A0012015",
     "trade_dt": "20260420",
     "trade_tm": "173815",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2049원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대성주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 강내면 태성탑연로 68",
-    "price_num": null,
-    "updated_at_fmt": "26.04.20 17:38",
-    "_updated_at_dt": "2026-04-20T17:38:15"
+    "price_num": 2049,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -949,13 +949,13 @@
     "opinet_uni_id": "A0012396",
     "trade_dt": "20260422",
     "trade_tm": "150226",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대율주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 신대석성로 163",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:02",
-    "_updated_at_dt": "2026-04-22T15:02:26"
+    "price_num": 2039,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -970,13 +970,13 @@
     "opinet_uni_id": "A0012838",
     "trade_dt": "20260422",
     "trade_tm": "164417",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2029원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대호주유소",
     "opinet_new_adr": "충북 충주시 살미면 중원대로 2574",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 16:44",
-    "_updated_at_dt": "2026-04-22T16:44:17"
+    "price_num": 2029,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -991,13 +991,13 @@
     "opinet_uni_id": "A0012510",
     "trade_dt": "20260422",
     "trade_tm": "175558",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "㈜동림에너지 동명주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 1순환로 514",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:55",
-    "_updated_at_dt": "2026-04-22T17:55:58"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1012,13 +1012,13 @@
     "opinet_uni_id": "A0017260",
     "trade_dt": "20260422",
     "trade_tm": "174412",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1997원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "동찬주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 오송읍 서평길 22-1",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:44",
-    "_updated_at_dt": "2026-04-22T17:44:12"
+    "price_num": 1997,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1033,13 +1033,13 @@
     "opinet_uni_id": "A0011963",
     "trade_dt": "20260422",
     "trade_tm": "174354",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1987원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "등고개주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 교육원로 9",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:43",
-    "_updated_at_dt": "2026-04-22T17:43:54"
+    "price_num": 1987,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1054,13 +1054,13 @@
     "opinet_uni_id": "A0012399",
     "trade_dt": "20260422",
     "trade_tm": "174103",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "매봉주유소",
     "opinet_new_adr": "충북 청주시 서원구 현도면 청남로 193",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:41",
-    "_updated_at_dt": "2026-04-22T17:41:03"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1075,13 +1075,13 @@
     "opinet_uni_id": "A0017610",
     "trade_dt": "20260422",
     "trade_tm": "151029",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "(주)문의IC주유소",
     "opinet_new_adr": "충북 청주시 상당구 문의면 미천고은로 63",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:10",
-    "_updated_at_dt": "2026-04-22T15:10:29"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1096,13 +1096,13 @@
     "opinet_uni_id": "A0011967",
     "trade_dt": "20260422",
     "trade_tm": "150647",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2045원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "미래주유소",
     "opinet_new_adr": "충북 청주시 서원구 성봉로 234-2",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:06",
-    "_updated_at_dt": "2026-04-22T15:06:47"
+    "price_num": 2045,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1117,13 +1117,13 @@
     "opinet_uni_id": "A0012379",
     "trade_dt": "20260422",
     "trade_tm": "151615",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2045원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "미평주유소",
     "opinet_new_adr": "충북 청주시 서원구 청남로 1911",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:16",
-    "_updated_at_dt": "2026-04-22T15:16:15"
+    "price_num": 2045,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1138,13 +1138,13 @@
     "opinet_uni_id": "A0012257",
     "trade_dt": "20260422",
     "trade_tm": "172446",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "보성주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 사운로 392-2 (신봉동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:24",
-    "_updated_at_dt": "2026-04-22T17:24:46"
+    "price_num": 2039,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1178,13 +1178,13 @@
     "opinet_uni_id": "A0012401",
     "trade_dt": "20260422",
     "trade_tm": "173112",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2026원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "삼거리주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 오송읍 오송가락로 422",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:31",
-    "_updated_at_dt": "2026-04-22T17:31:12"
+    "price_num": 2026,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1199,13 +1199,13 @@
     "opinet_uni_id": "A0011975",
     "trade_dt": "20260422",
     "trade_tm": "173141",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1997원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "삼보주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 충청대로 1524",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:31",
-    "_updated_at_dt": "2026-04-22T17:31:41"
+    "price_num": 1997,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1220,13 +1220,13 @@
     "opinet_uni_id": "A0012464",
     "trade_dt": "20260422",
     "trade_tm": "175500",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1989원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "서원경주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 직지대로 579 (봉명동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:55",
-    "_updated_at_dt": "2026-04-22T17:55:00"
+    "price_num": 1989,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1241,13 +1241,13 @@
     "opinet_uni_id": "A0016902",
     "trade_dt": "20260422",
     "trade_tm": "174852",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2030원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "석화주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 충청대로 849-5",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:48",
-    "_updated_at_dt": "2026-04-22T17:48:52"
+    "price_num": 2030,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1262,13 +1262,13 @@
     "opinet_uni_id": "A0012179",
     "trade_dt": "20260422",
     "trade_tm": "175652",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2016원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "선명주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 단재로 2670",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:56",
-    "_updated_at_dt": "2026-04-22T17:56:52"
+    "price_num": 2016,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1283,13 +1283,13 @@
     "opinet_uni_id": "A0017387",
     "trade_dt": "20260422",
     "trade_tm": "151048",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2049원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "선진에너지(주) 테크노빌주유소",
     "opinet_new_adr": "충북 청주시 청원구 팔결로 9 (주중동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:10",
-    "_updated_at_dt": "2026-04-22T15:10:48"
+    "price_num": 2049,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1304,13 +1304,13 @@
     "opinet_uni_id": "A0017355",
     "trade_dt": "20260422",
     "trade_tm": "174947",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "성일주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 청남로 871",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:49",
-    "_updated_at_dt": "2026-04-22T17:49:47"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1325,13 +1325,13 @@
     "opinet_uni_id": "A0017422",
     "trade_dt": "20260422",
     "trade_tm": "150755",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2009원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "세종주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 강내면 저산태성로 289-4",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:07",
-    "_updated_at_dt": "2026-04-22T15:07:55"
+    "price_num": 2009,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1346,13 +1346,13 @@
     "opinet_uni_id": "A0012352",
     "trade_dt": "20260422",
     "trade_tm": "171818",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "세종주유소",
     "opinet_new_adr": "충북 청주시 서원구 사운로180번길 32",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:18",
-    "_updated_at_dt": "2026-04-22T17:18:18"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1367,13 +1367,13 @@
     "opinet_uni_id": "A0012320",
     "trade_dt": "20260422",
     "trade_tm": "173735",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2065원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "스마일주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 월명로48번길 3",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:37",
-    "_updated_at_dt": "2026-04-22T17:37:35"
+    "price_num": 2065,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1388,13 +1388,13 @@
     "opinet_uni_id": "A0012376",
     "trade_dt": "20260422",
     "trade_tm": "152127",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2037원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "스마트주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 청주역로 563",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:21",
-    "_updated_at_dt": "2026-04-22T15:21:27"
+    "price_num": 2037,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1409,13 +1409,13 @@
     "opinet_uni_id": "A0012036",
     "trade_dt": "20260422",
     "trade_tm": "174514",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2070원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신나라주유소",
     "opinet_new_adr": "충북 청주시 청원구 새터로 53 (내덕동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:45",
-    "_updated_at_dt": "2026-04-22T17:45:14"
+    "price_num": 2070,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1430,13 +1430,13 @@
     "opinet_uni_id": "A0017250",
     "trade_dt": "20260422",
     "trade_tm": "170839",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2019원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신촌주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 오송가락로 545",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:08",
-    "_updated_at_dt": "2026-04-22T17:08:39"
+    "price_num": 2019,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1451,13 +1451,13 @@
     "opinet_uni_id": "A0017271",
     "trade_dt": "20260422",
     "trade_tm": "173009",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신풍주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 단재로 2079",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:30",
-    "_updated_at_dt": "2026-04-22T17:30:09"
+    "price_num": 1998,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1491,13 +1491,13 @@
     "opinet_uni_id": "A0017246",
     "trade_dt": "20260422",
     "trade_tm": "175908",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2038원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신흥주유소",
     "opinet_new_adr": "충북 청주시 청원구 2순환로 96 (율량동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:59",
-    "_updated_at_dt": "2026-04-22T17:59:08"
+    "price_num": 2038,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1512,13 +1512,13 @@
     "opinet_uni_id": "A0017203",
     "trade_dt": "20260422",
     "trade_tm": "174340",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1989원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "약수주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 단재로 2864",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:43",
-    "_updated_at_dt": "2026-04-22T17:43:40"
+    "price_num": 1989,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1533,13 +1533,13 @@
     "opinet_uni_id": "A0012079",
     "trade_dt": "20260422",
     "trade_tm": "174558",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "연일주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 515",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:45",
-    "_updated_at_dt": "2026-04-22T17:45:58"
+    "price_num": 1998,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1554,13 +1554,13 @@
     "opinet_uni_id": "A0012054",
     "trade_dt": "20260422",
     "trade_tm": "151000",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "오대주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 초정약수로 813",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:10",
-    "_updated_at_dt": "2026-04-22T15:10:00"
+    "price_num": 2039,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1575,13 +1575,13 @@
     "opinet_uni_id": "A0017334",
     "trade_dt": "20260422",
     "trade_tm": "172742",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "오미주유소(유공)",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 청주역로 626",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:27",
-    "_updated_at_dt": "2026-04-22T17:27:42"
+    "price_num": 2039,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1596,13 +1596,13 @@
     "opinet_uni_id": "A0017182",
     "trade_dt": "20260422",
     "trade_tm": "110935",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "옥녀봉주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 충청대로 1376",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 11:09",
-    "_updated_at_dt": "2026-04-22T11:09:35"
+    "price_num": 1999,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1617,13 +1617,13 @@
     "opinet_uni_id": "A0017354",
     "trade_dt": "20260417",
     "trade_tm": "093439",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "옻샘주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 남부로 6864",
-    "price_num": null,
-    "updated_at_fmt": "26.04.17 09:34",
-    "_updated_at_dt": "2026-04-17T09:34:39"
+    "price_num": 1998,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1638,13 +1638,13 @@
     "opinet_uni_id": "A0012394",
     "trade_dt": "20260422",
     "trade_tm": "165149",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2025원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "운암주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 남부로 6605",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 16:51",
-    "_updated_at_dt": "2026-04-22T16:51:49"
+    "price_num": 2025,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1659,13 +1659,13 @@
     "opinet_uni_id": "A0011993",
     "trade_dt": "20260422",
     "trade_tm": "145716",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2048원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "유진주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 남석로 402",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 14:57",
-    "_updated_at_dt": "2026-04-22T14:57:16"
+    "price_num": 2048,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1701,13 +1701,13 @@
     "opinet_uni_id": "A0012431",
     "trade_dt": "20260420",
     "trade_tm": "191018",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1985원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "정림주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 충청대로 1517",
-    "price_num": null,
-    "updated_at_fmt": "26.04.20 19:10",
-    "_updated_at_dt": "2026-04-20T19:10:18"
+    "price_num": 1985,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1722,13 +1722,13 @@
     "opinet_uni_id": "A0017241",
     "trade_dt": "20260422",
     "trade_tm": "172221",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "주성주유소",
     "opinet_new_adr": "충북 청주시 청원구 충청대로 295",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:22",
-    "_updated_at_dt": "2026-04-22T17:22:21"
+    "price_num": 2039,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1743,13 +1743,13 @@
     "opinet_uni_id": "A0012240",
     "trade_dt": "20260422",
     "trade_tm": "174845",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2018원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "죽림주유소",
     "opinet_new_adr": "충북 청주시 서원구 대림로 451 (죽림동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:48",
-    "_updated_at_dt": "2026-04-22T17:48:45"
+    "price_num": 2018,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1764,13 +1764,13 @@
     "opinet_uni_id": "A0017170",
     "trade_dt": "20260422",
     "trade_tm": "174324",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2034원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "지산주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 산성로 1143",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:43",
-    "_updated_at_dt": "2026-04-22T17:43:24"
+    "price_num": 2034,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1785,13 +1785,13 @@
     "opinet_uni_id": "A0017232",
     "trade_dt": "20260422",
     "trade_tm": "175347",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2018원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "진영주유가스충전소",
     "opinet_new_adr": "충북 청주시 상당구 미천고은로 152",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:53",
-    "_updated_at_dt": "2026-04-22T17:53:47"
+    "price_num": 2018,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1806,13 +1806,13 @@
     "opinet_uni_id": "A0017137",
     "trade_dt": "20260422",
     "trade_tm": "151908",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2029원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "초정주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 청암로 457",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:19",
-    "_updated_at_dt": "2026-04-22T15:19:08"
+    "price_num": 2029,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1827,13 +1827,13 @@
     "opinet_uni_id": "A0007586",
     "trade_dt": "20260422",
     "trade_tm": "150650",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2018원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "탑주유소",
     "opinet_new_adr": "충북 청주시 상당구 대성로 169-1",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:06",
-    "_updated_at_dt": "2026-04-22T15:06:50"
+    "price_num": 2018,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1848,13 +1848,13 @@
     "opinet_uni_id": "A0012392",
     "trade_dt": "20260422",
     "trade_tm": "160547",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1987원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "태성주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 구방5길 2",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 16:05",
-    "_updated_at_dt": "2026-04-22T16:05:47"
+    "price_num": 1987,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1869,13 +1869,13 @@
     "opinet_uni_id": "A0012030",
     "trade_dt": "20260422",
     "trade_tm": "172845",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2059원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "태양주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 중부로 1559",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:28",
-    "_updated_at_dt": "2026-04-22T17:28:45"
+    "price_num": 2059,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1890,13 +1890,13 @@
     "opinet_uni_id": "A0017239",
     "trade_dt": "20260422",
     "trade_tm": "175553",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "테크노주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 중부로 532",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:55",
-    "_updated_at_dt": "2026-04-22T17:55:53"
+    "price_num": 2039,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1911,13 +1911,13 @@
     "opinet_uni_id": "A0016879",
     "trade_dt": "20260422",
     "trade_tm": "133011",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2049원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "팔봉주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 남석로 239",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 13:30",
-    "_updated_at_dt": "2026-04-22T13:30:11"
+    "price_num": 2049,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1932,13 +1932,13 @@
     "opinet_uni_id": "A0012378",
     "trade_dt": "20260422",
     "trade_tm": "173450",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2038원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "평강주유소",
     "opinet_new_adr": "충북 청주시 서원구 사운로145번길 4 (사직동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:34",
-    "_updated_at_dt": "2026-04-22T17:34:50"
+    "price_num": 2038,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1953,13 +1953,13 @@
     "opinet_uni_id": "A0012500",
     "trade_dt": "20260422",
     "trade_tm": "175851",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1974원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행복에너지㈜ 행복에너지2주유소",
     "opinet_new_adr": "충북 청주시 서원구 청남로 1937 (미평동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:58",
-    "_updated_at_dt": "2026-04-22T17:58:51"
+    "price_num": 1974,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1974,13 +1974,13 @@
     "opinet_uni_id": "A0017198",
     "trade_dt": "20260422",
     "trade_tm": "155820",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "1985원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행운주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 단재로 1778",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 15:58",
-    "_updated_at_dt": "2026-04-22T15:58:20"
+    "price_num": 1985,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -1995,13 +1995,13 @@
     "opinet_uni_id": "A0012031",
     "trade_dt": "20260422",
     "trade_tm": "074724",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2019원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "형제주유소",
     "opinet_new_adr": "충북 청주시 서원구 직지대로 738 (사직동)",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 07:47",
-    "_updated_at_dt": "2026-04-22T07:47:24"
+    "price_num": 2019,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -2016,13 +2016,13 @@
     "opinet_uni_id": "A0017223",
     "trade_dt": "20260422",
     "trade_tm": "163532",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2048원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "호반주유소",
     "opinet_new_adr": "충북 청주시 상당구 가덕면 미천고은로 118",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 16:35",
-    "_updated_at_dt": "2026-04-22T16:35:32"
+    "price_num": 2048,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -2037,13 +2037,13 @@
     "opinet_uni_id": "A0013082",
     "trade_dt": "20260422",
     "trade_tm": "115607",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2027원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "황금주유소",
     "opinet_new_adr": "충북 청주시 상당구 대성로 92",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 11:56",
-    "_updated_at_dt": "2026-04-22T11:56:07"
+    "price_num": 2027,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "청주",
@@ -2058,13 +2058,13 @@
     "opinet_uni_id": "A0001682",
     "trade_dt": "20260422",
     "trade_tm": "174217",
-    "gasoline_price_today": "",
+    "gasoline_price_today": "2040원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "흥인주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 두릉유리로 755",
-    "price_num": null,
-    "updated_at_fmt": "26.04.22 17:42",
-    "_updated_at_dt": "2026-04-22T17:42:17"
+    "price_num": 2040,
+    "updated_at_fmt": "",
+    "_updated_at_dt": ""
   },
   {
     "city": "서울",

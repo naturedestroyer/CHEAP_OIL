@@ -34,27 +34,34 @@ print(f"Refreshing prices for {len(uni_ids)} stations...")
 for r in rows:
     uid = r.get("opinet_uni_id")
     if not uid:
-        r["gasoline_price_today"] = ""
-        r["price_num"] = None
-        r["trade_dt"] = ""
-        r["trade_tm"] = ""
+        r.setdefault("gasoline_price_today", "")
+        r.setdefault("price_num", None)
+        r.setdefault("trade_dt", "")
+        r.setdefault("trade_tm", "")
         continue
+    old_price = r.get("gasoline_price_today", "")
+    old_price_num = r.get("price_num")
+    old_trade_dt = r.get("trade_dt", "")
+    old_trade_tm = r.get("trade_tm", "")
     detail = opinet("detailById.do", {"id": uid})
+    updated = False
     if detail and "RESULT" in detail:
-        oil = detail["RESULT"].get("OIL", [])
-        for o in oil:
-            if o.get("PRODCD") == "B027":
-                r["gasoline_price_today"] = f"{o['PRICE']}원/L"
-                r["price_num"] = int(o["PRICE"])
-                r["trade_dt"] = detail["RESULT"].get("TRADE_DT", "")
-                r["trade_tm"] = detail["RESULT"].get("TRADE_TM", "")
-                break
-        else:
-            r["gasoline_price_today"] = ""
-            r["price_num"] = None
-    else:
-        r["gasoline_price_today"] = ""
-        r["price_num"] = None
+        oil_rows = detail["RESULT"].get("OIL", [])
+        oil0 = oil_rows[0] if oil_rows else None
+        if oil0:
+            for p in oil0.get("OIL_PRICE", []) or []:
+                if p.get("PRODCD") == "B027" and p.get("PRICE"):
+                    r["gasoline_price_today"] = f"{p['PRICE']}원/L"
+                    r["price_num"] = int(p["PRICE"])
+                    r["trade_dt"] = p.get("TRADE_DT", old_trade_dt)
+                    r["trade_tm"] = p.get("TRADE_TM", old_trade_tm)
+                    updated = True
+                    break
+    if not updated:
+        r["gasoline_price_today"] = old_price
+        r["price_num"] = old_price_num
+        r["trade_dt"] = old_trade_dt
+        r["trade_tm"] = old_trade_tm
     time.sleep(0.15)  # rate limit
 
 for r in rows:
