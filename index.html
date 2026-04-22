@@ -56,7 +56,7 @@ input[type=number]::-webkit-inner-spin-button{opacity:1}
 </div>
 <div id="status">현재 위치 가져오기 버튼을 어여 누르세요</div>
 <div id="errorBox" class="err" style="display:none"></div>
-<div class="stats">업데이트 26.04.22 17:59 · 여민전 5건 중 가격 2건 · 청주페이 73건 중 가격 63건</div>
+<div class="stats">업데이트 26.04.22 17:59<br><br>여민전 5건 중 가격 2건 · 청주페이 73건 중 가격 63건</div>
 </div>
 <div id="list"></div>
 </div>
@@ -145,8 +145,9 @@ function render(){
       const totalL=r.buyableL.toFixed(2);
       netInfo='<div class="net-gain">총주유량 '+totalL+'L (왕복 '+r.tripCost.toFixed(0)+'원 사용)</div>';
     }
-    const updatedText=r.updated_at_fmt?(' · 유가업데이트 '+r.updated_at_fmt):'';
-    return '<div class="card"><div class="card-top"><span class="'+rank+'">'+(i+1)+'</span><span class="card-name">'+r.station_name+'</span><span class="badge '+badge+'">'+r.currency+'</span></div><div class="'+pclass+'">'+ptext+'</div>'+discountInfo+'<div class="card-meta">거리 <b>'+dist+'</b> · '+r.address+' · '+(r.phone||'-')+updatedText+'</div>'+netInfo+navLinks(r)+'</div>';
+    const phoneText=r.phone?('<a href="tel:'+String(r.phone).replace(/[^0-9+]/g,'')+'" style="color:#cbd5e1;text-decoration:underline">'+r.phone+'</a>'):'-';
+    const updatedText=r.updated_at_fmt?('유가업데이트 '+r.updated_at_fmt):'유가업데이트 -';
+    return '<div class="card"><div class="card-top"><span class="'+rank+'">'+(i+1)+'</span><span class="card-name">'+r.station_name+'</span><span class="badge '+badge+'">'+r.currency+'</span></div><div class="'+pclass+'">'+ptext+'</div>'+discountInfo+'<div class="card-meta">거리 <b>'+dist+'</b> · '+r.address+'<br>'+phoneText+' · '+updatedText+'</div>'+netInfo+navLinks(r)+'</div>';
   }).join('');
 }
 render();
