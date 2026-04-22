@@ -1,0 +1,29 @@
+name: Daily Price Refresh
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # KST 07:00 = UTC 22:00
+  workflow_dispatch:  # manual trigger
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh prices
+        env:
+          OPINET_KEY: ${{ secrets.OPINET_KEY }}
+        run: python refresh_prices.py "$OPINET_KEY"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet index.html station_data.json || (git add index.html station_data.json && git commit -m "daily price refresh $(date +%Y-%m-%d)" && git push)
