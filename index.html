@@ -7,11 +7,12 @@
 .header{background:linear-gradient(135deg,#3b82f6,#6366f1);border-radius:20px;padding:24px;margin-bottom:16px;box-shadow:0 8px 32px rgba(59,130,246,.25)}
 .header h1{margin:0;font-size:22px;font-weight:700;color:#fff;letter-spacing:-.5px}
 .header .subtitle{font-size:13px;color:rgba(255,255,255,.75);margin-top:4px}
-.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;align-items:flex-end}
 .btn{padding:10px 16px;border:none;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s}
 .btn-loc{background:rgba(255,255,255,.2);color:#fff;backdrop-filter:blur(8px)} .btn-loc:hover{background:rgba(255,255,255,.3)}
 .btn-loc.active{background:#fff;color:#3b82f6}
-select{padding:10px 14px;border:1px solid rgba(255,255,255,.15);border-radius:12px;background:rgba(255,255,255,.1);color:#fff;font-size:13px;-webkit-appearance:none;backdrop-filter:blur(8px)} select option{background:#1e293b;color:#fff}
+select,input[type=number]{padding:10px 14px;border:1px solid rgba(255,255,255,.15);border-radius:12px;background:rgba(255,255,255,.1);color:#fff;font-size:13px;-webkit-appearance:none;backdrop-filter:blur(8px)} select option{background:#1e293b;color:#fff}
+input[type=number]::-webkit-inner-spin-button{opacity:1}
 #status{font-size:13px;margin-top:12px;padding:8px 12px;border-radius:10px;background:rgba(255,255,255,.08)}
 #status.ok{background:rgba(34,197,94,.15);color:#4ade80}
 .err{color:#f87171;font-size:13px;margin-top:8px;padding:8px 12px;border-radius:10px;background:rgba(239,68,68,.1);white-space:pre-wrap}
@@ -27,9 +28,15 @@ select{padding:10px 14px;border:1px solid rgba(255,255,255,.15);border-radius:12
 .card-meta b{color:#cbd5e1}
 .rank{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:8px;background:rgba(255,255,255,.08);font-size:11px;font-weight:700;color:#94a3b8;margin-right:4px}
 .rank.top3{background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#1e293b}
+.net-gain{font-size:13px;color:#4ade80;margin-top:4px;font-weight:600}
+.net-gain.negative{color:#f87171}
 .navlinks{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .navlinks a{font-size:11px;padding:5px 10px;border-radius:8px;background:rgba(255,255,255,.06);color:#94a3b8;border:1px solid rgba(255,255,255,.06);text-decoration:none;transition:all .15s;font-weight:500} .navlinks a:hover{background:rgba(255,255,255,.12);color:#e2e8f0;border-color:rgba(255,255,255,.15)}
 .empty-msg{text-align:center;padding:40px;color:#64748b;font-size:15px}
+.opt-params{display:none;margin-top:12px;padding:12px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08)}
+.opt-params.visible{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+.opt-params label{font-size:11px;color:rgba(255,255,255,.5)}
+.opt-params input[type=number]{width:90px}
 </style></head><body><div class="wrap">
 <div class="header">
 <h1>⛽ 가까운 지역화폐 주유소 찾기</h1>
@@ -37,9 +44,13 @@ select{padding:10px 14px;border:1px solid rgba(255,255,255,.15);border-radius:12
 <div class="controls">
 <button class="btn btn-loc" onclick="getMyLocation()">📍 현재 위치 가져오기</button>
 <div style="display:flex;gap:12px;flex-wrap:wrap">
-<div><div style="font-size:10px;color:rgba(255,255,255,.5);margin-bottom:3px">정렬 기준</div><select id="sortMode" onchange="render()"><option value="distance">거리순</option><option value="price">가격순</option><option value="combo">거리+가격</option></select></div>
+<div><div style="font-size:10px;color:rgba(255,255,255,.5);margin-bottom:3px">정렬 기준</div><select id="sortMode" onchange="onSortChange()"><option value="distance">거리순</option><option value="price">가격순</option><option value="optimal">최적주유</option></select></div>
 <div><div style="font-size:10px;color:rgba(255,255,255,.5);margin-bottom:3px">지역화폐</div><select id="currencyFilter" onchange="render()"><option value="all">전체</option><option value="여민전">여민전</option><option value="청주페이">청주페이</option></select></div>
 </div>
+</div>
+<div id="optParams" class="opt-params">
+<div><label>연비 (km/L)</label><input type="number" id="efficiency" value="12" min="1" max="50" step="0.5" onchange="render()"></div>
+<div><label>주유 예산 (원)</label><input type="number" id="budget" value="50000" min="1000" step="10000" onchange="render()"></div>
 </div>
 <div id="status">위치를 아직 가져오지 않았어</div>
 <div id="errorBox" class="err" style="display:none"></div>
@@ -53,6 +64,11 @@ let myLat=null,myLon=null;
 function haversine(a,b,c,d){const R=6371,dLat=(c-a)*Math.PI/180,dLon=(d-b)*Math.PI/180,x=Math.sin(dLat/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dLon/2)**2;return 2*R*Math.asin(Math.sqrt(x))}
 function setStatus(m,ok){const e=document.getElementById('status');e.className=ok?'ok':'';e.textContent=m}
 function setError(m){const e=document.getElementById('errorBox');e.style.display=m?'block':'none';e.textContent=m||''}
+function onSortChange(){
+  const opt=document.getElementById('optParams');
+  opt.className=document.getElementById('sortMode').value==='optimal'?'opt-params visible':'opt-params';
+  render();
+}
 async function getMyLocation(){
   setError('');const b=document.querySelector('.btn-loc');
   if(!navigator.geolocation){setError('geolocation 미지원 브라우저');return}
@@ -84,11 +100,28 @@ function navLinks(r){
 function openApp(dl,fb){var t=Date.now();window.location.href=dl;setTimeout(function(){if(Date.now()-t<2000)window.open(fb,'_blank')},500)}
 function render(){
   const sm=document.getElementById('sortMode').value,cf=document.getElementById('currencyFilter').value;
+  const eff=parseFloat(document.getElementById('efficiency').value)||12;
+  const budget=parseFloat(document.getElementById('budget').value)||50000;
   let items=rows.map(r=>({...r}));
   items.forEach(r=>r.distanceKm=(myLat!=null&&myLon!=null)?haversine(myLat,myLon,Number(r.latitude),Number(r.longitude)):null);
   if(cf!=='all')items=items.filter(r=>r.currency===cf);
-  if(sm==='price')items.sort((a,b)=>(a.price_num??1e9)-(b.price_num??1e9)||((a.distanceKm??1e9)-(b.distanceKm??1e9)));
-  else items.sort((a,b)=>(a.distanceKm??1e9)-(b.distanceKm??1e9)||((a.price_num??1e9)-(b.price_num??1e9)));
+  // Calculate net gain for optimal sort
+  items.forEach(r=>{
+    if(r.price_num && r.distanceKm!=null){
+      const roundTrip=r.distanceKm*2;
+      const fuelUsed=roundTrip/eff;
+      const tripCost=fuelUsed*r.price_num;
+      const buyableL=Math.max(0,(budget-tripCost)/r.price_num);
+      r.netGain=buyableL-fuelUsed;
+      r.buyableL=buyableL;
+      r.tripCost=tripCost;
+    }else{
+      r.netGain=null;r.buyableL=null;r.tripCost=null;
+    }
+  });
+  if(sm==='distance')items.sort((a,b)=>(a.distanceKm??1e9)-(b.distanceKm??1e9)||((a.price_num??1e9)-(b.price_num??1e9)));
+  else if(sm==='price')items.sort((a,b)=>(a.price_num??1e9)-(b.price_num??1e9)||((a.distanceKm??1e9)-(b.distanceKm??1e9)));
+  else items.sort((a,b)=>(b.netGain??-1e9)-(a.netGain??-1e9));
   if(!items.length){document.getElementById('list').innerHTML='<div class="empty-msg">결과가 없어</div>';return}
   document.getElementById('list').innerHTML=items.map((r,i)=>{
     const badge=r.currency==='여민전'?'badge-yeomin':'badge-cheongju';
@@ -96,7 +129,13 @@ function render(){
     const ptext=r.gasoline_price_today||'가격 미확인';
     const dist=r.distanceKm!=null?r.distanceKm.toFixed(1)+'km':'—';
     const rank=i<3?'rank top3':'rank';
-    return '<div class="card"><div class="card-top"><span class="'+rank+'">'+(i+1)+'</span><span class="card-name">'+r.station_name+'</span><span class="badge '+badge+'">'+r.currency+'</span></div><div class="'+pclass+'">'+ptext+'</div><div class="card-meta">거리 <b>'+dist+'</b> · '+r.address+' · '+(r.phone||'-')+'</div>'+navLinks(r)+'</div>';
+    let netInfo='';
+    if(sm==='optimal' && r.price_num && r.distanceKm!=null){
+      const netL=r.netGain.toFixed(2);
+      const cls=r.netGain>=0?'net-gain':'net-gain negative';
+      netInfo='<div class="'+cls+'">순수획득 '+netL+'L (왕복 '+r.tripCost.toFixed(0)+'원 사용)</div>';
+    }
+    return '<div class="card"><div class="card-top"><span class="'+rank+'">'+(i+1)+'</span><span class="card-name">'+r.station_name+'</span><span class="badge '+badge+'">'+r.currency+'</span></div><div class="'+pclass+'">'+ptext+'</div><div class="card-meta">거리 <b>'+dist+'</b> · '+r.address+' · '+(r.phone||'-')+'</div>'+netInfo+navLinks(r)+'</div>';
   }).join('');
 }
 render();
