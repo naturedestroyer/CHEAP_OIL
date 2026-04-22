@@ -3,6 +3,7 @@ name: Daily Price Refresh
 on:
   schedule:
     - cron: '0 22 * * *'  # KST 07:00 = UTC 22:00
+    - cron: '0 5 * * *'   # KST 14:00 = UTC 05:00
   workflow_dispatch:  # manual trigger
 
 jobs:
