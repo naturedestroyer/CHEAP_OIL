@@ -40,7 +40,7 @@ input[type=number]::-webkit-inner-spin-button{opacity:1}
 </style></head><body><div class="wrap">
 <div class="header">
 <h1>⛽ 가까운 지역화폐 주유소 찾기</h1>
-<div class="subtitle">청주페이 · 세종 여민전 결제 가능 주유소</div>
+<div class="subtitle">청주페이 · 세종 여민전 결제 가능 주유소 · <a href="mailto:yodan.express@gmail.com" style="color:#fbbf24;text-decoration:underline">제작자</a> <a href="mailto:yodan.express@gmail.com" style="color:#fbbf24;font-size:16px">✉</a></div>
 <div class="controls">
 <button class="btn btn-loc" onclick="getMyLocation()">📍 현재 위치 가져오기</button>
 <div style="display:flex;gap:12px;flex-wrap:wrap">
@@ -54,7 +54,7 @@ input[type=number]::-webkit-inner-spin-button{opacity:1}
 <div><label>청주페이 인센티브 (%)</label><input type="number" id="discCheongju" value="10" min="0" max="50" step="1" onchange="updateDiscount();render()"></div>
 <div><label>주유 예산 (원)</label><input type="number" id="budget" value="50000" min="1000" step="10000" onchange="render()"></div>
 </div>
-<div id="status">위치를 아직 가져오지 않았어</div>
+<div id="status">현재 위치 가져오기 버튼을 어여 누르세요</div>
 <div id="errorBox" class="err" style="display:none"></div>
 <div class="stats">여민전 5건 중 가격 2건 · 청주페이 73건 중 가격 63건</div>
 </div>
@@ -142,9 +142,8 @@ function render(){
     const rank=i<3?'rank top3':'rank';
     let netInfo='';
     if(sm==='optimal' && r.price_num && r.distanceKm!=null){
-      const netL=r.netGain.toFixed(2);
-      const cls=r.netGain>=0?'net-gain':'net-gain negative';
-      netInfo='<div class="'+cls+'">순수획득 '+netL+'L (왕복 '+r.tripCost.toFixed(0)+'원 사용)</div>';
+      const totalL=r.buyableL.toFixed(2);
+      netInfo='<div class="net-gain">총주유량 '+totalL+'L (왕복 '+r.tripCost.toFixed(0)+'원 사용)</div>';
     }
     return '<div class="card"><div class="card-top"><span class="'+rank+'">'+(i+1)+'</span><span class="card-name">'+r.station_name+'</span><span class="badge '+badge+'">'+r.currency+'</span></div><div class="'+pclass+'">'+ptext+'</div>'+discountInfo+'<div class="card-meta">거리 <b>'+dist+'</b> · '+r.address+' · '+(r.phone||'-')+'</div>'+netInfo+navLinks(r)+'</div>';
   }).join('');
