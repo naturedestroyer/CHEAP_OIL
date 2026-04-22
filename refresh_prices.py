@@ -38,6 +38,8 @@ for r in rows:
         r.setdefault("price_num", None)
         r.setdefault("trade_dt", "")
         r.setdefault("trade_tm", "")
+        r.setdefault("updated_at_fmt", r.get("updated_at_fmt", ""))
+        r.setdefault("_updated_at_dt", r.get("_updated_at_dt", ""))
         continue
     old_price = r.get("gasoline_price_today", "")
     old_price_num = r.get("price_num")
@@ -76,8 +78,8 @@ for r in rows:
             r["updated_at_fmt"] = ""
             r["_updated_at_dt"] = ""
     else:
-        r["updated_at_fmt"] = ""
-        r["_updated_at_dt"] = ""
+        r["updated_at_fmt"] = r.get("updated_at_fmt", "")
+        r["_updated_at_dt"] = r.get("_updated_at_dt", "")
 
 # Save updated data
 data_file.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
