@@ -108,14 +108,14 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0026124",
     "trade_dt": "20260427",
-    "trade_tm": "145443",
+    "trade_tm": "233707",
     "gasoline_price_today": "1959원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행복주유소",
     "opinet_new_adr": "경북 구미시 송선로 507",
     "price_num": 1959,
-    "updated_at_fmt": "26.04.27 14:54",
-    "_updated_at_dt": "2026-04-27T14:54:43"
+    "updated_at_fmt": "26.04.27 23:37",
+    "_updated_at_dt": "2026-04-27T23:37:07"
   },
   {
     "city": "세종",
@@ -322,8 +322,8 @@
     "payment_status": "여민전 결제 가능",
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0025528",
-    "trade_dt": "20260427",
-    "trade_tm": "144411",
+    "trade_dt": "20260428",
+    "trade_tm": "005403",
     "gasoline_price_today": "1996원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "평산주유소",
@@ -331,8 +331,8 @@
     "latitude": "36.5883979088914",
     "longitude": "127.299262675396",
     "price_num": 1996,
-    "updated_at_fmt": "26.04.27 14:44",
-    "_updated_at_dt": "2026-04-27T14:44:11"
+    "updated_at_fmt": "26.04.28 00:54",
+    "_updated_at_dt": "2026-04-28T00:54:03"
   },
   {
     "city": "세종",
@@ -658,14 +658,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012403",
     "trade_dt": "20260427",
-    "trade_tm": "132615",
+    "trade_tm": "171321",
     "gasoline_price_today": "2038원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "SK오창주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 팔결로 579",
     "price_num": 2038,
-    "updated_at_fmt": "26.04.27 13:26",
-    "_updated_at_dt": "2026-04-27T13:26:15"
+    "updated_at_fmt": "26.04.27 17:13",
+    "_updated_at_dt": "2026-04-27T17:13:21"
   },
   {
     "city": "청주",
@@ -679,14 +679,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017279",
     "trade_dt": "20260427",
-    "trade_tm": "121935",
+    "trade_tm": "152110",
     "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "가덕주유소",
     "opinet_new_adr": "충북 청주시 상당구 가덕면 상장인차로 570",
     "price_num": 1999,
-    "updated_at_fmt": "26.04.27 12:19",
-    "_updated_at_dt": "2026-04-27T12:19:35"
+    "updated_at_fmt": "26.04.27 15:21",
+    "_updated_at_dt": "2026-04-27T15:21:10"
   },
   {
     "city": "청주",
@@ -719,14 +719,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017180",
     "trade_dt": "20260427",
-    "trade_tm": "144341",
+    "trade_tm": "201417",
     "gasoline_price_today": "2040원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "고향주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 두릉유리로 1129",
     "price_num": 2040,
-    "updated_at_fmt": "26.04.27 14:43",
-    "_updated_at_dt": "2026-04-27T14:43:41"
+    "updated_at_fmt": "26.04.27 20:14",
+    "_updated_at_dt": "2026-04-27T20:14:17"
   },
   {
     "city": "청주",
@@ -739,15 +739,15 @@
     "longitude": 127.509963,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017317",
-    "trade_dt": "20260427",
-    "trade_tm": "144927",
+    "trade_dt": "20260428",
+    "trade_tm": "005456",
     "gasoline_price_today": "2037원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "골든벨주유소",
     "opinet_new_adr": "충북 청주시 상당구 용담동 산성로183",
     "price_num": 2037,
-    "updated_at_fmt": "26.04.27 14:49",
-    "_updated_at_dt": "2026-04-27T14:49:27"
+    "updated_at_fmt": "26.04.28 00:54",
+    "_updated_at_dt": "2026-04-28T00:54:56"
   },
   {
     "city": "청주",
@@ -761,14 +761,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012194",
     "trade_dt": "20260427",
-    "trade_tm": "145803",
+    "trade_tm": "225940",
     "gasoline_price_today": "1995원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "공단주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 가로수로 1315",
     "price_num": 1995,
-    "updated_at_fmt": "26.04.27 14:58",
-    "_updated_at_dt": "2026-04-27T14:58:03"
+    "updated_at_fmt": "26.04.27 22:59",
+    "_updated_at_dt": "2026-04-27T22:59:40"
   },
   {
     "city": "청주",
@@ -782,14 +782,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011962",
     "trade_dt": "20260427",
-    "trade_tm": "145551",
+    "trade_tm": "203912",
     "gasoline_price_today": "1989원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "기령주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 1009",
     "price_num": 1989,
-    "updated_at_fmt": "26.04.27 14:55",
-    "_updated_at_dt": "2026-04-27T14:55:51"
+    "updated_at_fmt": "26.04.27 20:39",
+    "_updated_at_dt": "2026-04-27T20:39:12"
   },
   {
     "city": "청주",
@@ -803,14 +803,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012084",
     "trade_dt": "20260427",
-    "trade_tm": "141106",
+    "trade_tm": "173127",
     "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "남일주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 828",
     "price_num": 1998,
-    "updated_at_fmt": "26.04.27 14:11",
-    "_updated_at_dt": "2026-04-27T14:11:06"
+    "updated_at_fmt": "26.04.27 17:31",
+    "_updated_at_dt": "2026-04-27T17:31:27"
   },
   {
     "city": "청주",
@@ -824,14 +824,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0016634",
     "trade_dt": "20260427",
-    "trade_tm": "142807",
+    "trade_tm": "215745",
     "gasoline_price_today": "1989원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "남청주동자주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 청남로 1040",
     "price_num": 1989,
-    "updated_at_fmt": "26.04.27 14:28",
-    "_updated_at_dt": "2026-04-27T14:28:07"
+    "updated_at_fmt": "26.04.27 21:57",
+    "_updated_at_dt": "2026-04-27T21:57:45"
   },
   {
     "city": "청주",
@@ -845,14 +845,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012064",
     "trade_dt": "20260427",
-    "trade_tm": "085947",
+    "trade_tm": "183503",
     "gasoline_price_today": "1991원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "다복주유소",
     "opinet_new_adr": "충북 청주시 서원구 현도면 시목부강로 199",
     "price_num": 1991,
-    "updated_at_fmt": "26.04.27 08:59",
-    "_updated_at_dt": "2026-04-27T08:59:47"
+    "updated_at_fmt": "26.04.27 18:35",
+    "_updated_at_dt": "2026-04-27T18:35:03"
   },
   {
     "city": "청주",
@@ -885,14 +885,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012026",
     "trade_dt": "20260427",
-    "trade_tm": "145841",
+    "trade_tm": "190002",
     "gasoline_price_today": "2025원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대명주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 직지대로 674",
     "price_num": 2025,
-    "updated_at_fmt": "26.04.27 14:58",
-    "_updated_at_dt": "2026-04-27T14:58:41"
+    "updated_at_fmt": "26.04.27 19:00",
+    "_updated_at_dt": "2026-04-27T19:00:02"
   },
   {
     "city": "청주",
@@ -906,14 +906,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0016627",
     "trade_dt": "20260427",
-    "trade_tm": "145930",
+    "trade_tm": "215212",
     "gasoline_price_today": "1994원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대박주유소",
     "opinet_new_adr": "충북 청주시 상당구  쇠내로 133 (금천동)",
     "price_num": 1994,
-    "updated_at_fmt": "26.04.27 14:59",
-    "_updated_at_dt": "2026-04-27T14:59:30"
+    "updated_at_fmt": "26.04.27 21:52",
+    "_updated_at_dt": "2026-04-27T21:52:12"
   },
   {
     "city": "청주",
@@ -926,15 +926,15 @@
     "longitude": "127.355031214782",
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012015",
-    "trade_dt": "20260425",
-    "trade_tm": "114918",
-    "gasoline_price_today": "2049원/L",
+    "trade_dt": "20260427",
+    "trade_tm": "173707",
+    "gasoline_price_today": "2069원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대성주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 강내면 태성탑연로 68",
-    "price_num": 2049,
-    "updated_at_fmt": "26.04.25 11:49",
-    "_updated_at_dt": "2026-04-25T11:49:18"
+    "price_num": 2069,
+    "updated_at_fmt": "26.04.27 17:37",
+    "_updated_at_dt": "2026-04-27T17:37:07"
   },
   {
     "city": "청주",
@@ -948,14 +948,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012396",
     "trade_dt": "20260427",
-    "trade_tm": "125557",
+    "trade_tm": "180115",
     "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대율주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 신대석성로 163",
     "price_num": 2039,
-    "updated_at_fmt": "26.04.27 12:55",
-    "_updated_at_dt": "2026-04-27T12:55:57"
+    "updated_at_fmt": "26.04.27 18:01",
+    "_updated_at_dt": "2026-04-27T18:01:15"
   },
   {
     "city": "청주",
@@ -969,14 +969,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012838",
     "trade_dt": "20260427",
-    "trade_tm": "143034",
+    "trade_tm": "202946",
     "gasoline_price_today": "2029원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대호주유소",
     "opinet_new_adr": "충북 충주시 살미면 중원대로 2574",
     "price_num": 2029,
-    "updated_at_fmt": "26.04.27 14:30",
-    "_updated_at_dt": "2026-04-27T14:30:34"
+    "updated_at_fmt": "26.04.27 20:29",
+    "_updated_at_dt": "2026-04-27T20:29:46"
   },
   {
     "city": "청주",
@@ -990,14 +990,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012510",
     "trade_dt": "20260427",
-    "trade_tm": "145241",
+    "trade_tm": "222550",
     "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "㈜동림에너지 동명주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 1순환로 514",
     "price_num": 1999,
-    "updated_at_fmt": "26.04.27 14:52",
-    "_updated_at_dt": "2026-04-27T14:52:41"
+    "updated_at_fmt": "26.04.27 22:25",
+    "_updated_at_dt": "2026-04-27T22:25:50"
   },
   {
     "city": "청주",
@@ -1011,14 +1011,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017260",
     "trade_dt": "20260427",
-    "trade_tm": "145034",
+    "trade_tm": "192319",
     "gasoline_price_today": "1997원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "동찬주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 오송읍 서평길 22-1",
     "price_num": 1997,
-    "updated_at_fmt": "26.04.27 14:50",
-    "_updated_at_dt": "2026-04-27T14:50:34"
+    "updated_at_fmt": "26.04.27 19:23",
+    "_updated_at_dt": "2026-04-27T19:23:19"
   },
   {
     "city": "청주",
@@ -1032,14 +1032,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011963",
     "trade_dt": "20260427",
-    "trade_tm": "145004",
+    "trade_tm": "180646",
     "gasoline_price_today": "1987원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "등고개주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 교육원로 9",
     "price_num": 1987,
-    "updated_at_fmt": "26.04.27 14:50",
-    "_updated_at_dt": "2026-04-27T14:50:04"
+    "updated_at_fmt": "26.04.27 18:06",
+    "_updated_at_dt": "2026-04-27T18:06:46"
   },
   {
     "city": "청주",
@@ -1053,14 +1053,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012399",
     "trade_dt": "20260427",
-    "trade_tm": "143610",
+    "trade_tm": "195808",
     "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "매봉주유소",
     "opinet_new_adr": "충북 청주시 서원구 현도면 청남로 193",
     "price_num": 1999,
-    "updated_at_fmt": "26.04.27 14:36",
-    "_updated_at_dt": "2026-04-27T14:36:10"
+    "updated_at_fmt": "26.04.27 19:58",
+    "_updated_at_dt": "2026-04-27T19:58:08"
   },
   {
     "city": "청주",
@@ -1074,14 +1074,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017610",
     "trade_dt": "20260427",
-    "trade_tm": "111042",
+    "trade_tm": "183428",
     "gasoline_price_today": "2025원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "(주)문의IC주유소",
     "opinet_new_adr": "충북 청주시 상당구 문의면 미천고은로 63",
     "price_num": 2025,
-    "updated_at_fmt": "26.04.27 11:10",
-    "_updated_at_dt": "2026-04-27T11:10:42"
+    "updated_at_fmt": "26.04.27 18:34",
+    "_updated_at_dt": "2026-04-27T18:34:28"
   },
   {
     "city": "청주",
@@ -1094,15 +1094,15 @@
     "longitude": 127.449955,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011967",
-    "trade_dt": "20260427",
-    "trade_tm": "115940",
+    "trade_dt": "20260428",
+    "trade_tm": "000541",
     "gasoline_price_today": "2045원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "미래주유소",
     "opinet_new_adr": "충북 청주시 서원구 성봉로 234-2",
     "price_num": 2045,
-    "updated_at_fmt": "26.04.27 11:59",
-    "_updated_at_dt": "2026-04-27T11:59:40"
+    "updated_at_fmt": "26.04.28 00:05",
+    "_updated_at_dt": "2026-04-28T00:05:41"
   },
   {
     "city": "청주",
@@ -1116,14 +1116,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012379",
     "trade_dt": "20260427",
-    "trade_tm": "133950",
+    "trade_tm": "181300",
     "gasoline_price_today": "2045원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "미평주유소",
     "opinet_new_adr": "충북 청주시 서원구 청남로 1911",
     "price_num": 2045,
-    "updated_at_fmt": "26.04.27 13:39",
-    "_updated_at_dt": "2026-04-27T13:39:50"
+    "updated_at_fmt": "26.04.27 18:13",
+    "_updated_at_dt": "2026-04-27T18:13:00"
   },
   {
     "city": "청주",
@@ -1137,14 +1137,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012257",
     "trade_dt": "20260427",
-    "trade_tm": "143819",
+    "trade_tm": "183411",
     "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "보성주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 사운로 392-2 (신봉동)",
     "price_num": 2039,
-    "updated_at_fmt": "26.04.27 14:38",
-    "_updated_at_dt": "2026-04-27T14:38:19"
+    "updated_at_fmt": "26.04.27 18:34",
+    "_updated_at_dt": "2026-04-27T18:34:11"
   },
   {
     "city": "청주",
@@ -1177,14 +1177,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012401",
     "trade_dt": "20260427",
-    "trade_tm": "134204",
+    "trade_tm": "204424",
     "gasoline_price_today": "2036원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "삼거리주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 오송읍 오송가락로 422",
     "price_num": 2036,
-    "updated_at_fmt": "26.04.27 13:42",
-    "_updated_at_dt": "2026-04-27T13:42:04"
+    "updated_at_fmt": "26.04.27 20:44",
+    "_updated_at_dt": "2026-04-27T20:44:24"
   },
   {
     "city": "청주",
@@ -1198,14 +1198,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011975",
     "trade_dt": "20260427",
-    "trade_tm": "133606",
+    "trade_tm": "204736",
     "gasoline_price_today": "2017원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "삼보주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 충청대로 1524",
     "price_num": 2017,
-    "updated_at_fmt": "26.04.27 13:36",
-    "_updated_at_dt": "2026-04-27T13:36:06"
+    "updated_at_fmt": "26.04.27 20:47",
+    "_updated_at_dt": "2026-04-27T20:47:36"
   },
   {
     "city": "청주",
@@ -1218,15 +1218,15 @@
     "longitude": 127.457384,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012464",
-    "trade_dt": "20260427",
-    "trade_tm": "144708",
+    "trade_dt": "20260428",
+    "trade_tm": "002953",
     "gasoline_price_today": "1989원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "서원경주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 직지대로 579 (봉명동)",
     "price_num": 1989,
-    "updated_at_fmt": "26.04.27 14:47",
-    "_updated_at_dt": "2026-04-27T14:47:08"
+    "updated_at_fmt": "26.04.28 00:29",
+    "_updated_at_dt": "2026-04-28T00:29:53"
   },
   {
     "city": "청주",
@@ -1240,14 +1240,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0016902",
     "trade_dt": "20260427",
-    "trade_tm": "145551",
+    "trade_tm": "193136",
     "gasoline_price_today": "2030원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "석화주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 충청대로 849-5",
     "price_num": 2030,
-    "updated_at_fmt": "26.04.27 14:55",
-    "_updated_at_dt": "2026-04-27T14:55:51"
+    "updated_at_fmt": "26.04.27 19:31",
+    "_updated_at_dt": "2026-04-27T19:31:36"
   },
   {
     "city": "청주",
@@ -1261,14 +1261,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012179",
     "trade_dt": "20260427",
-    "trade_tm": "144945",
+    "trade_tm": "194618",
     "gasoline_price_today": "2028원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "선명주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 단재로 2670",
     "price_num": 2028,
-    "updated_at_fmt": "26.04.27 14:49",
-    "_updated_at_dt": "2026-04-27T14:49:45"
+    "updated_at_fmt": "26.04.27 19:46",
+    "_updated_at_dt": "2026-04-27T19:46:18"
   },
   {
     "city": "청주",
@@ -1282,14 +1282,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017387",
     "trade_dt": "20260427",
-    "trade_tm": "113742",
+    "trade_tm": "182023",
     "gasoline_price_today": "2049원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "선진에너지(주) 테크노빌주유소",
     "opinet_new_adr": "충북 청주시 청원구 팔결로 9 (주중동)",
     "price_num": 2049,
-    "updated_at_fmt": "26.04.27 11:37",
-    "_updated_at_dt": "2026-04-27T11:37:42"
+    "updated_at_fmt": "26.04.27 18:20",
+    "_updated_at_dt": "2026-04-27T18:20:23"
   },
   {
     "city": "청주",
@@ -1303,14 +1303,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017355",
     "trade_dt": "20260427",
-    "trade_tm": "145647",
+    "trade_tm": "201808",
     "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "성일주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 청남로 871",
     "price_num": 1999,
-    "updated_at_fmt": "26.04.27 14:56",
-    "_updated_at_dt": "2026-04-27T14:56:47"
+    "updated_at_fmt": "26.04.27 20:18",
+    "_updated_at_dt": "2026-04-27T20:18:08"
   },
   {
     "city": "청주",
@@ -1345,14 +1345,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012352",
     "trade_dt": "20260427",
-    "trade_tm": "140124",
+    "trade_tm": "213813",
     "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "세종주유소",
     "opinet_new_adr": "충북 청주시 서원구 사운로180번길 32",
     "price_num": 1999,
-    "updated_at_fmt": "26.04.27 14:01",
-    "_updated_at_dt": "2026-04-27T14:01:24"
+    "updated_at_fmt": "26.04.27 21:38",
+    "_updated_at_dt": "2026-04-27T21:38:13"
   },
   {
     "city": "청주",
@@ -1366,14 +1366,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012320",
     "trade_dt": "20260427",
-    "trade_tm": "140625",
+    "trade_tm": "204613",
     "gasoline_price_today": "2065원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "스마일주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 월명로48번길 3",
     "price_num": 2065,
-    "updated_at_fmt": "26.04.27 14:06",
-    "_updated_at_dt": "2026-04-27T14:06:25"
+    "updated_at_fmt": "26.04.27 20:46",
+    "_updated_at_dt": "2026-04-27T20:46:13"
   },
   {
     "city": "청주",
@@ -1387,14 +1387,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012376",
     "trade_dt": "20260427",
-    "trade_tm": "110335",
+    "trade_tm": "181759",
     "gasoline_price_today": "2037원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "스마트주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 청주역로 563",
     "price_num": 2037,
-    "updated_at_fmt": "26.04.27 11:03",
-    "_updated_at_dt": "2026-04-27T11:03:35"
+    "updated_at_fmt": "26.04.27 18:17",
+    "_updated_at_dt": "2026-04-27T18:17:59"
   },
   {
     "city": "청주",
@@ -1408,14 +1408,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012036",
     "trade_dt": "20260427",
-    "trade_tm": "143634",
+    "trade_tm": "194054",
     "gasoline_price_today": "2070원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신나라주유소",
     "opinet_new_adr": "충북 청주시 청원구 새터로 53 (내덕동)",
     "price_num": 2070,
-    "updated_at_fmt": "26.04.27 14:36",
-    "_updated_at_dt": "2026-04-27T14:36:34"
+    "updated_at_fmt": "26.04.27 19:40",
+    "_updated_at_dt": "2026-04-27T19:40:54"
   },
   {
     "city": "청주",
@@ -1429,14 +1429,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017250",
     "trade_dt": "20260427",
-    "trade_tm": "141654",
+    "trade_tm": "185630",
     "gasoline_price_today": "2019원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신촌주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 오송가락로 545",
     "price_num": 2019,
-    "updated_at_fmt": "26.04.27 14:16",
-    "_updated_at_dt": "2026-04-27T14:16:54"
+    "updated_at_fmt": "26.04.27 18:56",
+    "_updated_at_dt": "2026-04-27T18:56:30"
   },
   {
     "city": "청주",
@@ -1450,14 +1450,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017271",
     "trade_dt": "20260427",
-    "trade_tm": "112143",
+    "trade_tm": "202112",
     "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신풍주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 단재로 2079",
     "price_num": 1998,
-    "updated_at_fmt": "26.04.27 11:21",
-    "_updated_at_dt": "2026-04-27T11:21:43"
+    "updated_at_fmt": "26.04.27 20:21",
+    "_updated_at_dt": "2026-04-27T20:21:12"
   },
   {
     "city": "청주",
@@ -1490,14 +1490,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017246",
     "trade_dt": "20260427",
-    "trade_tm": "144722",
+    "trade_tm": "203222",
     "gasoline_price_today": "2038원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신흥주유소",
     "opinet_new_adr": "충북 청주시 청원구 2순환로 96 (율량동)",
     "price_num": 2038,
-    "updated_at_fmt": "26.04.27 14:47",
-    "_updated_at_dt": "2026-04-27T14:47:22"
+    "updated_at_fmt": "26.04.27 20:32",
+    "_updated_at_dt": "2026-04-27T20:32:22"
   },
   {
     "city": "청주",
@@ -1511,14 +1511,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017203",
     "trade_dt": "20260427",
-    "trade_tm": "132848",
+    "trade_tm": "195630",
     "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "약수주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 단재로 2864",
     "price_num": 1998,
-    "updated_at_fmt": "26.04.27 13:28",
-    "_updated_at_dt": "2026-04-27T13:28:48"
+    "updated_at_fmt": "26.04.27 19:56",
+    "_updated_at_dt": "2026-04-27T19:56:30"
   },
   {
     "city": "청주",
@@ -1532,14 +1532,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012079",
     "trade_dt": "20260427",
-    "trade_tm": "142133",
+    "trade_tm": "212310",
     "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "연일주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 515",
     "price_num": 1998,
-    "updated_at_fmt": "26.04.27 14:21",
-    "_updated_at_dt": "2026-04-27T14:21:33"
+    "updated_at_fmt": "26.04.27 21:23",
+    "_updated_at_dt": "2026-04-27T21:23:10"
   },
   {
     "city": "청주",
@@ -1553,14 +1553,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012054",
     "trade_dt": "20260427",
-    "trade_tm": "121110",
+    "trade_tm": "181418",
     "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "오대주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 초정약수로 813",
     "price_num": 2039,
-    "updated_at_fmt": "26.04.27 12:11",
-    "_updated_at_dt": "2026-04-27T12:11:10"
+    "updated_at_fmt": "26.04.27 18:14",
+    "_updated_at_dt": "2026-04-27T18:14:18"
   },
   {
     "city": "청주",
@@ -1574,14 +1574,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017334",
     "trade_dt": "20260427",
-    "trade_tm": "141114",
+    "trade_tm": "171513",
     "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "오미주유소(유공)",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 청주역로 626",
     "price_num": 2039,
-    "updated_at_fmt": "26.04.27 14:11",
-    "_updated_at_dt": "2026-04-27T14:11:14"
+    "updated_at_fmt": "26.04.27 17:15",
+    "_updated_at_dt": "2026-04-27T17:15:13"
   },
   {
     "city": "청주",
@@ -1595,14 +1595,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017182",
     "trade_dt": "20260427",
-    "trade_tm": "124441",
+    "trade_tm": "161408",
     "gasoline_price_today": "2010원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "옥녀봉주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 충청대로 1376",
     "price_num": 2010,
-    "updated_at_fmt": "26.04.27 12:44",
-    "_updated_at_dt": "2026-04-27T12:44:41"
+    "updated_at_fmt": "26.04.27 16:14",
+    "_updated_at_dt": "2026-04-27T16:14:08"
   },
   {
     "city": "청주",
@@ -1637,14 +1637,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012394",
     "trade_dt": "20260427",
-    "trade_tm": "115037",
+    "trade_tm": "185749",
     "gasoline_price_today": "2025원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "운암주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 남부로 6605",
     "price_num": 2025,
-    "updated_at_fmt": "26.04.27 11:50",
-    "_updated_at_dt": "2026-04-27T11:50:37"
+    "updated_at_fmt": "26.04.27 18:57",
+    "_updated_at_dt": "2026-04-27T18:57:49"
   },
   {
     "city": "청주",
@@ -1721,14 +1721,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017241",
     "trade_dt": "20260427",
-    "trade_tm": "144545",
+    "trade_tm": "191329",
     "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "주성주유소",
     "opinet_new_adr": "충북 청주시 청원구 충청대로 295",
     "price_num": 2039,
-    "updated_at_fmt": "26.04.27 14:45",
-    "_updated_at_dt": "2026-04-27T14:45:45"
+    "updated_at_fmt": "26.04.27 19:13",
+    "_updated_at_dt": "2026-04-27T19:13:29"
   },
   {
     "city": "청주",
@@ -1742,14 +1742,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012240",
     "trade_dt": "20260427",
-    "trade_tm": "145716",
+    "trade_tm": "212014",
     "gasoline_price_today": "2018원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "죽림주유소",
     "opinet_new_adr": "충북 청주시 서원구 대림로 451 (죽림동)",
     "price_num": 2018,
-    "updated_at_fmt": "26.04.27 14:57",
-    "_updated_at_dt": "2026-04-27T14:57:16"
+    "updated_at_fmt": "26.04.27 21:20",
+    "_updated_at_dt": "2026-04-27T21:20:14"
   },
   {
     "city": "청주",
@@ -1763,14 +1763,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017170",
     "trade_dt": "20260427",
-    "trade_tm": "131722",
+    "trade_tm": "170905",
     "gasoline_price_today": "2034원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "지산주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 산성로 1143",
     "price_num": 2034,
-    "updated_at_fmt": "26.04.27 13:17",
-    "_updated_at_dt": "2026-04-27T13:17:22"
+    "updated_at_fmt": "26.04.27 17:09",
+    "_updated_at_dt": "2026-04-27T17:09:05"
   },
   {
     "city": "청주",
@@ -1784,14 +1784,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017232",
     "trade_dt": "20260427",
-    "trade_tm": "134414",
+    "trade_tm": "190545",
     "gasoline_price_today": "2048원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "진영주유가스충전소",
     "opinet_new_adr": "충북 청주시 상당구 미천고은로 152",
     "price_num": 2048,
-    "updated_at_fmt": "26.04.27 13:44",
-    "_updated_at_dt": "2026-04-27T13:44:14"
+    "updated_at_fmt": "26.04.27 19:05",
+    "_updated_at_dt": "2026-04-27T19:05:45"
   },
   {
     "city": "청주",
@@ -1805,14 +1805,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017137",
     "trade_dt": "20260427",
-    "trade_tm": "122909",
+    "trade_tm": "152459",
     "gasoline_price_today": "2029원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "초정주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 청암로 457",
     "price_num": 2029,
-    "updated_at_fmt": "26.04.27 12:29",
-    "_updated_at_dt": "2026-04-27T12:29:09"
+    "updated_at_fmt": "26.04.27 15:24",
+    "_updated_at_dt": "2026-04-27T15:24:59"
   },
   {
     "city": "청주",
@@ -1826,14 +1826,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0007586",
     "trade_dt": "20260427",
-    "trade_tm": "111335",
+    "trade_tm": "181637",
     "gasoline_price_today": "2018원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "탑주유소",
     "opinet_new_adr": "충북 청주시 상당구 대성로 169-1",
     "price_num": 2018,
-    "updated_at_fmt": "26.04.27 11:13",
-    "_updated_at_dt": "2026-04-27T11:13:35"
+    "updated_at_fmt": "26.04.27 18:16",
+    "_updated_at_dt": "2026-04-27T18:16:37"
   },
   {
     "city": "청주",
@@ -1847,14 +1847,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012392",
     "trade_dt": "20260427",
-    "trade_tm": "122511",
+    "trade_tm": "151121",
     "gasoline_price_today": "1987원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "태성주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 구방5길 2",
     "price_num": 1987,
-    "updated_at_fmt": "26.04.27 12:25",
-    "_updated_at_dt": "2026-04-27T12:25:11"
+    "updated_at_fmt": "26.04.27 15:11",
+    "_updated_at_dt": "2026-04-27T15:11:21"
   },
   {
     "city": "청주",
@@ -1868,14 +1868,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012030",
     "trade_dt": "20260427",
-    "trade_tm": "133841",
-    "gasoline_price_today": "2097원/L",
+    "trade_tm": "211557",
+    "gasoline_price_today": "1999원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "태양주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 중부로 1559",
-    "price_num": 2097,
-    "updated_at_fmt": "26.04.27 13:38",
-    "_updated_at_dt": "2026-04-27T13:38:41"
+    "price_num": 1999,
+    "updated_at_fmt": "26.04.27 21:15",
+    "_updated_at_dt": "2026-04-27T21:15:57"
   },
   {
     "city": "청주",
@@ -1889,14 +1889,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017239",
     "trade_dt": "20260427",
-    "trade_tm": "144031",
+    "trade_tm": "212359",
     "gasoline_price_today": "2039원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "테크노주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 중부로 532",
     "price_num": 2039,
-    "updated_at_fmt": "26.04.27 14:40",
-    "_updated_at_dt": "2026-04-27T14:40:31"
+    "updated_at_fmt": "26.04.27 21:23",
+    "_updated_at_dt": "2026-04-27T21:23:59"
   },
   {
     "city": "청주",
@@ -1910,14 +1910,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0016879",
     "trade_dt": "20260427",
-    "trade_tm": "125337",
+    "trade_tm": "172314",
     "gasoline_price_today": "2049원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "팔봉주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 남석로 239",
     "price_num": 2049,
-    "updated_at_fmt": "26.04.27 12:53",
-    "_updated_at_dt": "2026-04-27T12:53:37"
+    "updated_at_fmt": "26.04.27 17:23",
+    "_updated_at_dt": "2026-04-27T17:23:14"
   },
   {
     "city": "청주",
@@ -1931,14 +1931,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012378",
     "trade_dt": "20260427",
-    "trade_tm": "143135",
+    "trade_tm": "204805",
     "gasoline_price_today": "2045원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "평강주유소",
     "opinet_new_adr": "충북 청주시 서원구 사운로145번길 4 (사직동)",
     "price_num": 2045,
-    "updated_at_fmt": "26.04.27 14:31",
-    "_updated_at_dt": "2026-04-27T14:31:35"
+    "updated_at_fmt": "26.04.27 20:48",
+    "_updated_at_dt": "2026-04-27T20:48:05"
   },
   {
     "city": "청주",
@@ -1952,14 +1952,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012500",
     "trade_dt": "20260427",
-    "trade_tm": "144814",
+    "trade_tm": "232752",
     "gasoline_price_today": "1974원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행복에너지㈜ 행복에너지2주유소",
     "opinet_new_adr": "충북 청주시 서원구 청남로 1937 (미평동)",
     "price_num": 1974,
-    "updated_at_fmt": "26.04.27 14:48",
-    "_updated_at_dt": "2026-04-27T14:48:14"
+    "updated_at_fmt": "26.04.27 23:27",
+    "_updated_at_dt": "2026-04-27T23:27:52"
   },
   {
     "city": "청주",
@@ -1973,14 +1973,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017198",
     "trade_dt": "20260427",
-    "trade_tm": "111127",
+    "trade_tm": "183034",
     "gasoline_price_today": "1985원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행운주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 단재로 1778",
     "price_num": 1985,
-    "updated_at_fmt": "26.04.27 11:11",
-    "_updated_at_dt": "2026-04-27T11:11:27"
+    "updated_at_fmt": "26.04.27 18:30",
+    "_updated_at_dt": "2026-04-27T18:30:34"
   },
   {
     "city": "청주",
@@ -1994,14 +1994,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012031",
     "trade_dt": "20260427",
-    "trade_tm": "143852",
+    "trade_tm": "190131",
     "gasoline_price_today": "1998원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "형제주유소",
     "opinet_new_adr": "충북 청주시 서원구 직지대로 738 (사직동)",
     "price_num": 1998,
-    "updated_at_fmt": "26.04.27 14:38",
-    "_updated_at_dt": "2026-04-27T14:38:52"
+    "updated_at_fmt": "26.04.27 19:01",
+    "_updated_at_dt": "2026-04-27T19:01:31"
   },
   {
     "city": "청주",
@@ -2015,14 +2015,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017223",
     "trade_dt": "20260427",
-    "trade_tm": "144901",
+    "trade_tm": "185337",
     "gasoline_price_today": "2048원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "호반주유소",
     "opinet_new_adr": "충북 청주시 상당구 가덕면 미천고은로 118",
     "price_num": 2048,
-    "updated_at_fmt": "26.04.27 14:49",
-    "_updated_at_dt": "2026-04-27T14:49:01"
+    "updated_at_fmt": "26.04.27 18:53",
+    "_updated_at_dt": "2026-04-27T18:53:37"
   },
   {
     "city": "청주",
@@ -2057,13 +2057,13 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0001682",
     "trade_dt": "20260427",
-    "trade_tm": "121533",
+    "trade_tm": "180103",
     "gasoline_price_today": "2040원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "흥인주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 두릉유리로 755",
     "price_num": 2040,
-    "updated_at_fmt": "26.04.27 12:15",
-    "_updated_at_dt": "2026-04-27T12:15:33"
+    "updated_at_fmt": "26.04.27 18:01",
+    "_updated_at_dt": "2026-04-27T18:01:03"
   }
 ]
