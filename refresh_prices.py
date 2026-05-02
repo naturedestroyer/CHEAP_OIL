@@ -100,8 +100,10 @@ for r in rows:
     r["fuel_prices"] = fuel_prices
 
     primary = fuel_prices.get(primary_fuel) or fuel_prices.get("휘발유") or next(iter(fuel_prices.values()), None)
+    gasoline = fuel_prices.get("휘발유")
     if primary:
-        r["gasoline_price_today"] = primary.get("price_text", "")
+        r["primary_price_today"] = primary.get("price_text", "")
+        r["gasoline_price_today"] = gasoline.get("price_text", "") if gasoline else ""
         r["price_num"] = primary.get("price_num")
         r["trade_dt"] = primary.get("trade_dt", "")
         r["trade_tm"] = primary.get("trade_tm", "")
