@@ -46,6 +46,7 @@ input[type=number]::-webkit-inner-spin-button{opacity:1}
 <div style="display:flex;gap:12px;flex-wrap:wrap">
 <div><div style="font-size:10px;color:rgba(255,255,255,.5);margin-bottom:3px">정렬 기준</div><select id="sortMode" onchange="onSortChange()"><option value="distance">거리순</option><option value="price">가격순</option><option value="optimal">최적주유</option></select></div>
 <div><div style="font-size:10px;color:rgba(255,255,255,.5);margin-bottom:3px">지역화폐</div><select id="currencyFilter" onchange="render()"><option value="all">전체</option><option value="여민전">여민전</option><option value="청주페이">청주페이</option></select></div>
+<div><div style="font-size:10px;color:rgba(255,255,255,.5);margin-bottom:3px">유종</div><select id="fuelFilter" onchange="render()"><option value="휘발유" selected>휘발유</option><option value="LPG">LPG</option><option value="미확인">미확인</option><option value="all">전체</option></select></div>
 </div>
 </div>
 <div id="optParams" class="opt-params">
@@ -106,15 +107,16 @@ function navLinks(r){
   return '<div class="navlinks"><a href="'+tmap+'" onclick="event.preventDefault();openApp(this.href,\''+tmapF+'\')">티맵</a><a href="'+naver+'" onclick="event.preventDefault();openApp(this.href,\''+naverF+'\')">네이버지도</a><a href="'+kakao+'" target="_blank">카카오맵</a><a href="'+gmap+'" target="_blank">구글맵</a><a href="'+geo+'">기타지도앱</a></div>';
 }
 function openApp(dl,fb){var t=Date.now();window.location.href=dl;setTimeout(function(){if(Date.now()-t<2000)window.open(fb,'_blank')},500)}
-function updateStats(){const latest=rows.map(r=>r.updated_at_fmt).filter(Boolean).sort().slice(-1)[0]||'-';const count=(c)=>rows.filter(r=>r.currency===c).length;const priced=(c)=>rows.filter(r=>r.currency===c&&r.price_num!=null).length;document.getElementById('stats').innerHTML='업데이트 '+latest+'<br><br>여민전 '+count('여민전')+'건 중 가격 '+priced('여민전')+'건 · 청주페이 '+count('청주페이')+'건 중 가격 '+priced('청주페이')+'건';}
+function updateStats(){const latest=rows.map(r=>r.updated_at_fmt).filter(Boolean).sort().slice(-1)[0]||'-';const count=(c)=>rows.filter(r=>r.currency===c).length;const priced=(c)=>rows.filter(r=>r.currency===c&&r.price_num!=null).length;const lpg=rows.filter(r=>(r.fuel_type||'휘발유')==='LPG').length;document.getElementById('stats').innerHTML='업데이트 '+latest+'<br><br>여민전 '+count('여민전')+'건 중 가격 '+priced('여민전')+'건 · 청주페이 '+count('청주페이')+'건 중 가격 '+priced('청주페이')+'건 · LPG '+lpg+'건';}
 function render(){
-  const sm=document.getElementById('sortMode').value,cf=document.getElementById('currencyFilter').value;
+  const sm=document.getElementById('sortMode').value,cf=document.getElementById('currencyFilter').value,ff=document.getElementById('fuelFilter').value;
   const eff=parseFloat(document.getElementById('efficiency').value)||12;
   const budget=parseFloat(document.getElementById('budget').value)||50000;
   let items=rows.map(r=>({...r}));
   items.forEach(r=>{const lat=Number(r.latitude), lon=Number(r.longitude); r.distanceKm=(myLat!=null&&myLon!=null&&Number.isFinite(lat)&&Number.isFinite(lon)&&lat&&lon)?haversine(myLat,myLon,lat,lon):null;});
   if(cf!=='all')items=items.filter(r=>r.currency===cf);
-  if(!document.getElementById('includeUnknown').checked) items=items.filter(r=>r.price_num!=null);
+  if(ff!=='all')items=items.filter(r=>(r.fuel_type||'휘발유')===ff);
+  if(!document.getElementById('includeUnknown').checked)items=items.filter(r=>r.price_num!=null);
   // Calculate net gain for optimal sort
   items.forEach(r=>{
     if(r.price_num && r.distanceKm!=null){
@@ -136,7 +138,8 @@ function render(){
   document.getElementById('list').innerHTML=items.map((r,i)=>{
     const badge=r.currency==='여민전'?'badge-yeomin':'badge-cheongju';
     const pclass=r.gasoline_price_today?'price':'price empty';
-    const ptext=r.gasoline_price_today||'가격 미확인';
+    const fuel=r.fuel_type||'휘발유';
+    const ptext=r.gasoline_price_today?(fuel+' '+r.gasoline_price_today):'가격 미확인';
     let discountInfo='';
     if(r.price_num){
       const disc=DISCOUNT[r.currency]||0;

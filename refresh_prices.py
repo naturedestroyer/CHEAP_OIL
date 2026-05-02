@@ -33,6 +33,9 @@ print(f"Refreshing prices for {len(uni_ids)} stations...")
 # Fetch prices in batches
 for r in rows:
     uid = r.get("opinet_uni_id")
+    product_code = r.get("opinet_product_code") or "B027"
+    r.setdefault("opinet_product_code", product_code)
+    r.setdefault("fuel_type", "LPG" if product_code == "K015" else "휘발유")
     if not uid:
         r.setdefault("gasoline_price_today", "")
         r.setdefault("price_num", None)
@@ -52,7 +55,7 @@ for r in rows:
         oil0 = oil_rows[0] if oil_rows else None
         if oil0:
             for p in oil0.get("OIL_PRICE", []) or []:
-                if p.get("PRODCD") == "B027" and p.get("PRICE"):
+                if p.get("PRODCD") == product_code and p.get("PRICE"):
                     r["gasoline_price_today"] = f"{p['PRICE']}원/L"
                     r["price_num"] = int(p["PRICE"])
                     r["trade_dt"] = p.get("TRADE_DT", old_trade_dt)
