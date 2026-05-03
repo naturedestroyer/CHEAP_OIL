@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>청주·세종 지역화폐 주유소 찾기</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQkslO3RGp6rZ7rFQKGFJY3wW8lp5LI=" crossorigin="">
 <style>
 *{box-sizing:border-box} body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;margin:0;background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%);color:#e2e8f0;min-height:100vh}
 .wrap{max-width:900px;margin:0 auto;padding:16px}
@@ -38,19 +37,7 @@ input[type=number]::-webkit-inner-spin-button{opacity:1}
 .opt-params.visible{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
 .opt-params label{font-size:11px;color:rgba(255,255,255,.5)}
 .opt-params input[type=number]{width:90px}
-.map-launch{margin-top:12px;width:100%;background:linear-gradient(135deg,#22c55e,#14b8a6);color:#052e2b;box-shadow:0 8px 24px rgba(20,184,166,.22)}
-.map-launch:hover{filter:brightness(1.06);transform:translateY(-1px)}
-.map-panel{display:none;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:18px;margin:0 0 14px;padding:12px;backdrop-filter:blur(12px)}
-.map-panel.visible{display:block}
-.map-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px;color:#cbd5e1;font-size:13px}
-.map-head b{color:#f8fafc}.map-note{font-size:11px;color:#94a3b8;line-height:1.4}
-#map{height:520px;border-radius:14px;overflow:hidden;background:#0f172a;border:1px solid rgba(255,255,255,.08)}
-.btn-map{background:rgba(15,23,42,.65);color:#e2e8f0;border:1px solid rgba(255,255,255,.12);padding:7px 10px;border-radius:10px;font-size:12px;font-weight:700;cursor:pointer}
-@media(max-width:640px){#map{height:430px}}
-.price-marker{min-width:56px;text-align:center;padding:5px 7px;border-radius:12px;border:2px solid rgba(255,255,255,.85);box-shadow:0 4px 14px rgba(0,0,0,.35);color:#0f172a;font-size:11px;font-weight:900;line-height:1.05;white-space:nowrap}
-.price-marker.low{background:#4ade80}.price-marker.mid{background:#fbbf24}.price-marker.high{background:#fb7185}.price-marker.unknown{background:#94a3b8;color:#111827}
-.price-marker .fuel{display:block;font-size:9px;font-weight:800;opacity:.75}.leaflet-popup-content{color:#0f172a;font-size:13px;line-height:1.45}.leaflet-popup-content b{font-size:14px}
-</style><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script></head><body><div class="wrap">
+</style></head><body><div class="wrap">
 <div class="header">
 <h1>⛽ 청주·세종 지역화폐 주유소 찾기</h1>
 <div class="subtitle">청주페이 · 세종 여민전 결제 가능 주유소 전용 · <a href="mailto:snail@snailnomad.com" style="color:#fbbf24;text-decoration:underline">제작자</a> <a href="mailto:snail@snailnomad.com" style="color:#fbbf24;font-size:16px">✉</a></div>
@@ -71,11 +58,6 @@ input[type=number]::-webkit-inner-spin-button{opacity:1}
 <div id="status">현재 위치 가져오기 버튼을 어여 누르세요</div>
 <div id="errorBox" class="err" style="display:none"></div>
 <div class="stats" id="stats"></div>
-<button class="btn map-launch" onclick="toggleMap()" id="mapToggle">🗺️ 가격 지도 크게 보기</button>
-</div>
-<div class="map-panel" id="mapPanel">
-  <div class="map-head"><div><b>가격 지도</b><div class="map-note">현재 검색 조건과 같은 주유소만 표시해. 좌표가 확인된 항목만 지도에 나와.</div></div></div>
-  <div id="map"></div>
 </div>
 <div id="list"></div>
 </div>
@@ -83,7 +65,7 @@ input[type=number]::-webkit-inner-spin-button{opacity:1}
 const rows=[];
 const DISCOUNT={"여민전":0.10,"청주페이":0.10};
 const FUEL_LABELS=['휘발유','경유','고급휘발유','LPG'];
-let myLat=null,myLon=null,map=null,markerLayer=null,lastMapItems=[],mapUserMoved=false,mapVisible=false,lastMapKey='',lastDrawnMapKey='';
+let myLat=null,myLon=null;
 function haversine(a,b,c,d){const R=6371,dLat=(c-a)*Math.PI/180,dLon=(d-b)*Math.PI/180,x=Math.sin(dLat/2)**2+Math.cos(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.sin(dLon/2)**2;return 2*R*Math.asin(Math.sqrt(x))}
 function setStatus(m,ok){const e=document.getElementById('status');e.className=ok?'ok':'';e.textContent=m}
 function setError(m){const e=document.getElementById('errorBox');e.style.display=m?'block':'none';e.textContent=m||''}
@@ -111,38 +93,6 @@ if(data)return {fuel:fuel,priceText:data.price_text||'',priceNum:data.price_num?
 return {fuel:fuel,priceText:'',priceNum:null,updated:''}
 }
 function updateStats(){const latest=rows.flatMap(r=>Object.values(r.fuel_prices||{}).map(p=>p.updated_at_fmt).filter(Boolean)).concat(rows.map(r=>r.updated_at_fmt).filter(Boolean)).sort().slice(-1)[0]||'-';const count=(c)=>rows.filter(r=>r.currency===c).length;const priced=(fuel)=>rows.filter(r=>getFuelInfo(r,fuel).priceNum!=null).length;document.getElementById('stats').innerHTML='업데이트 '+latest+'<br><br>여민전 '+count('여민전')+'건 · 청주페이 '+count('청주페이')+'건 · 휘발유 '+priced('휘발유')+'건 · 경유 '+priced('경유')+'건 · 고급휘발유 '+priced('고급휘발유')+'건 · LPG '+priced('LPG')+'건'}
-function markerClass(price,items){if(price==null)return 'unknown';const vals=items.map(r=>r.displayPriceNum).filter(v=>v!=null).sort((a,b)=>a-b);if(!vals.length)return 'unknown';const low=vals[Math.floor(vals.length*.33)],high=vals[Math.floor(vals.length*.67)];return price<=low?'low':(price<=high?'mid':'high')}
-function ensureMap(){
-if(map||typeof L==='undefined')return;
-map=L.map('map',{scrollWheelZoom:false,dragging:true,tap:true});
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap',updateWhenIdle:false,keepBuffer:4}).addTo(map);
-markerLayer=L.layerGroup().addTo(map);
-map.setView([36.64,127.43],10);
-map.on('dragstart zoomstart',()=>{mapUserMoved=true});
-map.on('moveend zoomend',()=>{setTimeout(()=>map.invalidateSize(),0)});
-}
-function renderMap(items,key=''){
-lastMapItems=items.filter(validCoord).slice(0,120);
-lastMapKey=key;
-if(!mapVisible)return;
-ensureMap();
-if(!map||!markerLayer)return;
-markerLayer.clearLayers();
-if(!lastMapItems.length){lastDrawnMapKey=key;return}
-const bounds=[];
-lastMapItems.forEach(r=>{
- const lat=Number(r.latitude),lon=Number(r.longitude),cls=markerClass(r.displayPriceNum,lastMapItems),label=r.displayPriceNum!=null?String(r.displayPriceNum):'미확인';
- const icon=L.divIcon({className:'',html:'<div class="price-marker '+cls+'"><span class="fuel">'+escapeHtml(r.displayFuel)+'</span>'+escapeHtml(label)+'</div>',iconSize:[64,38],iconAnchor:[32,19]});
- const popup='<b>'+escapeHtml(r.station_name)+'</b><br>'+escapeHtml(r.displayFuel+' '+(r.displayPriceText||'가격 미확인'))+'<br>'+escapeHtml(r.address||'')+'<br>'+navLinks(r);
- L.marker([lat,lon],{icon}).bindPopup(popup).addTo(markerLayer);bounds.push([lat,lon])
-});
-if(myLat&&myLon){L.circleMarker([myLat,myLon],{radius:6,color:'#38bdf8',fillColor:'#38bdf8',fillOpacity:.8}).bindPopup('내 위치').addTo(markerLayer);bounds.push([myLat,myLon])}
-const filterChanged=key!==lastDrawnMapKey;
-if(bounds.length&&(filterChanged||!mapUserMoved))map.fitBounds(bounds,{padding:[26,26],maxZoom:13});
-lastDrawnMapKey=key;
-setTimeout(()=>map.invalidateSize(),80)
-}
-function toggleMap(){const p=document.getElementById('mapPanel'),b=document.getElementById('mapToggle');mapVisible=!mapVisible;p.classList.toggle('visible',mapVisible);b.textContent=mapVisible?'🗺️ 가격 지도 닫기':'🗺️ 가격 지도 크게 보기';if(mapVisible)setTimeout(()=>{ensureMap();map.invalidateSize();renderMap(lastMapItems,lastMapKey)},80)}
-function render(){const sm=document.getElementById('sortMode').value,cf=document.getElementById('currencyFilter').value,ff=document.getElementById('fuelFilter').value;const eff=parseFloat(document.getElementById('efficiency').value)||12,budget=parseFloat(document.getElementById('budget').value)||50000;let items=rows.map(r=>({...r}));items.forEach(r=>{const info=getFuelInfo(r,ff);r.displayFuel=info.fuel;r.displayPriceText=info.priceText;r.displayPriceNum=info.priceNum;r.displayUpdated=info.updated;const lat=Number(r.latitude),lon=Number(r.longitude);r.distanceKm=(myLat!=null&&myLon!=null&&validCoord(r))?haversine(myLat,myLon,lat,lon):null});if(cf!=='all')items=items.filter(r=>r.currency===cf);if(ff!=='all'&&ff!=='미확인')items=items.filter(r=>r.displayPriceNum!=null||((r.fuel_type||'')===ff&&!r.fuel_prices?.[ff]));if(ff==='미확인')items=items.filter(r=>!FUEL_LABELS.some(f=>getFuelInfo(r,f).priceNum!=null));if(!document.getElementById('includeUnknown').checked)items=items.filter(r=>r.displayPriceNum!=null);items.forEach(r=>{if(r.displayPriceNum&&r.distanceKm!=null){const roundTrip=r.distanceKm*2,fuelUsed=roundTrip/eff,tripCost=fuelUsed*r.displayPriceNum,buyableL=Math.max(0,(budget-tripCost)/r.displayPriceNum);r.netGain=buyableL-fuelUsed;r.buyableL=buyableL;r.tripCost=tripCost}else{r.netGain=null;r.buyableL=null;r.tripCost=null}});if(sm==='distance')items.sort((a,b)=>(a.distanceKm??1e9)-(b.distanceKm??1e9)||((a.displayPriceNum??1e9)-(b.displayPriceNum??1e9)));else if(sm==='price')items.sort((a,b)=>(a.displayPriceNum??1e9)-(b.displayPriceNum??1e9)||((a.distanceKm??1e9)-(b.distanceKm??1e9)));else items.sort((a,b)=>(b.netGain??-1e9)-(a.netGain??-1e9));const mapKey=cf+'|'+ff+'|'+document.getElementById('includeUnknown').checked;renderMap(items,mapKey);if(!items.length){document.getElementById('list').innerHTML='<div class="empty-msg">결과가 없어</div>';return}document.getElementById('list').innerHTML=items.map((r,i)=>{const badge=r.currency==='여민전'?'badge-yeomin':'badge-cheongju',pclass=r.displayPriceText?'price':'price empty',ptext=r.displayPriceText?(r.displayFuel+' '+r.displayPriceText):'가격 미확인';let discountInfo='';if(r.displayPriceNum){const disc=DISCOUNT[r.currency]||0,effectivePrice=Math.round(r.displayPriceNum*(1-disc));discountInfo='<div style="font-size:12px;color:#94a3b8;margin-top:2px">'+r.currency+' '+Math.round(disc*100)+'% 할인 → 실제 <b style="color:#4ade80">'+effectivePrice+'원/L</b></div>'}const dist=r.distanceKm!=null?r.distanceKm.toFixed(1)+'km':'—',rank=i<3?'rank top3':'rank';let netInfo='';if(sm==='optimal'&&r.displayPriceNum&&r.distanceKm!=null){netInfo='<div class="net-gain">총주유량 '+r.buyableL.toFixed(2)+'L (왕복 '+r.tripCost.toFixed(0)+'원 사용)</div>'}const phoneText=r.phone?('<a href="tel:'+String(r.phone).replace(/[^0-9+]/g,'')+'" style="color:#cbd5e1;text-decoration:underline">'+escapeHtml(r.phone)+'</a>'):'-';const updatedText=r.displayUpdated?('유가업데이트 '+r.displayUpdated):'유가업데이트 -';return '<div class="card"><div class="card-top"><span class="'+rank+'">'+(i+1)+'</span><span class="card-name">'+escapeHtml(r.station_name)+'</span><span class="badge '+badge+'">'+escapeHtml(r.currency)+'</span></div><div class="'+pclass+'">'+escapeHtml(ptext)+'</div>'+discountInfo+'<div class="card-meta">거리 <b>'+dist+'</b> · '+escapeHtml(r.address)+'<br>'+phoneText+' · '+updatedText+'</div>'+netInfo+navLinks(r)+'</div>'}).join('')}
+function render(){const sm=document.getElementById('sortMode').value,cf=document.getElementById('currencyFilter').value,ff=document.getElementById('fuelFilter').value;const eff=parseFloat(document.getElementById('efficiency').value)||12,budget=parseFloat(document.getElementById('budget').value)||50000;let items=rows.map(r=>({...r}));items.forEach(r=>{const info=getFuelInfo(r,ff);r.displayFuel=info.fuel;r.displayPriceText=info.priceText;r.displayPriceNum=info.priceNum;r.displayUpdated=info.updated;const lat=Number(r.latitude),lon=Number(r.longitude);r.distanceKm=(myLat!=null&&myLon!=null&&validCoord(r))?haversine(myLat,myLon,lat,lon):null});if(cf!=='all')items=items.filter(r=>r.currency===cf);if(ff!=='all'&&ff!=='미확인')items=items.filter(r=>r.displayPriceNum!=null||((r.fuel_type||'')===ff&&!r.fuel_prices?.[ff]));if(ff==='미확인')items=items.filter(r=>!FUEL_LABELS.some(f=>getFuelInfo(r,f).priceNum!=null));if(!document.getElementById('includeUnknown').checked)items=items.filter(r=>r.displayPriceNum!=null);items.forEach(r=>{if(r.displayPriceNum&&r.distanceKm!=null){const roundTrip=r.distanceKm*2,fuelUsed=roundTrip/eff,tripCost=fuelUsed*r.displayPriceNum,buyableL=Math.max(0,(budget-tripCost)/r.displayPriceNum);r.netGain=buyableL-fuelUsed;r.buyableL=buyableL;r.tripCost=tripCost}else{r.netGain=null;r.buyableL=null;r.tripCost=null}});if(sm==='distance')items.sort((a,b)=>(a.distanceKm??1e9)-(b.distanceKm??1e9)||((a.displayPriceNum??1e9)-(b.displayPriceNum??1e9)));else if(sm==='price')items.sort((a,b)=>(a.displayPriceNum??1e9)-(b.displayPriceNum??1e9)||((a.distanceKm??1e9)-(b.distanceKm??1e9)));else items.sort((a,b)=>(b.netGain??-1e9)-(a.netGain??-1e9));if(!items.length){document.getElementById('list').innerHTML='<div class="empty-msg">결과가 없어</div>';return}document.getElementById('list').innerHTML=items.map((r,i)=>{const badge=r.currency==='여민전'?'badge-yeomin':'badge-cheongju',pclass=r.displayPriceText?'price':'price empty',ptext=r.displayPriceText?(r.displayFuel+' '+r.displayPriceText):'가격 미확인';let discountInfo='';if(r.displayPriceNum){const disc=DISCOUNT[r.currency]||0,effectivePrice=Math.round(r.displayPriceNum*(1-disc));discountInfo='<div style="font-size:12px;color:#94a3b8;margin-top:2px">'+r.currency+' '+Math.round(disc*100)+'% 할인 → 실제 <b style="color:#4ade80">'+effectivePrice+'원/L</b></div>'}const dist=r.distanceKm!=null?r.distanceKm.toFixed(1)+'km':'—',rank=i<3?'rank top3':'rank';let netInfo='';if(sm==='optimal'&&r.displayPriceNum&&r.distanceKm!=null){netInfo='<div class="net-gain">총주유량 '+r.buyableL.toFixed(2)+'L (왕복 '+r.tripCost.toFixed(0)+'원 사용)</div>'}const phoneText=r.phone?('<a href="tel:'+String(r.phone).replace(/[^0-9+]/g,'')+'" style="color:#cbd5e1;text-decoration:underline">'+escapeHtml(r.phone)+'</a>'):'-';const updatedText=r.displayUpdated?('유가업데이트 '+r.displayUpdated):'유가업데이트 -';return '<div class="card"><div class="card-top"><span class="'+rank+'">'+(i+1)+'</span><span class="card-name">'+escapeHtml(r.station_name)+'</span><span class="badge '+badge+'">'+escapeHtml(r.currency)+'</span></div><div class="'+pclass+'">'+escapeHtml(ptext)+'</div>'+discountInfo+'<div class="card-meta">거리 <b>'+dist+'</b> · '+escapeHtml(r.address)+'<br>'+phoneText+' · '+updatedText+'</div>'+netInfo+navLinks(r)+'</div>'}).join('')}
 updateStats();render();
 </script></body></html>
