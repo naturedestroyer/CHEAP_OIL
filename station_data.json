@@ -11,12 +11,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014276",
     "trade_dt": "20260802",
-    "trade_tm": "143833",
+    "trade_tm": "210622",
     "gasoline_price_today": "1855원/L",
     "match_source": "Opinet API",
     "price_num": 1855,
-    "updated_at_fmt": "26.08.02 14:38",
-    "_updated_at_dt": "2026-08-02T14:38:33",
+    "updated_at_fmt": "26.08.02 21:06",
+    "_updated_at_dt": "2026-08-02T21:06:22",
     "opinet_os_nm": "흥진셀프주유소",
     "opinet_new_adr": "세종시 조치원읍 세종로 2563",
     "latitude": "446190.0",
@@ -29,18 +29,18 @@
         "price_text": "1855원/L",
         "price_num": 1855,
         "trade_dt": "20260802",
-        "trade_tm": "143833",
-        "updated_at_fmt": "26.08.02 14:38",
-        "_updated_at_dt": "2026-08-02T14:38:33"
+        "trade_tm": "210622",
+        "updated_at_fmt": "26.08.02 21:06",
+        "_updated_at_dt": "2026-08-02T21:06:22"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1845원/L",
         "price_num": 1845,
         "trade_dt": "20260802",
-        "trade_tm": "130722",
-        "updated_at_fmt": "26.08.02 13:07",
-        "_updated_at_dt": "2026-08-02T13:07:22"
+        "trade_tm": "185400",
+        "updated_at_fmt": "26.08.02 18:54",
+        "_updated_at_dt": "2026-08-02T18:54:00"
       }
     },
     "primary_price_today": "1855원/L"
@@ -56,15 +56,15 @@
     "payment_status": "여민전 결제 가능",
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014347",
-    "trade_dt": "20260802",
-    "trade_tm": "145653",
+    "trade_dt": "20260803",
+    "trade_tm": "001928",
     "gasoline_price_today": "1887원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "중앙주유소",
     "opinet_new_adr": "세종 조치원읍 새내로 201",
     "price_num": 1887,
-    "updated_at_fmt": "26.08.02 14:56",
-    "_updated_at_dt": "2026-08-02T14:56:53",
+    "updated_at_fmt": "26.08.03 00:19",
+    "_updated_at_dt": "2026-08-03T00:19:28",
     "latitude": "445648.0",
     "longitude": "337262.0",
     "opinet_product_code": "B027",
@@ -74,19 +74,19 @@
         "product_code": "B027",
         "price_text": "1887원/L",
         "price_num": 1887,
-        "trade_dt": "20260802",
-        "trade_tm": "145653",
-        "updated_at_fmt": "26.08.02 14:56",
-        "_updated_at_dt": "2026-08-02T14:56:53"
+        "trade_dt": "20260803",
+        "trade_tm": "001928",
+        "updated_at_fmt": "26.08.03 00:19",
+        "_updated_at_dt": "2026-08-03T00:19:28"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1867원/L",
         "price_num": 1867,
         "trade_dt": "20260802",
-        "trade_tm": "143444",
-        "updated_at_fmt": "26.08.02 14:34",
-        "_updated_at_dt": "2026-08-02T14:34:44"
+        "trade_tm": "161634",
+        "updated_at_fmt": "26.08.02 16:16",
+        "_updated_at_dt": "2026-08-02T16:16:34"
       }
     },
     "primary_price_today": "1887원/L"
@@ -103,12 +103,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014233",
     "trade_dt": "20260802",
-    "trade_tm": "140916",
+    "trade_tm": "193448",
     "gasoline_price_today": "1899원/L",
     "match_source": "Opinet API",
     "price_num": 1899,
-    "updated_at_fmt": "26.08.02 14:09",
-    "_updated_at_dt": "2026-08-02T14:09:16",
+    "updated_at_fmt": "26.08.02 19:34",
+    "_updated_at_dt": "2026-08-02T19:34:48",
     "opinet_os_nm": "동유주유소",
     "opinet_new_adr": "세종시 조치원읍 새내로 142",
     "latitude": "445065.4",
@@ -121,18 +121,18 @@
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "140916",
-        "updated_at_fmt": "26.08.02 14:09",
-        "_updated_at_dt": "2026-08-02T14:09:16"
+        "trade_tm": "193448",
+        "updated_at_fmt": "26.08.02 19:34",
+        "_updated_at_dt": "2026-08-02T19:34:48"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "141459",
-        "updated_at_fmt": "26.08.02 14:14",
-        "_updated_at_dt": "2026-08-02T14:14:59"
+        "trade_tm": "151449",
+        "updated_at_fmt": "26.08.02 15:14",
+        "_updated_at_dt": "2026-08-02T15:14:49"
       }
     },
     "primary_price_today": "1899원/L"
@@ -171,12 +171,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014266",
     "trade_dt": "20260802",
-    "trade_tm": "125602",
+    "trade_tm": "163107",
     "gasoline_price_today": "1875원/L",
     "match_source": "Opinet API",
     "price_num": 1875,
-    "updated_at_fmt": "26.08.02 12:56",
-    "_updated_at_dt": "2026-08-02T12:56:02",
+    "updated_at_fmt": "26.08.02 16:31",
+    "_updated_at_dt": "2026-08-02T16:31:07",
     "opinet_os_nm": "내판주유소",
     "opinet_new_adr": "세종특별자치시 연동면 청연로 639",
     "latitude": "440254.0",
@@ -189,18 +189,18 @@
         "price_text": "1875원/L",
         "price_num": 1875,
         "trade_dt": "20260802",
-        "trade_tm": "125602",
-        "updated_at_fmt": "26.08.02 12:56",
-        "_updated_at_dt": "2026-08-02T12:56:02"
+        "trade_tm": "163107",
+        "updated_at_fmt": "26.08.02 16:31",
+        "_updated_at_dt": "2026-08-02T16:31:07"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1859원/L",
         "price_num": 1859,
         "trade_dt": "20260802",
-        "trade_tm": "125848",
-        "updated_at_fmt": "26.08.02 12:58",
-        "_updated_at_dt": "2026-08-02T12:58:48"
+        "trade_tm": "151404",
+        "updated_at_fmt": "26.08.02 15:14",
+        "_updated_at_dt": "2026-08-02T15:14:04"
       }
     },
     "primary_price_today": "1875원/L"
@@ -263,12 +263,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0033459",
     "trade_dt": "20260802",
-    "trade_tm": "145758",
+    "trade_tm": "220116",
     "gasoline_price_today": "1839원/L",
     "match_source": "Opinet API",
     "price_num": 1839,
-    "updated_at_fmt": "26.08.02 14:57",
-    "_updated_at_dt": "2026-08-02T14:57:58",
+    "updated_at_fmt": "26.08.02 22:01",
+    "_updated_at_dt": "2026-08-02T22:01:16",
     "opinet_os_nm": "㈜진성 가람Self주유소",
     "opinet_new_adr": "세종특별자치시 금송로 589",
     "latitude": "429585.91137",
@@ -281,27 +281,27 @@
         "price_text": "1839원/L",
         "price_num": 1839,
         "trade_dt": "20260802",
-        "trade_tm": "145758",
-        "updated_at_fmt": "26.08.02 14:57",
-        "_updated_at_dt": "2026-08-02T14:57:58"
+        "trade_tm": "220116",
+        "updated_at_fmt": "26.08.02 22:01",
+        "_updated_at_dt": "2026-08-02T22:01:16"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1799원/L",
         "price_num": 1799,
         "trade_dt": "20260802",
-        "trade_tm": "145948",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:48"
+        "trade_tm": "220208",
+        "updated_at_fmt": "26.08.02 22:02",
+        "_updated_at_dt": "2026-08-02T22:02:08"
       },
       "고급휘발유": {
         "product_code": "B034",
         "price_text": "2299원/L",
         "price_num": 2299,
         "trade_dt": "20260802",
-        "trade_tm": "145134",
-        "updated_at_fmt": "26.08.02 14:51",
-        "_updated_at_dt": "2026-08-02T14:51:34"
+        "trade_tm": "204639",
+        "updated_at_fmt": "26.08.02 20:46",
+        "_updated_at_dt": "2026-08-02T20:46:39"
       }
     },
     "primary_price_today": "1839원/L"
@@ -419,12 +419,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014432",
     "trade_dt": "20260802",
-    "trade_tm": "131300",
+    "trade_tm": "180223",
     "gasoline_price_today": "1899원/L",
     "match_source": "Opinet API",
     "price_num": 1899,
-    "updated_at_fmt": "26.08.02 13:13",
-    "_updated_at_dt": "2026-08-02T13:13:00",
+    "updated_at_fmt": "26.08.02 18:02",
+    "_updated_at_dt": "2026-08-02T18:02:23",
     "opinet_os_nm": "전동주유소",
     "opinet_new_adr": "세종특별자치시 전동면 운주산로 355",
     "latitude": "450528.6252",
@@ -437,9 +437,9 @@
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "131300",
-        "updated_at_fmt": "26.08.02 13:13",
-        "_updated_at_dt": "2026-08-02T13:13:00"
+        "trade_tm": "180223",
+        "updated_at_fmt": "26.08.02 18:02",
+        "_updated_at_dt": "2026-08-02T18:02:23"
       },
       "경유": {
         "product_code": "D047",
@@ -533,12 +533,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014413",
     "trade_dt": "20260802",
-    "trade_tm": "120144",
+    "trade_tm": "175436",
     "gasoline_price_today": "1920원/L",
     "match_source": "Opinet API",
     "price_num": 1920,
-    "updated_at_fmt": "26.08.02 12:01",
-    "_updated_at_dt": "2026-08-02T12:01:44",
+    "updated_at_fmt": "26.08.02 17:54",
+    "_updated_at_dt": "2026-08-02T17:54:36",
     "opinet_os_nm": "송학주유소",
     "opinet_new_adr": "세종특별자치시 장군면 의당전의로 677",
     "latitude": "437574.4",
@@ -551,18 +551,18 @@
         "price_text": "1920원/L",
         "price_num": 1920,
         "trade_dt": "20260802",
-        "trade_tm": "120144",
-        "updated_at_fmt": "26.08.02 12:01",
-        "_updated_at_dt": "2026-08-02T12:01:44"
+        "trade_tm": "175436",
+        "updated_at_fmt": "26.08.02 17:54",
+        "_updated_at_dt": "2026-08-02T17:54:36"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1880원/L",
         "price_num": 1880,
         "trade_dt": "20260802",
-        "trade_tm": "120722",
-        "updated_at_fmt": "26.08.02 12:07",
-        "_updated_at_dt": "2026-08-02T12:07:22"
+        "trade_tm": "182705",
+        "updated_at_fmt": "26.08.02 18:27",
+        "_updated_at_dt": "2026-08-02T18:27:05"
       }
     },
     "primary_price_today": "1920원/L"
@@ -579,12 +579,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014403",
     "trade_dt": "20260802",
-    "trade_tm": "110309",
+    "trade_tm": "184038",
     "gasoline_price_today": "1895원/L",
     "match_source": "Opinet API",
     "price_num": 1895,
-    "updated_at_fmt": "26.08.02 11:03",
-    "_updated_at_dt": "2026-08-02T11:03:09",
+    "updated_at_fmt": "26.08.02 18:40",
+    "_updated_at_dt": "2026-08-02T18:40:38",
     "opinet_os_nm": "황용주유소",
     "opinet_new_adr": "세종 금남면 황용1길 40",
     "latitude": "431335.6466",
@@ -597,18 +597,18 @@
         "price_text": "1895원/L",
         "price_num": 1895,
         "trade_dt": "20260802",
-        "trade_tm": "110309",
-        "updated_at_fmt": "26.08.02 11:03",
-        "_updated_at_dt": "2026-08-02T11:03:09"
+        "trade_tm": "184038",
+        "updated_at_fmt": "26.08.02 18:40",
+        "_updated_at_dt": "2026-08-02T18:40:38"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1875원/L",
         "price_num": 1875,
         "trade_dt": "20260802",
-        "trade_tm": "114602",
-        "updated_at_fmt": "26.08.02 11:46",
-        "_updated_at_dt": "2026-08-02T11:46:02"
+        "trade_tm": "153257",
+        "updated_at_fmt": "26.08.02 15:32",
+        "_updated_at_dt": "2026-08-02T15:32:57"
       }
     },
     "primary_price_today": "1895원/L"
@@ -624,15 +624,15 @@
     "payment_status": "여민전 결제 가능",
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014359",
-    "trade_dt": "20260801",
-    "trade_tm": "151057",
+    "trade_dt": "20260802",
+    "trade_tm": "182849",
     "gasoline_price_today": "1895원/L",
     "match_source": "Opinet API",
     "latitude": "436892.4922",
     "longitude": "343523.0945",
     "price_num": 1895,
-    "updated_at_fmt": "26.08.01 15:10",
-    "_updated_at_dt": "2026-08-01T15:10:57",
+    "updated_at_fmt": "26.08.02 18:28",
+    "_updated_at_dt": "2026-08-02T18:28:49",
     "opinet_os_nm": "신사주유소",
     "opinet_new_adr": "세종 부강면 청연로 71",
     "opinet_product_code": "B027",
@@ -642,10 +642,10 @@
         "product_code": "B027",
         "price_text": "1895원/L",
         "price_num": 1895,
-        "trade_dt": "20260801",
-        "trade_tm": "151057",
-        "updated_at_fmt": "26.08.01 15:10",
-        "_updated_at_dt": "2026-08-01T15:10:57"
+        "trade_dt": "20260802",
+        "trade_tm": "182849",
+        "updated_at_fmt": "26.08.02 18:28",
+        "_updated_at_dt": "2026-08-02T18:28:49"
       },
       "경유": {
         "product_code": "D047",
@@ -717,7 +717,7 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014227",
     "trade_dt": "20260802",
-    "trade_tm": "143605",
+    "trade_tm": "221958",
     "gasoline_price_today": "1899원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "평산주유소",
@@ -725,8 +725,8 @@
     "latitude": "443286.3641",
     "longitude": "337480.4798",
     "price_num": 1899,
-    "updated_at_fmt": "26.08.02 14:36",
-    "_updated_at_dt": "2026-08-02T14:36:05",
+    "updated_at_fmt": "26.08.02 22:19",
+    "_updated_at_dt": "2026-08-02T22:19:58",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
     "fuel_prices": {
@@ -735,18 +735,18 @@
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "143605",
-        "updated_at_fmt": "26.08.02 14:36",
-        "_updated_at_dt": "2026-08-02T14:36:05"
+        "trade_tm": "221958",
+        "updated_at_fmt": "26.08.02 22:19",
+        "_updated_at_dt": "2026-08-02T22:19:58"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "122951",
-        "updated_at_fmt": "26.08.02 12:29",
-        "_updated_at_dt": "2026-08-02T12:29:51"
+        "trade_tm": "205705",
+        "updated_at_fmt": "26.08.02 20:57",
+        "_updated_at_dt": "2026-08-02T20:57:05"
       }
     },
     "primary_price_today": "1899원/L"
@@ -763,14 +763,14 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014202",
     "trade_dt": "20260802",
-    "trade_tm": "140552",
+    "trade_tm": "212550",
     "gasoline_price_today": "1890원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "태산주유소",
     "opinet_new_adr": "세종특별자치시 소정면 세종로 4274",
     "price_num": 1890,
-    "updated_at_fmt": "26.08.02 14:05",
-    "_updated_at_dt": "2026-08-02T14:05:52",
+    "updated_at_fmt": "26.08.02 21:25",
+    "_updated_at_dt": "2026-08-02T21:25:50",
     "latitude": "455490.0",
     "longitude": "324571.0",
     "opinet_product_code": "B027",
@@ -781,18 +781,18 @@
         "price_text": "1890원/L",
         "price_num": 1890,
         "trade_dt": "20260802",
-        "trade_tm": "140552",
-        "updated_at_fmt": "26.08.02 14:05",
-        "_updated_at_dt": "2026-08-02T14:05:52"
+        "trade_tm": "212550",
+        "updated_at_fmt": "26.08.02 21:25",
+        "_updated_at_dt": "2026-08-02T21:25:50"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1890원/L",
         "price_num": 1890,
         "trade_dt": "20260802",
-        "trade_tm": "143303",
-        "updated_at_fmt": "26.08.02 14:33",
-        "_updated_at_dt": "2026-08-02T14:33:03"
+        "trade_tm": "230743",
+        "updated_at_fmt": "26.08.02 23:07",
+        "_updated_at_dt": "2026-08-02T23:07:43"
       }
     },
     "primary_price_today": "1890원/L"
@@ -809,7 +809,7 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014198",
     "trade_dt": "20260802",
-    "trade_tm": "145659",
+    "trade_tm": "212743",
     "gasoline_price_today": "1853원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "그린주유소",
@@ -817,8 +817,8 @@
     "latitude": "447622.5812",
     "longitude": "336679.7783",
     "price_num": 1853,
-    "updated_at_fmt": "26.08.02 14:56",
-    "_updated_at_dt": "2026-08-02T14:56:59",
+    "updated_at_fmt": "26.08.02 21:27",
+    "_updated_at_dt": "2026-08-02T21:27:43",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
     "fuel_prices": {
@@ -827,27 +827,27 @@
         "price_text": "1853원/L",
         "price_num": 1853,
         "trade_dt": "20260802",
-        "trade_tm": "145659",
-        "updated_at_fmt": "26.08.02 14:56",
-        "_updated_at_dt": "2026-08-02T14:56:59"
+        "trade_tm": "212743",
+        "updated_at_fmt": "26.08.02 21:27",
+        "_updated_at_dt": "2026-08-02T21:27:43"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1823원/L",
         "price_num": 1823,
         "trade_dt": "20260802",
-        "trade_tm": "145751",
-        "updated_at_fmt": "26.08.02 14:57",
-        "_updated_at_dt": "2026-08-02T14:57:51"
+        "trade_tm": "211808",
+        "updated_at_fmt": "26.08.02 21:18",
+        "_updated_at_dt": "2026-08-02T21:18:08"
       },
       "고급휘발유": {
         "product_code": "B034",
         "price_text": "2335원/L",
         "price_num": 2335,
         "trade_dt": "20260802",
-        "trade_tm": "145739",
-        "updated_at_fmt": "26.08.02 14:57",
-        "_updated_at_dt": "2026-08-02T14:57:39"
+        "trade_tm": "203705",
+        "updated_at_fmt": "26.08.02 20:37",
+        "_updated_at_dt": "2026-08-02T20:37:05"
       }
     },
     "primary_price_today": "1853원/L"
@@ -864,14 +864,14 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014153",
     "trade_dt": "20260802",
-    "trade_tm": "145314",
+    "trade_tm": "233201",
     "gasoline_price_today": "1850원/L",
     "match_source": "Opinet API",
     "latitude": "445506.6584",
     "longitude": "337317.7106",
     "price_num": 1850,
-    "updated_at_fmt": "26.08.02 14:53",
-    "_updated_at_dt": "2026-08-02T14:53:14",
+    "updated_at_fmt": "26.08.02 23:32",
+    "_updated_at_dt": "2026-08-02T23:32:01",
     "opinet_os_nm": "금빛주유소",
     "opinet_new_adr": "세종특별자치시 조치원읍 새내로 182",
     "opinet_product_code": "B027",
@@ -882,27 +882,27 @@
         "price_text": "1850원/L",
         "price_num": 1850,
         "trade_dt": "20260802",
-        "trade_tm": "145314",
-        "updated_at_fmt": "26.08.02 14:53",
-        "_updated_at_dt": "2026-08-02T14:53:14"
+        "trade_tm": "233201",
+        "updated_at_fmt": "26.08.02 23:32",
+        "_updated_at_dt": "2026-08-02T23:32:01"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1820원/L",
         "price_num": 1820,
         "trade_dt": "20260802",
-        "trade_tm": "134508",
-        "updated_at_fmt": "26.08.02 13:45",
-        "_updated_at_dt": "2026-08-02T13:45:08"
+        "trade_tm": "173023",
+        "updated_at_fmt": "26.08.02 17:30",
+        "_updated_at_dt": "2026-08-02T17:30:23"
       },
       "고급휘발유": {
         "product_code": "B034",
         "price_text": "2390원/L",
         "price_num": 2390,
-        "trade_dt": "20260802",
-        "trade_tm": "122438",
-        "updated_at_fmt": "26.08.02 12:24",
-        "_updated_at_dt": "2026-08-02T12:24:38"
+        "trade_dt": "20260803",
+        "trade_tm": "004955",
+        "updated_at_fmt": "26.08.03 00:49",
+        "_updated_at_dt": "2026-08-03T00:49:55"
       }
     },
     "primary_price_today": "1850원/L"
@@ -941,12 +941,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014374",
     "trade_dt": "20260802",
-    "trade_tm": "113050",
+    "trade_tm": "180010",
     "gasoline_price_today": "1869원/L",
     "match_source": "Opinet API",
     "price_num": 1869,
-    "updated_at_fmt": "26.08.02 11:30",
-    "_updated_at_dt": "2026-08-02T11:30:50",
+    "updated_at_fmt": "26.08.02 18:00",
+    "_updated_at_dt": "2026-08-02T18:00:10",
     "opinet_os_nm": "세종주유소",
     "opinet_new_adr": "세종 소정면 세종로 4313",
     "latitude": "455782.45684",
@@ -959,18 +959,18 @@
         "price_text": "1869원/L",
         "price_num": 1869,
         "trade_dt": "20260802",
-        "trade_tm": "113050",
-        "updated_at_fmt": "26.08.02 11:30",
-        "_updated_at_dt": "2026-08-02T11:30:50"
+        "trade_tm": "180010",
+        "updated_at_fmt": "26.08.02 18:00",
+        "_updated_at_dt": "2026-08-02T18:00:10"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1859원/L",
         "price_num": 1859,
         "trade_dt": "20260802",
-        "trade_tm": "121234",
-        "updated_at_fmt": "26.08.02 12:12",
-        "_updated_at_dt": "2026-08-02T12:12:34"
+        "trade_tm": "180848",
+        "updated_at_fmt": "26.08.02 18:08",
+        "_updated_at_dt": "2026-08-02T18:08:48"
       }
     },
     "primary_price_today": "1869원/L"
@@ -987,12 +987,12 @@
     "source_url": "https://www.sejong.go.kr/prog/yeominStore/life/sub07_05_02/stsList.do",
     "opinet_uni_id": "A0014351",
     "trade_dt": "20260802",
-    "trade_tm": "145922",
+    "trade_tm": "171431",
     "gasoline_price_today": "1890원/L",
     "match_source": "Opinet API",
     "price_num": 1890,
-    "updated_at_fmt": "26.08.02 14:59",
-    "_updated_at_dt": "2026-08-02T14:59:22",
+    "updated_at_fmt": "26.08.02 17:14",
+    "_updated_at_dt": "2026-08-02T17:14:31",
     "opinet_os_nm": "백제주유소",
     "opinet_new_adr": "세종 소정면 차령고개로 1087",
     "latitude": "454924.0",
@@ -1005,18 +1005,18 @@
         "price_text": "1890원/L",
         "price_num": 1890,
         "trade_dt": "20260802",
-        "trade_tm": "145922",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:22"
+        "trade_tm": "171431",
+        "updated_at_fmt": "26.08.02 17:14",
+        "_updated_at_dt": "2026-08-02T17:14:31"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1890원/L",
         "price_num": 1890,
         "trade_dt": "20260802",
-        "trade_tm": "111524",
-        "updated_at_fmt": "26.08.02 11:15",
-        "_updated_at_dt": "2026-08-02T11:15:24"
+        "trade_tm": "175453",
+        "updated_at_fmt": "26.08.02 17:54",
+        "_updated_at_dt": "2026-08-02T17:54:53"
       }
     },
     "primary_price_today": "1890원/L"
@@ -1282,14 +1282,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012403",
     "trade_dt": "20260802",
-    "trade_tm": "123353",
+    "trade_tm": "161345",
     "gasoline_price_today": "1948원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "SK오창주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 팔결로 579",
     "price_num": 1948,
-    "updated_at_fmt": "26.08.02 12:33",
-    "_updated_at_dt": "2026-08-02T12:33:53",
+    "updated_at_fmt": "26.08.02 16:13",
+    "_updated_at_dt": "2026-08-02T16:13:45",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1299,9 +1299,9 @@
         "price_text": "1948원/L",
         "price_num": 1948,
         "trade_dt": "20260802",
-        "trade_tm": "123353",
-        "updated_at_fmt": "26.08.02 12:33",
-        "_updated_at_dt": "2026-08-02T12:33:53"
+        "trade_tm": "161345",
+        "updated_at_fmt": "26.08.02 16:13",
+        "_updated_at_dt": "2026-08-02T16:13:45"
       },
       "경유": {
         "product_code": "D047",
@@ -1327,14 +1327,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017279",
     "trade_dt": "20260802",
-    "trade_tm": "110405",
+    "trade_tm": "190024",
     "gasoline_price_today": "1849원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "가덕주유소",
     "opinet_new_adr": "충북 청주시 상당구 가덕면 상장인차로 570",
     "price_num": 1849,
-    "updated_at_fmt": "26.08.02 11:04",
-    "_updated_at_dt": "2026-08-02T11:04:05",
+    "updated_at_fmt": "26.08.02 19:00",
+    "_updated_at_dt": "2026-08-02T19:00:24",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1344,18 +1344,18 @@
         "price_text": "1849원/L",
         "price_num": 1849,
         "trade_dt": "20260802",
-        "trade_tm": "110405",
-        "updated_at_fmt": "26.08.02 11:04",
-        "_updated_at_dt": "2026-08-02T11:04:05"
+        "trade_tm": "190024",
+        "updated_at_fmt": "26.08.02 19:00",
+        "_updated_at_dt": "2026-08-02T19:00:24"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1819원/L",
         "price_num": 1819,
         "trade_dt": "20260802",
-        "trade_tm": "093312",
-        "updated_at_fmt": "26.08.02 09:33",
-        "_updated_at_dt": "2026-08-02T09:33:12"
+        "trade_tm": "150344",
+        "updated_at_fmt": "26.08.02 15:03",
+        "_updated_at_dt": "2026-08-02T15:03:44"
       }
     },
     "primary_price_today": "1849원/L"
@@ -1372,14 +1372,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017279",
     "trade_dt": "20260802",
-    "trade_tm": "110405",
+    "trade_tm": "190024",
     "gasoline_price_today": "1849원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "가덕주유소",
     "opinet_new_adr": "충북 청주시 상당구 가덕면 상장인차로 570",
     "price_num": 1849,
-    "updated_at_fmt": "26.08.02 11:04",
-    "_updated_at_dt": "2026-08-02T11:04:05",
+    "updated_at_fmt": "26.08.02 19:00",
+    "_updated_at_dt": "2026-08-02T19:00:24",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1389,18 +1389,18 @@
         "price_text": "1849원/L",
         "price_num": 1849,
         "trade_dt": "20260802",
-        "trade_tm": "110405",
-        "updated_at_fmt": "26.08.02 11:04",
-        "_updated_at_dt": "2026-08-02T11:04:05"
+        "trade_tm": "190024",
+        "updated_at_fmt": "26.08.02 19:00",
+        "_updated_at_dt": "2026-08-02T19:00:24"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1819원/L",
         "price_num": 1819,
         "trade_dt": "20260802",
-        "trade_tm": "093312",
-        "updated_at_fmt": "26.08.02 09:33",
-        "_updated_at_dt": "2026-08-02T09:33:12"
+        "trade_tm": "150344",
+        "updated_at_fmt": "26.08.02 15:03",
+        "_updated_at_dt": "2026-08-02T15:03:44"
       }
     },
     "primary_price_today": "1849원/L"
@@ -1440,14 +1440,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017180",
     "trade_dt": "20260802",
-    "trade_tm": "145302",
+    "trade_tm": "190343",
     "gasoline_price_today": "1895원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "고향주유소",
     "opinet_new_adr": "충북 청주시 청원구 오창읍 두릉유리로 1129",
     "price_num": 1895,
-    "updated_at_fmt": "26.08.02 14:53",
-    "_updated_at_dt": "2026-08-02T14:53:02",
+    "updated_at_fmt": "26.08.02 19:03",
+    "_updated_at_dt": "2026-08-02T19:03:43",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1457,18 +1457,18 @@
         "price_text": "1895원/L",
         "price_num": 1895,
         "trade_dt": "20260802",
-        "trade_tm": "145302",
-        "updated_at_fmt": "26.08.02 14:53",
-        "_updated_at_dt": "2026-08-02T14:53:02"
+        "trade_tm": "190343",
+        "updated_at_fmt": "26.08.02 19:03",
+        "_updated_at_dt": "2026-08-02T19:03:43"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1845원/L",
         "price_num": 1845,
         "trade_dt": "20260802",
-        "trade_tm": "145037",
-        "updated_at_fmt": "26.08.02 14:50",
-        "_updated_at_dt": "2026-08-02T14:50:37"
+        "trade_tm": "204137",
+        "updated_at_fmt": "26.08.02 20:41",
+        "_updated_at_dt": "2026-08-02T20:41:37"
       }
     },
     "primary_price_today": "1895원/L"
@@ -1484,15 +1484,15 @@
     "longitude": 127.509963,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017317",
-    "trade_dt": "20260802",
-    "trade_tm": "145124",
+    "trade_dt": "20260803",
+    "trade_tm": "003606",
     "gasoline_price_today": "1937원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "골든벨주유소",
     "opinet_new_adr": "충북 청주시 상당구 용담동 산성로183",
     "price_num": 1937,
-    "updated_at_fmt": "26.08.02 14:51",
-    "_updated_at_dt": "2026-08-02T14:51:24",
+    "updated_at_fmt": "26.08.03 00:36",
+    "_updated_at_dt": "2026-08-03T00:36:06",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1502,27 +1502,27 @@
         "price_text": "2387원/L",
         "price_num": 2387,
         "trade_dt": "20260802",
-        "trade_tm": "143637",
-        "updated_at_fmt": "26.08.02 14:36",
-        "_updated_at_dt": "2026-08-02T14:36:37"
+        "trade_tm": "215317",
+        "updated_at_fmt": "26.08.02 21:53",
+        "_updated_at_dt": "2026-08-02T21:53:17"
       },
       "휘발유": {
         "product_code": "B027",
         "price_text": "1937원/L",
         "price_num": 1937,
-        "trade_dt": "20260802",
-        "trade_tm": "145124",
-        "updated_at_fmt": "26.08.02 14:51",
-        "_updated_at_dt": "2026-08-02T14:51:24"
+        "trade_dt": "20260803",
+        "trade_tm": "003606",
+        "updated_at_fmt": "26.08.03 00:36",
+        "_updated_at_dt": "2026-08-03T00:36:06"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1917원/L",
         "price_num": 1917,
         "trade_dt": "20260802",
-        "trade_tm": "145512",
-        "updated_at_fmt": "26.08.02 14:55",
-        "_updated_at_dt": "2026-08-02T14:55:12"
+        "trade_tm": "235254",
+        "updated_at_fmt": "26.08.02 23:52",
+        "_updated_at_dt": "2026-08-02T23:52:54"
       }
     },
     "primary_price_today": "1937원/L"
@@ -1538,15 +1538,15 @@
     "longitude": 127.43962,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012194",
-    "trade_dt": "20260802",
-    "trade_tm": "145920",
+    "trade_dt": "20260803",
+    "trade_tm": "001328",
     "gasoline_price_today": "1835원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "공단주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 가로수로 1315",
     "price_num": 1835,
-    "updated_at_fmt": "26.08.02 14:59",
-    "_updated_at_dt": "2026-08-02T14:59:20",
+    "updated_at_fmt": "26.08.03 00:13",
+    "_updated_at_dt": "2026-08-03T00:13:28",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1555,19 +1555,19 @@
         "product_code": "B027",
         "price_text": "1835원/L",
         "price_num": 1835,
-        "trade_dt": "20260802",
-        "trade_tm": "145920",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:20"
+        "trade_dt": "20260803",
+        "trade_tm": "001328",
+        "updated_at_fmt": "26.08.03 00:13",
+        "_updated_at_dt": "2026-08-03T00:13:28"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1795원/L",
         "price_num": 1795,
         "trade_dt": "20260802",
-        "trade_tm": "145917",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:17"
+        "trade_tm": "234018",
+        "updated_at_fmt": "26.08.02 23:40",
+        "_updated_at_dt": "2026-08-02T23:40:18"
       }
     },
     "primary_price_today": "1835원/L"
@@ -1584,14 +1584,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011962",
     "trade_dt": "20260802",
-    "trade_tm": "141509",
+    "trade_tm": "220257",
     "gasoline_price_today": "1849원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "기령주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 1009",
     "price_num": 1849,
-    "updated_at_fmt": "26.08.02 14:15",
-    "_updated_at_dt": "2026-08-02T14:15:09",
+    "updated_at_fmt": "26.08.02 22:02",
+    "_updated_at_dt": "2026-08-02T22:02:57",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1601,18 +1601,18 @@
         "price_text": "1849원/L",
         "price_num": 1849,
         "trade_dt": "20260802",
-        "trade_tm": "141509",
-        "updated_at_fmt": "26.08.02 14:15",
-        "_updated_at_dt": "2026-08-02T14:15:09"
+        "trade_tm": "220257",
+        "updated_at_fmt": "26.08.02 22:02",
+        "_updated_at_dt": "2026-08-02T22:02:57"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1839원/L",
         "price_num": 1839,
         "trade_dt": "20260802",
-        "trade_tm": "131958",
-        "updated_at_fmt": "26.08.02 13:19",
-        "_updated_at_dt": "2026-08-02T13:19:58"
+        "trade_tm": "194439",
+        "updated_at_fmt": "26.08.02 19:44",
+        "_updated_at_dt": "2026-08-02T19:44:39"
       }
     },
     "primary_price_today": "1849원/L"
@@ -1629,14 +1629,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012084",
     "trade_dt": "20260802",
-    "trade_tm": "141637",
+    "trade_tm": "163353",
     "gasoline_price_today": "1879원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "남일주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 828",
     "price_num": 1879,
-    "updated_at_fmt": "26.08.02 14:16",
-    "_updated_at_dt": "2026-08-02T14:16:37",
+    "updated_at_fmt": "26.08.02 16:33",
+    "_updated_at_dt": "2026-08-02T16:33:53",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1646,18 +1646,18 @@
         "price_text": "1879원/L",
         "price_num": 1879,
         "trade_dt": "20260802",
-        "trade_tm": "141637",
-        "updated_at_fmt": "26.08.02 14:16",
-        "_updated_at_dt": "2026-08-02T14:16:37"
+        "trade_tm": "163353",
+        "updated_at_fmt": "26.08.02 16:33",
+        "_updated_at_dt": "2026-08-02T16:33:53"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1859원/L",
         "price_num": 1859,
         "trade_dt": "20260802",
-        "trade_tm": "142953",
-        "updated_at_fmt": "26.08.02 14:29",
-        "_updated_at_dt": "2026-08-02T14:29:53"
+        "trade_tm": "191323",
+        "updated_at_fmt": "26.08.02 19:13",
+        "_updated_at_dt": "2026-08-02T19:13:23"
       }
     },
     "primary_price_today": "1879원/L"
@@ -1674,14 +1674,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0016634",
     "trade_dt": "20260802",
-    "trade_tm": "144539",
+    "trade_tm": "192328",
     "gasoline_price_today": "1854원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "남청주동자주유소",
     "opinet_new_adr": "충북 청주시 서원구 남이면 청남로 1040",
     "price_num": 1854,
-    "updated_at_fmt": "26.08.02 14:45",
-    "_updated_at_dt": "2026-08-02T14:45:39",
+    "updated_at_fmt": "26.08.02 19:23",
+    "_updated_at_dt": "2026-08-02T19:23:28",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1691,18 +1691,18 @@
         "price_text": "1854원/L",
         "price_num": 1854,
         "trade_dt": "20260802",
-        "trade_tm": "144539",
-        "updated_at_fmt": "26.08.02 14:45",
-        "_updated_at_dt": "2026-08-02T14:45:39"
+        "trade_tm": "192328",
+        "updated_at_fmt": "26.08.02 19:23",
+        "_updated_at_dt": "2026-08-02T19:23:28"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1818원/L",
         "price_num": 1818,
-        "trade_dt": "20260802",
-        "trade_tm": "132739",
-        "updated_at_fmt": "26.08.02 13:27",
-        "_updated_at_dt": "2026-08-02T13:27:39"
+        "trade_dt": "20260803",
+        "trade_tm": "002502",
+        "updated_at_fmt": "26.08.03 00:25",
+        "_updated_at_dt": "2026-08-03T00:25:02"
       }
     },
     "primary_price_today": "1854원/L"
@@ -1787,14 +1787,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012026",
     "trade_dt": "20260802",
-    "trade_tm": "142134",
+    "trade_tm": "173235",
     "gasoline_price_today": "1848원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "대명주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 직지대로 674",
     "price_num": 1848,
-    "updated_at_fmt": "26.08.02 14:21",
-    "_updated_at_dt": "2026-08-02T14:21:34",
+    "updated_at_fmt": "26.08.02 17:32",
+    "_updated_at_dt": "2026-08-02T17:32:35",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -1804,18 +1804,18 @@
         "price_text": "1848원/L",
         "price_num": 1848,
         "trade_dt": "20260802",
-        "trade_tm": "142134",
-        "updated_at_fmt": "26.08.02 14:21",
-        "_updated_at_dt": "2026-08-02T14:21:34"
+        "trade_tm": "173235",
+        "updated_at_fmt": "26.08.02 17:32",
+        "_updated_at_dt": "2026-08-02T17:32:35"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1838원/L",
         "price_num": 1838,
         "trade_dt": "20260802",
-        "trade_tm": "085804",
-        "updated_at_fmt": "26.08.02 08:58",
-        "_updated_at_dt": "2026-08-02T08:58:04"
+        "trade_tm": "170042",
+        "updated_at_fmt": "26.08.02 17:00",
+        "_updated_at_dt": "2026-08-02T17:00:42"
       }
     },
     "primary_price_today": "1848원/L"
@@ -2080,14 +2080,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012510",
     "trade_dt": "20260802",
-    "trade_tm": "145848",
+    "trade_tm": "225952",
     "gasoline_price_today": "1829원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "㈜동림에너지 동명주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 1순환로 514",
     "price_num": 1829,
-    "updated_at_fmt": "26.08.02 14:58",
-    "_updated_at_dt": "2026-08-02T14:58:48",
+    "updated_at_fmt": "26.08.02 22:59",
+    "_updated_at_dt": "2026-08-02T22:59:52",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2097,18 +2097,18 @@
         "price_text": "1829원/L",
         "price_num": 1829,
         "trade_dt": "20260802",
-        "trade_tm": "145848",
-        "updated_at_fmt": "26.08.02 14:58",
-        "_updated_at_dt": "2026-08-02T14:58:48"
+        "trade_tm": "225952",
+        "updated_at_fmt": "26.08.02 22:59",
+        "_updated_at_dt": "2026-08-02T22:59:52"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1799원/L",
         "price_num": 1799,
         "trade_dt": "20260802",
-        "trade_tm": "145238",
-        "updated_at_fmt": "26.08.02 14:52",
-        "_updated_at_dt": "2026-08-02T14:52:38"
+        "trade_tm": "225550",
+        "updated_at_fmt": "26.08.02 22:55",
+        "_updated_at_dt": "2026-08-02T22:55:50"
       }
     },
     "primary_price_today": "1829원/L"
@@ -2125,14 +2125,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017260",
     "trade_dt": "20260802",
-    "trade_tm": "130319",
+    "trade_tm": "200921",
     "gasoline_price_today": "1897원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "동찬주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 오송읍 서평길 22-1",
     "price_num": 1897,
-    "updated_at_fmt": "26.08.02 13:03",
-    "_updated_at_dt": "2026-08-02T13:03:19",
+    "updated_at_fmt": "26.08.02 20:09",
+    "_updated_at_dt": "2026-08-02T20:09:21",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2142,18 +2142,18 @@
         "price_text": "1897원/L",
         "price_num": 1897,
         "trade_dt": "20260802",
-        "trade_tm": "130319",
-        "updated_at_fmt": "26.08.02 13:03",
-        "_updated_at_dt": "2026-08-02T13:03:19"
+        "trade_tm": "200921",
+        "updated_at_fmt": "26.08.02 20:09",
+        "_updated_at_dt": "2026-08-02T20:09:21"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1847원/L",
         "price_num": 1847,
         "trade_dt": "20260802",
-        "trade_tm": "120407",
-        "updated_at_fmt": "26.08.02 12:04",
-        "_updated_at_dt": "2026-08-02T12:04:07"
+        "trade_tm": "212213",
+        "updated_at_fmt": "26.08.02 21:22",
+        "_updated_at_dt": "2026-08-02T21:22:13"
       }
     },
     "primary_price_today": "1897원/L"
@@ -2170,14 +2170,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011963",
     "trade_dt": "20260802",
-    "trade_tm": "141631",
+    "trade_tm": "172443",
     "gasoline_price_today": "1852원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "등고개주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 교육원로 9",
     "price_num": 1852,
-    "updated_at_fmt": "26.08.02 14:16",
-    "_updated_at_dt": "2026-08-02T14:16:31",
+    "updated_at_fmt": "26.08.02 17:24",
+    "_updated_at_dt": "2026-08-02T17:24:43",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2187,18 +2187,18 @@
         "price_text": "1852원/L",
         "price_num": 1852,
         "trade_dt": "20260802",
-        "trade_tm": "141631",
-        "updated_at_fmt": "26.08.02 14:16",
-        "_updated_at_dt": "2026-08-02T14:16:31"
+        "trade_tm": "172443",
+        "updated_at_fmt": "26.08.02 17:24",
+        "_updated_at_dt": "2026-08-02T17:24:43"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1839원/L",
         "price_num": 1839,
         "trade_dt": "20260802",
-        "trade_tm": "142208",
-        "updated_at_fmt": "26.08.02 14:22",
-        "_updated_at_dt": "2026-08-02T14:22:08"
+        "trade_tm": "192654",
+        "updated_at_fmt": "26.08.02 19:26",
+        "_updated_at_dt": "2026-08-02T19:26:54"
       }
     },
     "primary_price_today": "1852원/L"
@@ -2215,14 +2215,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012399",
     "trade_dt": "20260802",
-    "trade_tm": "102523",
+    "trade_tm": "171607",
     "gasoline_price_today": "1859원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "매봉주유소",
     "opinet_new_adr": "충북 청주시 서원구 현도면 청남로 193",
     "price_num": 1859,
-    "updated_at_fmt": "26.08.02 10:25",
-    "_updated_at_dt": "2026-08-02T10:25:23",
+    "updated_at_fmt": "26.08.02 17:16",
+    "_updated_at_dt": "2026-08-02T17:16:07",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2232,18 +2232,18 @@
         "price_text": "1859원/L",
         "price_num": 1859,
         "trade_dt": "20260802",
-        "trade_tm": "102523",
-        "updated_at_fmt": "26.08.02 10:25",
-        "_updated_at_dt": "2026-08-02T10:25:23"
+        "trade_tm": "171607",
+        "updated_at_fmt": "26.08.02 17:16",
+        "_updated_at_dt": "2026-08-02T17:16:07"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1829원/L",
         "price_num": 1829,
         "trade_dt": "20260802",
-        "trade_tm": "142700",
-        "updated_at_fmt": "26.08.02 14:27",
-        "_updated_at_dt": "2026-08-02T14:27:00"
+        "trade_tm": "175022",
+        "updated_at_fmt": "26.08.02 17:50",
+        "_updated_at_dt": "2026-08-02T17:50:22"
       }
     },
     "primary_price_today": "1859원/L"
@@ -2260,14 +2260,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017610",
     "trade_dt": "20260802",
-    "trade_tm": "110011",
+    "trade_tm": "181647",
     "gasoline_price_today": "1858원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "(주)문의IC주유소",
     "opinet_new_adr": "충북 청주시 상당구 문의면 미천고은로 63",
     "price_num": 1858,
-    "updated_at_fmt": "26.08.02 11:00",
-    "_updated_at_dt": "2026-08-02T11:00:11",
+    "updated_at_fmt": "26.08.02 18:16",
+    "_updated_at_dt": "2026-08-02T18:16:47",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2277,27 +2277,27 @@
         "price_text": "1858원/L",
         "price_num": 1858,
         "trade_dt": "20260802",
-        "trade_tm": "110011",
-        "updated_at_fmt": "26.08.02 11:00",
-        "_updated_at_dt": "2026-08-02T11:00:11"
+        "trade_tm": "181647",
+        "updated_at_fmt": "26.08.02 18:16",
+        "_updated_at_dt": "2026-08-02T18:16:47"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1799원/L",
         "price_num": 1799,
         "trade_dt": "20260802",
-        "trade_tm": "110828",
-        "updated_at_fmt": "26.08.02 11:08",
-        "_updated_at_dt": "2026-08-02T11:08:28"
+        "trade_tm": "180145",
+        "updated_at_fmt": "26.08.02 18:01",
+        "_updated_at_dt": "2026-08-02T18:01:45"
       },
       "고급휘발유": {
         "product_code": "B034",
         "price_text": "2298원/L",
         "price_num": 2298,
         "trade_dt": "20260802",
-        "trade_tm": "113624",
-        "updated_at_fmt": "26.08.02 11:36",
-        "_updated_at_dt": "2026-08-02T11:36:24"
+        "trade_tm": "193951",
+        "updated_at_fmt": "26.08.02 19:39",
+        "_updated_at_dt": "2026-08-02T19:39:51"
       }
     },
     "primary_price_today": "1858원/L"
@@ -2313,15 +2313,15 @@
     "longitude": 127.449955,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011967",
-    "trade_dt": "20260802",
-    "trade_tm": "110355",
+    "trade_dt": "20260803",
+    "trade_tm": "001213",
     "gasoline_price_today": "1859원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "미래주유소",
     "opinet_new_adr": "충북 청주시 서원구 성봉로 234-2",
     "price_num": 1859,
-    "updated_at_fmt": "26.08.02 11:03",
-    "_updated_at_dt": "2026-08-02T11:03:55",
+    "updated_at_fmt": "26.08.03 00:12",
+    "_updated_at_dt": "2026-08-03T00:12:13",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2330,19 +2330,19 @@
         "product_code": "B027",
         "price_text": "1859원/L",
         "price_num": 1859,
-        "trade_dt": "20260802",
-        "trade_tm": "110355",
-        "updated_at_fmt": "26.08.02 11:03",
-        "_updated_at_dt": "2026-08-02T11:03:55"
+        "trade_dt": "20260803",
+        "trade_tm": "001213",
+        "updated_at_fmt": "26.08.03 00:12",
+        "_updated_at_dt": "2026-08-03T00:12:13"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1849원/L",
         "price_num": 1849,
         "trade_dt": "20260802",
-        "trade_tm": "111324",
-        "updated_at_fmt": "26.08.02 11:13",
-        "_updated_at_dt": "2026-08-02T11:13:24"
+        "trade_tm": "190142",
+        "updated_at_fmt": "26.08.02 19:01",
+        "_updated_at_dt": "2026-08-02T19:01:42"
       }
     },
     "primary_price_today": "1859원/L"
@@ -2359,14 +2359,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012379",
     "trade_dt": "20260802",
-    "trade_tm": "110949",
+    "trade_tm": "153548",
     "gasoline_price_today": "1899원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "미평주유소",
     "opinet_new_adr": "충북 청주시 서원구 청남로 1911",
     "price_num": 1899,
-    "updated_at_fmt": "26.08.02 11:09",
-    "_updated_at_dt": "2026-08-02T11:09:49",
+    "updated_at_fmt": "26.08.02 15:35",
+    "_updated_at_dt": "2026-08-02T15:35:48",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2376,18 +2376,18 @@
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "110949",
-        "updated_at_fmt": "26.08.02 11:09",
-        "_updated_at_dt": "2026-08-02T11:09:49"
+        "trade_tm": "153548",
+        "updated_at_fmt": "26.08.02 15:35",
+        "_updated_at_dt": "2026-08-02T15:35:48"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1889원/L",
         "price_num": 1889,
         "trade_dt": "20260802",
-        "trade_tm": "120432",
-        "updated_at_fmt": "26.08.02 12:04",
-        "_updated_at_dt": "2026-08-02T12:04:32"
+        "trade_tm": "191354",
+        "updated_at_fmt": "26.08.02 19:13",
+        "_updated_at_dt": "2026-08-02T19:13:54"
       }
     },
     "primary_price_today": "1899원/L"
@@ -2404,14 +2404,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012257",
     "trade_dt": "20260802",
-    "trade_tm": "143146",
+    "trade_tm": "181414",
     "gasoline_price_today": "1909원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "보성주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 사운로 392-2 (신봉동)",
     "price_num": 1909,
-    "updated_at_fmt": "26.08.02 14:31",
-    "_updated_at_dt": "2026-08-02T14:31:46",
+    "updated_at_fmt": "26.08.02 18:14",
+    "_updated_at_dt": "2026-08-02T18:14:14",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2421,18 +2421,18 @@
         "price_text": "1909원/L",
         "price_num": 1909,
         "trade_dt": "20260802",
-        "trade_tm": "143146",
-        "updated_at_fmt": "26.08.02 14:31",
-        "_updated_at_dt": "2026-08-02T14:31:46"
+        "trade_tm": "181414",
+        "updated_at_fmt": "26.08.02 18:14",
+        "_updated_at_dt": "2026-08-02T18:14:14"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1909원/L",
         "price_num": 1909,
         "trade_dt": "20260802",
-        "trade_tm": "135031",
-        "updated_at_fmt": "26.08.02 13:50",
-        "_updated_at_dt": "2026-08-02T13:50:31"
+        "trade_tm": "181230",
+        "updated_at_fmt": "26.08.02 18:12",
+        "_updated_at_dt": "2026-08-02T18:12:30"
       }
     },
     "primary_price_today": "1909원/L"
@@ -2472,14 +2472,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012401",
     "trade_dt": "20260802",
-    "trade_tm": "145959",
+    "trade_tm": "205202",
     "gasoline_price_today": "1866원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "삼거리주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 오송읍 오송가락로 422",
     "price_num": 1866,
-    "updated_at_fmt": "26.08.02 14:59",
-    "_updated_at_dt": "2026-08-02T14:59:59",
+    "updated_at_fmt": "26.08.02 20:52",
+    "_updated_at_dt": "2026-08-02T20:52:02",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2489,18 +2489,18 @@
         "price_text": "1866원/L",
         "price_num": 1866,
         "trade_dt": "20260802",
-        "trade_tm": "145959",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:59"
+        "trade_tm": "205202",
+        "updated_at_fmt": "26.08.02 20:52",
+        "_updated_at_dt": "2026-08-02T20:52:02"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1846원/L",
         "price_num": 1846,
         "trade_dt": "20260802",
-        "trade_tm": "142340",
-        "updated_at_fmt": "26.08.02 14:23",
-        "_updated_at_dt": "2026-08-02T14:23:40"
+        "trade_tm": "201643",
+        "updated_at_fmt": "26.08.02 20:16",
+        "_updated_at_dt": "2026-08-02T20:16:43"
       }
     },
     "primary_price_today": "1866원/L"
@@ -2517,14 +2517,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0011975",
     "trade_dt": "20260802",
-    "trade_tm": "140504",
+    "trade_tm": "212113",
     "gasoline_price_today": "1857원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "삼보주유소",
     "opinet_new_adr": "충북 청주시 청원구 북이면 충청대로 1524",
     "price_num": 1857,
-    "updated_at_fmt": "26.08.02 14:05",
-    "_updated_at_dt": "2026-08-02T14:05:04",
+    "updated_at_fmt": "26.08.02 21:21",
+    "_updated_at_dt": "2026-08-02T21:21:13",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2534,18 +2534,18 @@
         "price_text": "1857원/L",
         "price_num": 1857,
         "trade_dt": "20260802",
-        "trade_tm": "140504",
-        "updated_at_fmt": "26.08.02 14:05",
-        "_updated_at_dt": "2026-08-02T14:05:04"
+        "trade_tm": "212113",
+        "updated_at_fmt": "26.08.02 21:21",
+        "_updated_at_dt": "2026-08-02T21:21:13"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1827원/L",
         "price_num": 1827,
         "trade_dt": "20260802",
-        "trade_tm": "142518",
-        "updated_at_fmt": "26.08.02 14:25",
-        "_updated_at_dt": "2026-08-02T14:25:18"
+        "trade_tm": "155455",
+        "updated_at_fmt": "26.08.02 15:54",
+        "_updated_at_dt": "2026-08-02T15:54:55"
       }
     },
     "primary_price_today": "1857원/L"
@@ -2561,15 +2561,15 @@
     "longitude": 127.457384,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012464",
-    "trade_dt": "20260802",
-    "trade_tm": "145815",
+    "trade_dt": "20260803",
+    "trade_tm": "004558",
     "gasoline_price_today": "1830원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "서원경주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 직지대로 579 (봉명동)",
     "price_num": 1830,
-    "updated_at_fmt": "26.08.02 14:58",
-    "_updated_at_dt": "2026-08-02T14:58:15",
+    "updated_at_fmt": "26.08.03 00:45",
+    "_updated_at_dt": "2026-08-03T00:45:58",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2578,28 +2578,28 @@
         "product_code": "B034",
         "price_text": "2267원/L",
         "price_num": 2267,
-        "trade_dt": "20260802",
-        "trade_tm": "142106",
-        "updated_at_fmt": "26.08.02 14:21",
-        "_updated_at_dt": "2026-08-02T14:21:06"
+        "trade_dt": "20260803",
+        "trade_tm": "005614",
+        "updated_at_fmt": "26.08.03 00:56",
+        "_updated_at_dt": "2026-08-03T00:56:14"
       },
       "휘발유": {
         "product_code": "B027",
         "price_text": "1830원/L",
         "price_num": 1830,
-        "trade_dt": "20260802",
-        "trade_tm": "145815",
-        "updated_at_fmt": "26.08.02 14:58",
-        "_updated_at_dt": "2026-08-02T14:58:15"
+        "trade_dt": "20260803",
+        "trade_tm": "004558",
+        "updated_at_fmt": "26.08.03 00:45",
+        "_updated_at_dt": "2026-08-03T00:45:58"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1820원/L",
         "price_num": 1820,
         "trade_dt": "20260802",
-        "trade_tm": "144938",
-        "updated_at_fmt": "26.08.02 14:49",
-        "_updated_at_dt": "2026-08-02T14:49:38"
+        "trade_tm": "231848",
+        "updated_at_fmt": "26.08.02 23:18",
+        "_updated_at_dt": "2026-08-02T23:18:48"
       }
     },
     "primary_price_today": "1830원/L"
@@ -2616,14 +2616,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0016902",
     "trade_dt": "20260802",
-    "trade_tm": "143729",
+    "trade_tm": "203027",
     "gasoline_price_today": "1889원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "석화주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 충청대로 849-5",
     "price_num": 1889,
-    "updated_at_fmt": "26.08.02 14:37",
-    "_updated_at_dt": "2026-08-02T14:37:29",
+    "updated_at_fmt": "26.08.02 20:30",
+    "_updated_at_dt": "2026-08-02T20:30:27",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2633,18 +2633,18 @@
         "price_text": "1889원/L",
         "price_num": 1889,
         "trade_dt": "20260802",
-        "trade_tm": "143729",
-        "updated_at_fmt": "26.08.02 14:37",
-        "_updated_at_dt": "2026-08-02T14:37:29"
+        "trade_tm": "203027",
+        "updated_at_fmt": "26.08.02 20:30",
+        "_updated_at_dt": "2026-08-02T20:30:27"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1889원/L",
         "price_num": 1889,
         "trade_dt": "20260802",
-        "trade_tm": "141706",
-        "updated_at_fmt": "26.08.02 14:17",
-        "_updated_at_dt": "2026-08-02T14:17:06"
+        "trade_tm": "174322",
+        "updated_at_fmt": "26.08.02 17:43",
+        "_updated_at_dt": "2026-08-02T17:43:22"
       }
     },
     "primary_price_today": "1889원/L"
@@ -2661,14 +2661,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012179",
     "trade_dt": "20260802",
-    "trade_tm": "131440",
+    "trade_tm": "194026",
     "gasoline_price_today": "1879원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "선명주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 단재로 2670",
     "price_num": 1879,
-    "updated_at_fmt": "26.08.02 13:14",
-    "_updated_at_dt": "2026-08-02T13:14:40",
+    "updated_at_fmt": "26.08.02 19:40",
+    "_updated_at_dt": "2026-08-02T19:40:26",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2678,18 +2678,18 @@
         "price_text": "1879원/L",
         "price_num": 1879,
         "trade_dt": "20260802",
-        "trade_tm": "131440",
-        "updated_at_fmt": "26.08.02 13:14",
-        "_updated_at_dt": "2026-08-02T13:14:40"
+        "trade_tm": "194026",
+        "updated_at_fmt": "26.08.02 19:40",
+        "_updated_at_dt": "2026-08-02T19:40:26"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1869원/L",
         "price_num": 1869,
         "trade_dt": "20260802",
-        "trade_tm": "122231",
-        "updated_at_fmt": "26.08.02 12:22",
-        "_updated_at_dt": "2026-08-02T12:22:31"
+        "trade_tm": "185335",
+        "updated_at_fmt": "26.08.02 18:53",
+        "_updated_at_dt": "2026-08-02T18:53:35"
       }
     },
     "primary_price_today": "1879원/L"
@@ -2841,14 +2841,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012352",
     "trade_dt": "20260802",
-    "trade_tm": "103419",
+    "trade_tm": "202106",
     "gasoline_price_today": "1858원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "세종주유소",
     "opinet_new_adr": "충북 청주시 서원구 사운로180번길 32",
     "price_num": 1858,
-    "updated_at_fmt": "26.08.02 10:34",
-    "_updated_at_dt": "2026-08-02T10:34:19",
+    "updated_at_fmt": "26.08.02 20:21",
+    "_updated_at_dt": "2026-08-02T20:21:06",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2858,18 +2858,18 @@
         "price_text": "1858원/L",
         "price_num": 1858,
         "trade_dt": "20260802",
-        "trade_tm": "103419",
-        "updated_at_fmt": "26.08.02 10:34",
-        "_updated_at_dt": "2026-08-02T10:34:19"
+        "trade_tm": "202106",
+        "updated_at_fmt": "26.08.02 20:21",
+        "_updated_at_dt": "2026-08-02T20:21:06"
       },
       "경유": {
         "product_code": "D047",
-        "price_text": "1848원/L",
-        "price_num": 1848,
+        "price_text": "1978원/L",
+        "price_num": 1978,
         "trade_dt": "20260802",
-        "trade_tm": "143448",
-        "updated_at_fmt": "26.08.02 14:34",
-        "_updated_at_dt": "2026-08-02T14:34:48"
+        "trade_tm": "213433",
+        "updated_at_fmt": "26.08.02 21:34",
+        "_updated_at_dt": "2026-08-02T21:34:33"
       }
     },
     "primary_price_today": "1858원/L"
@@ -2885,15 +2885,15 @@
     "longitude": null,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012320",
-    "trade_dt": "20260802",
-    "trade_tm": "145919",
+    "trade_dt": "20260803",
+    "trade_tm": "000656",
     "gasoline_price_today": "1849원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "스마일주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 월명로48번길 3",
     "price_num": 1849,
-    "updated_at_fmt": "26.08.02 14:59",
-    "_updated_at_dt": "2026-08-02T14:59:19",
+    "updated_at_fmt": "26.08.03 00:06",
+    "_updated_at_dt": "2026-08-03T00:06:56",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2902,19 +2902,19 @@
         "product_code": "B027",
         "price_text": "1849원/L",
         "price_num": 1849,
-        "trade_dt": "20260802",
-        "trade_tm": "145919",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:19"
+        "trade_dt": "20260803",
+        "trade_tm": "000656",
+        "updated_at_fmt": "26.08.03 00:06",
+        "_updated_at_dt": "2026-08-03T00:06:56"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1809원/L",
         "price_num": 1809,
         "trade_dt": "20260802",
-        "trade_tm": "132037",
-        "updated_at_fmt": "26.08.02 13:20",
-        "_updated_at_dt": "2026-08-02T13:20:37"
+        "trade_tm": "235620",
+        "updated_at_fmt": "26.08.02 23:56",
+        "_updated_at_dt": "2026-08-02T23:56:20"
       }
     },
     "primary_price_today": "1849원/L"
@@ -2930,15 +2930,15 @@
     "longitude": 127.380985,
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012376",
-    "trade_dt": "20260802",
-    "trade_tm": "110510",
+    "trade_dt": "20260803",
+    "trade_tm": "000526",
     "gasoline_price_today": "1897원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "스마트주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 청주역로 563",
     "price_num": 1897,
-    "updated_at_fmt": "26.08.02 11:05",
-    "_updated_at_dt": "2026-08-02T11:05:10",
+    "updated_at_fmt": "26.08.03 00:05",
+    "_updated_at_dt": "2026-08-03T00:05:26",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2947,19 +2947,19 @@
         "product_code": "B027",
         "price_text": "1897원/L",
         "price_num": 1897,
-        "trade_dt": "20260802",
-        "trade_tm": "110510",
-        "updated_at_fmt": "26.08.02 11:05",
-        "_updated_at_dt": "2026-08-02T11:05:10"
+        "trade_dt": "20260803",
+        "trade_tm": "000526",
+        "updated_at_fmt": "26.08.03 00:05",
+        "_updated_at_dt": "2026-08-03T00:05:26"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1897원/L",
         "price_num": 1897,
         "trade_dt": "20260802",
-        "trade_tm": "083658",
-        "updated_at_fmt": "26.08.02 08:36",
-        "_updated_at_dt": "2026-08-02T08:36:58"
+        "trade_tm": "192043",
+        "updated_at_fmt": "26.08.02 19:20",
+        "_updated_at_dt": "2026-08-02T19:20:43"
       }
     },
     "primary_price_today": "1897원/L"
@@ -2976,14 +2976,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012036",
     "trade_dt": "20260802",
-    "trade_tm": "144718",
+    "trade_tm": "191740",
     "gasoline_price_today": "1940원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신나라주유소",
     "opinet_new_adr": "충북 청주시 청원구 새터로 53 (내덕동)",
     "price_num": 1940,
-    "updated_at_fmt": "26.08.02 14:47",
-    "_updated_at_dt": "2026-08-02T14:47:18",
+    "updated_at_fmt": "26.08.02 19:17",
+    "_updated_at_dt": "2026-08-02T19:17:40",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -2993,18 +2993,18 @@
         "price_text": "1940원/L",
         "price_num": 1940,
         "trade_dt": "20260802",
-        "trade_tm": "144718",
-        "updated_at_fmt": "26.08.02 14:47",
-        "_updated_at_dt": "2026-08-02T14:47:18"
+        "trade_tm": "191740",
+        "updated_at_fmt": "26.08.02 19:17",
+        "_updated_at_dt": "2026-08-02T19:17:40"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1930원/L",
         "price_num": 1930,
         "trade_dt": "20260802",
-        "trade_tm": "133520",
-        "updated_at_fmt": "26.08.02 13:35",
-        "_updated_at_dt": "2026-08-02T13:35:20"
+        "trade_tm": "201657",
+        "updated_at_fmt": "26.08.02 20:16",
+        "_updated_at_dt": "2026-08-02T20:16:57"
       }
     },
     "primary_price_today": "1940원/L"
@@ -3021,14 +3021,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017250",
     "trade_dt": "20260802",
-    "trade_tm": "105639",
+    "trade_tm": "175144",
     "gasoline_price_today": "1879원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신촌주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 오송가락로 545",
     "price_num": 1879,
-    "updated_at_fmt": "26.08.02 10:56",
-    "_updated_at_dt": "2026-08-02T10:56:39",
+    "updated_at_fmt": "26.08.02 17:51",
+    "_updated_at_dt": "2026-08-02T17:51:44",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3038,18 +3038,18 @@
         "price_text": "1879원/L",
         "price_num": 1879,
         "trade_dt": "20260802",
-        "trade_tm": "105639",
-        "updated_at_fmt": "26.08.02 10:56",
-        "_updated_at_dt": "2026-08-02T10:56:39"
+        "trade_tm": "175144",
+        "updated_at_fmt": "26.08.02 17:51",
+        "_updated_at_dt": "2026-08-02T17:51:44"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1869원/L",
         "price_num": 1869,
         "trade_dt": "20260802",
-        "trade_tm": "104133",
-        "updated_at_fmt": "26.08.02 10:41",
-        "_updated_at_dt": "2026-08-02T10:41:33"
+        "trade_tm": "165710",
+        "updated_at_fmt": "26.08.02 16:57",
+        "_updated_at_dt": "2026-08-02T16:57:10"
       }
     },
     "primary_price_today": "1879원/L"
@@ -3066,14 +3066,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017271",
     "trade_dt": "20260802",
-    "trade_tm": "145341",
+    "trade_tm": "192353",
     "gasoline_price_today": "1878원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신풍주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 단재로 2079",
     "price_num": 1878,
-    "updated_at_fmt": "26.08.02 14:53",
-    "_updated_at_dt": "2026-08-02T14:53:41",
+    "updated_at_fmt": "26.08.02 19:23",
+    "_updated_at_dt": "2026-08-02T19:23:53",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3083,18 +3083,18 @@
         "price_text": "1878원/L",
         "price_num": 1878,
         "trade_dt": "20260802",
-        "trade_tm": "145341",
-        "updated_at_fmt": "26.08.02 14:53",
-        "_updated_at_dt": "2026-08-02T14:53:41"
+        "trade_tm": "192353",
+        "updated_at_fmt": "26.08.02 19:23",
+        "_updated_at_dt": "2026-08-02T19:23:53"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1828원/L",
         "price_num": 1828,
         "trade_dt": "20260802",
-        "trade_tm": "145054",
-        "updated_at_fmt": "26.08.02 14:50",
-        "_updated_at_dt": "2026-08-02T14:50:54"
+        "trade_tm": "193716",
+        "updated_at_fmt": "26.08.02 19:37",
+        "_updated_at_dt": "2026-08-02T19:37:16"
       }
     },
     "primary_price_today": "1878원/L"
@@ -3134,14 +3134,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017246",
     "trade_dt": "20260802",
-    "trade_tm": "144539",
+    "trade_tm": "200205",
     "gasoline_price_today": "1847원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "신흥주유소",
     "opinet_new_adr": "충북 청주시 청원구 2순환로 96 (율량동)",
     "price_num": 1847,
-    "updated_at_fmt": "26.08.02 14:45",
-    "_updated_at_dt": "2026-08-02T14:45:39",
+    "updated_at_fmt": "26.08.02 20:02",
+    "_updated_at_dt": "2026-08-02T20:02:05",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3151,27 +3151,27 @@
         "price_text": "1847원/L",
         "price_num": 1847,
         "trade_dt": "20260802",
-        "trade_tm": "144539",
-        "updated_at_fmt": "26.08.02 14:45",
-        "_updated_at_dt": "2026-08-02T14:45:39"
+        "trade_tm": "200205",
+        "updated_at_fmt": "26.08.02 20:02",
+        "_updated_at_dt": "2026-08-02T20:02:05"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1847원/L",
         "price_num": 1847,
         "trade_dt": "20260802",
-        "trade_tm": "144618",
-        "updated_at_fmt": "26.08.02 14:46",
-        "_updated_at_dt": "2026-08-02T14:46:18"
+        "trade_tm": "194923",
+        "updated_at_fmt": "26.08.02 19:49",
+        "_updated_at_dt": "2026-08-02T19:49:23"
       },
       "고급휘발유": {
         "product_code": "B034",
         "price_text": "2287원/L",
         "price_num": 2287,
         "trade_dt": "20260802",
-        "trade_tm": "115913",
-        "updated_at_fmt": "26.08.02 11:59",
-        "_updated_at_dt": "2026-08-02T11:59:13"
+        "trade_tm": "195640",
+        "updated_at_fmt": "26.08.02 19:56",
+        "_updated_at_dt": "2026-08-02T19:56:40"
       }
     },
     "primary_price_today": "1847원/L"
@@ -3188,14 +3188,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017203",
     "trade_dt": "20260802",
-    "trade_tm": "144853",
+    "trade_tm": "204149",
     "gasoline_price_today": "1849원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "약수주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 단재로 2864",
     "price_num": 1849,
-    "updated_at_fmt": "26.08.02 14:48",
-    "_updated_at_dt": "2026-08-02T14:48:53",
+    "updated_at_fmt": "26.08.02 20:41",
+    "_updated_at_dt": "2026-08-02T20:41:49",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3205,18 +3205,18 @@
         "price_text": "1849원/L",
         "price_num": 1849,
         "trade_dt": "20260802",
-        "trade_tm": "144853",
-        "updated_at_fmt": "26.08.02 14:48",
-        "_updated_at_dt": "2026-08-02T14:48:53"
+        "trade_tm": "204149",
+        "updated_at_fmt": "26.08.02 20:41",
+        "_updated_at_dt": "2026-08-02T20:41:49"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1849원/L",
         "price_num": 1849,
         "trade_dt": "20260802",
-        "trade_tm": "135441",
-        "updated_at_fmt": "26.08.02 13:54",
-        "_updated_at_dt": "2026-08-02T13:54:41"
+        "trade_tm": "154736",
+        "updated_at_fmt": "26.08.02 15:47",
+        "_updated_at_dt": "2026-08-02T15:47:36"
       }
     },
     "primary_price_today": "1849원/L"
@@ -3233,14 +3233,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012079",
     "trade_dt": "20260802",
-    "trade_tm": "145517",
+    "trade_tm": "230049",
     "gasoline_price_today": "1839원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "연일주유소",
     "opinet_new_adr": "충북 청주시 상당구 남일면 단재로 515",
     "price_num": 1839,
-    "updated_at_fmt": "26.08.02 14:55",
-    "_updated_at_dt": "2026-08-02T14:55:17",
+    "updated_at_fmt": "26.08.02 23:00",
+    "_updated_at_dt": "2026-08-02T23:00:49",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3250,18 +3250,18 @@
         "price_text": "1839원/L",
         "price_num": 1839,
         "trade_dt": "20260802",
-        "trade_tm": "145517",
-        "updated_at_fmt": "26.08.02 14:55",
-        "_updated_at_dt": "2026-08-02T14:55:17"
+        "trade_tm": "230049",
+        "updated_at_fmt": "26.08.02 23:00",
+        "_updated_at_dt": "2026-08-02T23:00:49"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1829원/L",
         "price_num": 1829,
         "trade_dt": "20260802",
-        "trade_tm": "141441",
-        "updated_at_fmt": "26.08.02 14:14",
-        "_updated_at_dt": "2026-08-02T14:14:41"
+        "trade_tm": "224256",
+        "updated_at_fmt": "26.08.02 22:42",
+        "_updated_at_dt": "2026-08-02T22:42:56"
       }
     },
     "primary_price_today": "1839원/L"
@@ -3278,14 +3278,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012054",
     "trade_dt": "20260802",
-    "trade_tm": "112954",
+    "trade_tm": "191432",
     "gasoline_price_today": "1959원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "오대주유소",
     "opinet_new_adr": "충북 청주시 청원구 내수읍 초정약수로 813",
     "price_num": 1959,
-    "updated_at_fmt": "26.08.02 11:29",
-    "_updated_at_dt": "2026-08-02T11:29:54",
+    "updated_at_fmt": "26.08.02 19:14",
+    "_updated_at_dt": "2026-08-02T19:14:32",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3295,18 +3295,18 @@
         "price_text": "1959원/L",
         "price_num": 1959,
         "trade_dt": "20260802",
-        "trade_tm": "112954",
-        "updated_at_fmt": "26.08.02 11:29",
-        "_updated_at_dt": "2026-08-02T11:29:54"
+        "trade_tm": "191432",
+        "updated_at_fmt": "26.08.02 19:14",
+        "_updated_at_dt": "2026-08-02T19:14:32"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1959원/L",
         "price_num": 1959,
         "trade_dt": "20260802",
-        "trade_tm": "123024",
-        "updated_at_fmt": "26.08.02 12:30",
-        "_updated_at_dt": "2026-08-02T12:30:24"
+        "trade_tm": "152108",
+        "updated_at_fmt": "26.08.02 15:21",
+        "_updated_at_dt": "2026-08-02T15:21:08"
       }
     },
     "primary_price_today": "1959원/L"
@@ -3323,14 +3323,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017334",
     "trade_dt": "20260802",
-    "trade_tm": "144442",
+    "trade_tm": "174526",
     "gasoline_price_today": "1899원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "오미주유소(유공)",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 청주역로 626",
     "price_num": 1899,
-    "updated_at_fmt": "26.08.02 14:44",
-    "_updated_at_dt": "2026-08-02T14:44:42",
+    "updated_at_fmt": "26.08.02 17:45",
+    "_updated_at_dt": "2026-08-02T17:45:26",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3340,18 +3340,18 @@
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "144442",
-        "updated_at_fmt": "26.08.02 14:44",
-        "_updated_at_dt": "2026-08-02T14:44:42"
+        "trade_tm": "174526",
+        "updated_at_fmt": "26.08.02 17:45",
+        "_updated_at_dt": "2026-08-02T17:45:26"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "143908",
-        "updated_at_fmt": "26.08.02 14:39",
-        "_updated_at_dt": "2026-08-02T14:39:08"
+        "trade_tm": "173734",
+        "updated_at_fmt": "26.08.02 17:37",
+        "_updated_at_dt": "2026-08-02T17:37:34"
       }
     },
     "primary_price_today": "1899원/L"
@@ -3458,14 +3458,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012394",
     "trade_dt": "20260802",
-    "trade_tm": "111038",
+    "trade_tm": "164257",
     "gasoline_price_today": "1875원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "운암주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 남부로 6605",
     "price_num": 1875,
-    "updated_at_fmt": "26.08.02 11:10",
-    "_updated_at_dt": "2026-08-02T11:10:38",
+    "updated_at_fmt": "26.08.02 16:42",
+    "_updated_at_dt": "2026-08-02T16:42:57",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3475,18 +3475,18 @@
         "price_text": "1875원/L",
         "price_num": 1875,
         "trade_dt": "20260802",
-        "trade_tm": "111038",
-        "updated_at_fmt": "26.08.02 11:10",
-        "_updated_at_dt": "2026-08-02T11:10:38"
+        "trade_tm": "164257",
+        "updated_at_fmt": "26.08.02 16:42",
+        "_updated_at_dt": "2026-08-02T16:42:57"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1875원/L",
         "price_num": 1875,
         "trade_dt": "20260802",
-        "trade_tm": "112215",
-        "updated_at_fmt": "26.08.02 11:22",
-        "_updated_at_dt": "2026-08-02T11:22:15"
+        "trade_tm": "150137",
+        "updated_at_fmt": "26.08.02 15:01",
+        "_updated_at_dt": "2026-08-02T15:01:37"
       }
     },
     "primary_price_today": "1875원/L"
@@ -3708,14 +3708,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012240",
     "trade_dt": "20260802",
-    "trade_tm": "144625",
+    "trade_tm": "205241",
     "gasoline_price_today": "1898원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "죽림주유소",
     "opinet_new_adr": "충북 청주시 서원구 대림로 451 (죽림동)",
     "price_num": 1898,
-    "updated_at_fmt": "26.08.02 14:46",
-    "_updated_at_dt": "2026-08-02T14:46:25",
+    "updated_at_fmt": "26.08.02 20:52",
+    "_updated_at_dt": "2026-08-02T20:52:41",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3725,27 +3725,27 @@
         "price_text": "2398원/L",
         "price_num": 2398,
         "trade_dt": "20260802",
-        "trade_tm": "082803",
-        "updated_at_fmt": "26.08.02 08:28",
-        "_updated_at_dt": "2026-08-02T08:28:03"
+        "trade_tm": "193732",
+        "updated_at_fmt": "26.08.02 19:37",
+        "_updated_at_dt": "2026-08-02T19:37:32"
       },
       "휘발유": {
         "product_code": "B027",
         "price_text": "1898원/L",
         "price_num": 1898,
         "trade_dt": "20260802",
-        "trade_tm": "144625",
-        "updated_at_fmt": "26.08.02 14:46",
-        "_updated_at_dt": "2026-08-02T14:46:25"
+        "trade_tm": "205241",
+        "updated_at_fmt": "26.08.02 20:52",
+        "_updated_at_dt": "2026-08-02T20:52:41"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1878원/L",
         "price_num": 1878,
         "trade_dt": "20260802",
-        "trade_tm": "145258",
-        "updated_at_fmt": "26.08.02 14:52",
-        "_updated_at_dt": "2026-08-02T14:52:58"
+        "trade_tm": "213151",
+        "updated_at_fmt": "26.08.02 21:31",
+        "_updated_at_dt": "2026-08-02T21:31:51"
       }
     },
     "primary_price_today": "1898원/L"
@@ -3762,14 +3762,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017170",
     "trade_dt": "20260802",
-    "trade_tm": "134800",
+    "trade_tm": "191908",
     "gasoline_price_today": "1884원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "지산주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 산성로 1143",
     "price_num": 1884,
-    "updated_at_fmt": "26.08.02 13:48",
-    "_updated_at_dt": "2026-08-02T13:48:00",
+    "updated_at_fmt": "26.08.02 19:19",
+    "_updated_at_dt": "2026-08-02T19:19:08",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3779,18 +3779,18 @@
         "price_text": "1884원/L",
         "price_num": 1884,
         "trade_dt": "20260802",
-        "trade_tm": "134800",
-        "updated_at_fmt": "26.08.02 13:48",
-        "_updated_at_dt": "2026-08-02T13:48:00"
+        "trade_tm": "191908",
+        "updated_at_fmt": "26.08.02 19:19",
+        "_updated_at_dt": "2026-08-02T19:19:08"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1873원/L",
         "price_num": 1873,
         "trade_dt": "20260802",
-        "trade_tm": "115600",
-        "updated_at_fmt": "26.08.02 11:56",
-        "_updated_at_dt": "2026-08-02T11:56:00"
+        "trade_tm": "195722",
+        "updated_at_fmt": "26.08.02 19:57",
+        "_updated_at_dt": "2026-08-02T19:57:22"
       }
     },
     "primary_price_today": "1884원/L"
@@ -3807,14 +3807,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017232",
     "trade_dt": "20260802",
-    "trade_tm": "145154",
+    "trade_tm": "194640",
     "gasoline_price_today": "1898원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "진영주유가스충전소",
     "opinet_new_adr": "충북 청주시 상당구 미천고은로 152",
     "price_num": 1898,
-    "updated_at_fmt": "26.08.02 14:51",
-    "_updated_at_dt": "2026-08-02T14:51:54",
+    "updated_at_fmt": "26.08.02 19:46",
+    "_updated_at_dt": "2026-08-02T19:46:40",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3824,36 +3824,36 @@
         "price_text": "1898원/L",
         "price_num": 1898,
         "trade_dt": "20260802",
-        "trade_tm": "145154",
-        "updated_at_fmt": "26.08.02 14:51",
-        "_updated_at_dt": "2026-08-02T14:51:54"
+        "trade_tm": "194640",
+        "updated_at_fmt": "26.08.02 19:46",
+        "_updated_at_dt": "2026-08-02T19:46:40"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1858원/L",
         "price_num": 1858,
         "trade_dt": "20260802",
-        "trade_tm": "144238",
-        "updated_at_fmt": "26.08.02 14:42",
-        "_updated_at_dt": "2026-08-02T14:42:38"
+        "trade_tm": "211356",
+        "updated_at_fmt": "26.08.02 21:13",
+        "_updated_at_dt": "2026-08-02T21:13:56"
       },
       "LPG": {
         "product_code": "K015",
-        "price_text": "1071원/L",
-        "price_num": 1071,
-        "trade_dt": "20260802",
-        "trade_tm": "144934",
-        "updated_at_fmt": "26.08.02 14:49",
-        "_updated_at_dt": "2026-08-02T14:49:34"
+        "price_text": "1031원/L",
+        "price_num": 1031,
+        "trade_dt": "20260803",
+        "trade_tm": "000305",
+        "updated_at_fmt": "26.08.03 00:03",
+        "_updated_at_dt": "2026-08-03T00:03:05"
       },
       "고급휘발유": {
         "product_code": "B034",
         "price_text": "2298원/L",
         "price_num": 2298,
         "trade_dt": "20260802",
-        "trade_tm": "143056",
-        "updated_at_fmt": "26.08.02 14:30",
-        "_updated_at_dt": "2026-08-02T14:30:56"
+        "trade_tm": "180525",
+        "updated_at_fmt": "26.08.02 18:05",
+        "_updated_at_dt": "2026-08-02T18:05:25"
       }
     },
     "primary_price_today": "1898원/L"
@@ -3915,14 +3915,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0007586",
     "trade_dt": "20260802",
-    "trade_tm": "110049",
+    "trade_tm": "181351",
     "gasoline_price_today": "1843원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "탑주유소",
     "opinet_new_adr": "충북 청주시 상당구 대성로 169-1",
     "price_num": 1843,
-    "updated_at_fmt": "26.08.02 11:00",
-    "_updated_at_dt": "2026-08-02T11:00:49",
+    "updated_at_fmt": "26.08.02 18:13",
+    "_updated_at_dt": "2026-08-02T18:13:51",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3932,18 +3932,18 @@
         "price_text": "1843원/L",
         "price_num": 1843,
         "trade_dt": "20260802",
-        "trade_tm": "110049",
-        "updated_at_fmt": "26.08.02 11:00",
-        "_updated_at_dt": "2026-08-02T11:00:49"
+        "trade_tm": "181351",
+        "updated_at_fmt": "26.08.02 18:13",
+        "_updated_at_dt": "2026-08-02T18:13:51"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1828원/L",
         "price_num": 1828,
         "trade_dt": "20260802",
-        "trade_tm": "114604",
-        "updated_at_fmt": "26.08.02 11:46",
-        "_updated_at_dt": "2026-08-02T11:46:04"
+        "trade_tm": "180231",
+        "updated_at_fmt": "26.08.02 18:02",
+        "_updated_at_dt": "2026-08-02T18:02:31"
       }
     },
     "primary_price_today": "1843원/L"
@@ -3960,14 +3960,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012392",
     "trade_dt": "20260802",
-    "trade_tm": "110810",
+    "trade_tm": "181036",
     "gasoline_price_today": "1839원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "태성주유소",
     "opinet_new_adr": "충북 청주시 상당구 미원면 구방5길 2",
     "price_num": 1839,
-    "updated_at_fmt": "26.08.02 11:08",
-    "_updated_at_dt": "2026-08-02T11:08:10",
+    "updated_at_fmt": "26.08.02 18:10",
+    "_updated_at_dt": "2026-08-02T18:10:36",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -3977,18 +3977,18 @@
         "price_text": "1839원/L",
         "price_num": 1839,
         "trade_dt": "20260802",
-        "trade_tm": "110810",
-        "updated_at_fmt": "26.08.02 11:08",
-        "_updated_at_dt": "2026-08-02T11:08:10"
+        "trade_tm": "181036",
+        "updated_at_fmt": "26.08.02 18:10",
+        "_updated_at_dt": "2026-08-02T18:10:36"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1809원/L",
         "price_num": 1809,
         "trade_dt": "20260802",
-        "trade_tm": "110744",
-        "updated_at_fmt": "26.08.02 11:07",
-        "_updated_at_dt": "2026-08-02T11:07:44"
+        "trade_tm": "184304",
+        "updated_at_fmt": "26.08.02 18:43",
+        "_updated_at_dt": "2026-08-02T18:43:04"
       }
     },
     "primary_price_today": "1839원/L"
@@ -4050,14 +4050,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017239",
     "trade_dt": "20260802",
-    "trade_tm": "143002",
+    "trade_tm": "204035",
     "gasoline_price_today": "1939원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "테크노주유소",
     "opinet_new_adr": "충북 청주시 흥덕구 옥산면 중부로 532",
     "price_num": 1939,
-    "updated_at_fmt": "26.08.02 14:30",
-    "_updated_at_dt": "2026-08-02T14:30:02",
+    "updated_at_fmt": "26.08.02 20:40",
+    "_updated_at_dt": "2026-08-02T20:40:35",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -4067,18 +4067,18 @@
         "price_text": "1939원/L",
         "price_num": 1939,
         "trade_dt": "20260802",
-        "trade_tm": "143002",
-        "updated_at_fmt": "26.08.02 14:30",
-        "_updated_at_dt": "2026-08-02T14:30:02"
+        "trade_tm": "204035",
+        "updated_at_fmt": "26.08.02 20:40",
+        "_updated_at_dt": "2026-08-02T20:40:35"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1869원/L",
         "price_num": 1869,
         "trade_dt": "20260802",
-        "trade_tm": "145422",
-        "updated_at_fmt": "26.08.02 14:54",
-        "_updated_at_dt": "2026-08-02T14:54:22"
+        "trade_tm": "193119",
+        "updated_at_fmt": "26.08.02 19:31",
+        "_updated_at_dt": "2026-08-02T19:31:19"
       }
     },
     "primary_price_today": "1939원/L"
@@ -4112,9 +4112,9 @@
         "price_text": "1889원/L",
         "price_num": 1889,
         "trade_dt": "20260802",
-        "trade_tm": "110833",
-        "updated_at_fmt": "26.08.02 11:08",
-        "_updated_at_dt": "2026-08-02T11:08:33"
+        "trade_tm": "153325",
+        "updated_at_fmt": "26.08.02 15:33",
+        "_updated_at_dt": "2026-08-02T15:33:25"
       },
       "휘발유": {
         "product_code": "B027",
@@ -4140,14 +4140,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012378",
     "trade_dt": "20260802",
-    "trade_tm": "135306",
+    "trade_tm": "190356",
     "gasoline_price_today": "1899원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "평강주유소",
     "opinet_new_adr": "충북 청주시 서원구 사운로145번길 4 (사직동)",
     "price_num": 1899,
-    "updated_at_fmt": "26.08.02 13:53",
-    "_updated_at_dt": "2026-08-02T13:53:06",
+    "updated_at_fmt": "26.08.02 19:03",
+    "_updated_at_dt": "2026-08-02T19:03:56",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -4157,9 +4157,9 @@
         "price_text": "1899원/L",
         "price_num": 1899,
         "trade_dt": "20260802",
-        "trade_tm": "135306",
-        "updated_at_fmt": "26.08.02 13:53",
-        "_updated_at_dt": "2026-08-02T13:53:06"
+        "trade_tm": "190356",
+        "updated_at_fmt": "26.08.02 19:03",
+        "_updated_at_dt": "2026-08-02T19:03:56"
       },
       "경유": {
         "product_code": "D047",
@@ -4185,14 +4185,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012500",
     "trade_dt": "20260802",
-    "trade_tm": "145829",
+    "trade_tm": "234139",
     "gasoline_price_today": "1834원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행복에너지㈜ 행복에너지2주유소",
     "opinet_new_adr": "충북 청주시 서원구 청남로 1937 (미평동)",
     "price_num": 1834,
-    "updated_at_fmt": "26.08.02 14:58",
-    "_updated_at_dt": "2026-08-02T14:58:29",
+    "updated_at_fmt": "26.08.02 23:41",
+    "_updated_at_dt": "2026-08-02T23:41:39",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -4202,27 +4202,27 @@
         "price_text": "2389원/L",
         "price_num": 2389,
         "trade_dt": "20260802",
-        "trade_tm": "134127",
-        "updated_at_fmt": "26.08.02 13:41",
-        "_updated_at_dt": "2026-08-02T13:41:27"
+        "trade_tm": "234046",
+        "updated_at_fmt": "26.08.02 23:40",
+        "_updated_at_dt": "2026-08-02T23:40:46"
       },
       "휘발유": {
         "product_code": "B027",
         "price_text": "1834원/L",
         "price_num": 1834,
         "trade_dt": "20260802",
-        "trade_tm": "145829",
-        "updated_at_fmt": "26.08.02 14:58",
-        "_updated_at_dt": "2026-08-02T14:58:29"
+        "trade_tm": "234139",
+        "updated_at_fmt": "26.08.02 23:41",
+        "_updated_at_dt": "2026-08-02T23:41:39"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1822원/L",
         "price_num": 1822,
         "trade_dt": "20260802",
-        "trade_tm": "145939",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:39"
+        "trade_tm": "235446",
+        "updated_at_fmt": "26.08.02 23:54",
+        "_updated_at_dt": "2026-08-02T23:54:46"
       }
     },
     "primary_price_today": "1834원/L"
@@ -4239,14 +4239,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017198",
     "trade_dt": "20260802",
-    "trade_tm": "113846",
+    "trade_tm": "184754",
     "gasoline_price_today": "1844원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "행운주유소",
     "opinet_new_adr": "충북 청주시 상당구 낭성면 단재로 1778",
     "price_num": 1844,
-    "updated_at_fmt": "26.08.02 11:38",
-    "_updated_at_dt": "2026-08-02T11:38:46",
+    "updated_at_fmt": "26.08.02 18:47",
+    "_updated_at_dt": "2026-08-02T18:47:54",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -4256,18 +4256,18 @@
         "price_text": "1844원/L",
         "price_num": 1844,
         "trade_dt": "20260802",
-        "trade_tm": "113846",
-        "updated_at_fmt": "26.08.02 11:38",
-        "_updated_at_dt": "2026-08-02T11:38:46"
+        "trade_tm": "184754",
+        "updated_at_fmt": "26.08.02 18:47",
+        "_updated_at_dt": "2026-08-02T18:47:54"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1814원/L",
         "price_num": 1814,
         "trade_dt": "20260802",
-        "trade_tm": "120738",
-        "updated_at_fmt": "26.08.02 12:07",
-        "_updated_at_dt": "2026-08-02T12:07:38"
+        "trade_tm": "183826",
+        "updated_at_fmt": "26.08.02 18:38",
+        "_updated_at_dt": "2026-08-02T18:38:26"
       }
     },
     "primary_price_today": "1844원/L"
@@ -4284,14 +4284,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0012031",
     "trade_dt": "20260802",
-    "trade_tm": "145020",
+    "trade_tm": "184506",
     "gasoline_price_today": "1829원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "형제주유소",
     "opinet_new_adr": "충북 청주시 서원구 직지대로 738 (사직동)",
     "price_num": 1829,
-    "updated_at_fmt": "26.08.02 14:50",
-    "_updated_at_dt": "2026-08-02T14:50:20",
+    "updated_at_fmt": "26.08.02 18:45",
+    "_updated_at_dt": "2026-08-02T18:45:06",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -4301,18 +4301,18 @@
         "price_text": "1809원/L",
         "price_num": 1809,
         "trade_dt": "20260802",
-        "trade_tm": "142320",
-        "updated_at_fmt": "26.08.02 14:23",
-        "_updated_at_dt": "2026-08-02T14:23:20"
+        "trade_tm": "184425",
+        "updated_at_fmt": "26.08.02 18:44",
+        "_updated_at_dt": "2026-08-02T18:44:25"
       },
       "휘발유": {
         "product_code": "B027",
         "price_text": "1829원/L",
         "price_num": 1829,
         "trade_dt": "20260802",
-        "trade_tm": "145020",
-        "updated_at_fmt": "26.08.02 14:50",
-        "_updated_at_dt": "2026-08-02T14:50:20"
+        "trade_tm": "184506",
+        "updated_at_fmt": "26.08.02 18:45",
+        "_updated_at_dt": "2026-08-02T18:45:06"
       }
     },
     "primary_price_today": "1829원/L"
@@ -4329,14 +4329,14 @@
     "source_url": "https://search.konacard.co.kr/payable-merchants/cheongju",
     "opinet_uni_id": "A0017223",
     "trade_dt": "20260802",
-    "trade_tm": "144317",
+    "trade_tm": "205623",
     "gasoline_price_today": "1898원/L",
     "match_source": "Opinet API",
     "opinet_os_nm": "호반주유소",
     "opinet_new_adr": "충북 청주시 상당구 가덕면 미천고은로 118",
     "price_num": 1898,
-    "updated_at_fmt": "26.08.02 14:43",
-    "_updated_at_dt": "2026-08-02T14:43:17",
+    "updated_at_fmt": "26.08.02 20:56",
+    "_updated_at_dt": "2026-08-02T20:56:23",
     "payment_status": "청주페이 결제 가능",
     "opinet_product_code": "B027",
     "fuel_type": "휘발유",
@@ -4346,9 +4346,9 @@
         "price_text": "1898원/L",
         "price_num": 1898,
         "trade_dt": "20260802",
-        "trade_tm": "144317",
-        "updated_at_fmt": "26.08.02 14:43",
-        "_updated_at_dt": "2026-08-02T14:43:17"
+        "trade_tm": "205623",
+        "updated_at_fmt": "26.08.02 20:56",
+        "_updated_at_dt": "2026-08-02T20:56:23"
       },
       "경유": {
         "product_code": "D047",
@@ -4469,12 +4469,12 @@
     "match_source": "Kona Cheongju API + Opinet LPG",
     "latitude": "36.599474",
     "longitude": "127.504256",
-    "trade_dt": "20260802",
-    "trade_tm": "145102",
+    "trade_dt": "20260803",
+    "trade_tm": "005107",
     "gasoline_price_today": "",
     "price_num": 1080,
-    "updated_at_fmt": "26.08.02 14:51",
-    "_updated_at_dt": "2026-08-02T14:51:02",
+    "updated_at_fmt": "26.08.03 00:51",
+    "_updated_at_dt": "2026-08-03T00:51:07",
     "opinet_os_nm": "SK행복충전 남청주가스충전소",
     "opinet_gis_x": 355840.2,
     "opinet_gis_y": 444378.0,
@@ -4484,10 +4484,10 @@
         "product_code": "K015",
         "price_text": "1080원/L",
         "price_num": 1080,
-        "trade_dt": "20260802",
-        "trade_tm": "145102",
-        "updated_at_fmt": "26.08.02 14:51",
-        "_updated_at_dt": "2026-08-02T14:51:02"
+        "trade_dt": "20260803",
+        "trade_tm": "005107",
+        "updated_at_fmt": "26.08.03 00:51",
+        "_updated_at_dt": "2026-08-03T00:51:07"
       }
     },
     "primary_price_today": "1080원/L"
@@ -4510,11 +4510,11 @@
     "latitude": "36.774675",
     "longitude": "127.565589",
     "trade_dt": "20260802",
-    "trade_tm": "145814",
+    "trade_tm": "202745",
     "gasoline_price_today": "",
     "price_num": 1030,
-    "updated_at_fmt": "26.08.02 14:58",
-    "_updated_at_dt": "2026-08-02T14:58:14",
+    "updated_at_fmt": "26.08.02 20:27",
+    "_updated_at_dt": "2026-08-02T20:27:45",
     "opinet_os_nm": "SK행복충전 (주)동원엘피지충전소",
     "opinet_gis_x": 361393.0,
     "opinet_gis_y": 463794.0,
@@ -4525,9 +4525,9 @@
         "price_text": "1030원/L",
         "price_num": 1030,
         "trade_dt": "20260802",
-        "trade_tm": "145814",
-        "updated_at_fmt": "26.08.02 14:58",
-        "_updated_at_dt": "2026-08-02T14:58:14"
+        "trade_tm": "202745",
+        "updated_at_fmt": "26.08.02 20:27",
+        "_updated_at_dt": "2026-08-02T20:27:45"
       }
     },
     "primary_price_today": "1030원/L"
@@ -4550,11 +4550,11 @@
     "latitude": "36.601982",
     "longitude": "127.468434",
     "trade_dt": "20260802",
-    "trade_tm": "145904",
+    "trade_tm": "215707",
     "gasoline_price_today": "",
     "price_num": 989,
-    "updated_at_fmt": "26.08.02 14:59",
-    "_updated_at_dt": "2026-08-02T14:59:04",
+    "updated_at_fmt": "26.08.02 21:57",
+    "_updated_at_dt": "2026-08-02T21:57:07",
     "opinet_os_nm": "주식회사 삼보에너지",
     "opinet_gis_x": 352630.88799,
     "opinet_gis_y": 444684.18745,
@@ -4565,9 +4565,9 @@
         "price_text": "989원/L",
         "price_num": 989,
         "trade_dt": "20260802",
-        "trade_tm": "145904",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:04"
+        "trade_tm": "215707",
+        "updated_at_fmt": "26.08.02 21:57",
+        "_updated_at_dt": "2026-08-02T21:57:07"
       }
     },
     "primary_price_today": "989원/L"
@@ -4615,11 +4615,11 @@
     "latitude": "36.734818",
     "longitude": "127.37595",
     "trade_dt": "20260802",
-    "trade_tm": "145345",
+    "trade_tm": "200929",
     "gasoline_price_today": "",
     "price_num": 1067,
-    "updated_at_fmt": "26.08.02 14:53",
-    "_updated_at_dt": "2026-08-02T14:53:45",
+    "updated_at_fmt": "26.08.02 20:09",
+    "_updated_at_dt": "2026-08-02T20:09:29",
     "opinet_os_nm": "갤럭시에너지㈜",
     "opinet_gis_x": 344440.52479,
     "opinet_gis_y": 459474.98355,
@@ -4630,9 +4630,9 @@
         "price_text": "1067원/L",
         "price_num": 1067,
         "trade_dt": "20260802",
-        "trade_tm": "145345",
-        "updated_at_fmt": "26.08.02 14:53",
-        "_updated_at_dt": "2026-08-02T14:53:45"
+        "trade_tm": "200929",
+        "updated_at_fmt": "26.08.02 20:09",
+        "_updated_at_dt": "2026-08-02T20:09:29"
       }
     },
     "primary_price_today": "1067원/L"
@@ -4655,11 +4655,11 @@
     "latitude": "36.582549",
     "longitude": "127.463536",
     "trade_dt": "20260802",
-    "trade_tm": "145854",
+    "trade_tm": "215938",
     "gasoline_price_today": "",
     "price_num": 1028,
-    "updated_at_fmt": "26.08.02 14:58",
-    "_updated_at_dt": "2026-08-02T14:58:54",
+    "updated_at_fmt": "26.08.02 21:59",
+    "_updated_at_dt": "2026-08-02T21:59:38",
     "opinet_os_nm": "남이가스충전소",
     "opinet_gis_x": 352182.0,
     "opinet_gis_y": 442523.1,
@@ -4670,9 +4670,9 @@
         "price_text": "1028원/L",
         "price_num": 1028,
         "trade_dt": "20260802",
-        "trade_tm": "145854",
-        "updated_at_fmt": "26.08.02 14:58",
-        "_updated_at_dt": "2026-08-02T14:58:54"
+        "trade_tm": "215938",
+        "updated_at_fmt": "26.08.02 21:59",
+        "_updated_at_dt": "2026-08-02T21:59:38"
       }
     },
     "primary_price_today": "1028원/L"
@@ -4745,11 +4745,11 @@
     "latitude": "36.751863",
     "longitude": "127.478851",
     "trade_dt": "20260802",
-    "trade_tm": "144133",
+    "trade_tm": "183131",
     "gasoline_price_today": "",
     "price_num": 1109,
-    "updated_at_fmt": "26.08.02 14:41",
-    "_updated_at_dt": "2026-08-02T14:41:33",
+    "updated_at_fmt": "26.08.02 18:31",
+    "_updated_at_dt": "2026-08-02T18:31:31",
     "opinet_os_nm": "씨제이대한통운 내수출장소",
     "opinet_gis_x": 353634.27428,
     "opinet_gis_y": 461276.79969,
@@ -4760,9 +4760,9 @@
         "price_text": "1109원/L",
         "price_num": 1109,
         "trade_dt": "20260802",
-        "trade_tm": "144133",
-        "updated_at_fmt": "26.08.02 14:41",
-        "_updated_at_dt": "2026-08-02T14:41:33"
+        "trade_tm": "183131",
+        "updated_at_fmt": "26.08.02 18:31",
+        "_updated_at_dt": "2026-08-02T18:31:31"
       }
     },
     "primary_price_today": "1109원/L"
@@ -4809,12 +4809,12 @@
     "match_source": "Kona Cheongju API + Opinet LPG",
     "latitude": "36.604492",
     "longitude": "127.479145",
-    "trade_dt": "20260802",
-    "trade_tm": "145333",
+    "trade_dt": "20260803",
+    "trade_tm": "005344",
     "gasoline_price_today": "",
     "price_num": 1042,
-    "updated_at_fmt": "26.08.02 14:53",
-    "_updated_at_dt": "2026-08-02T14:53:33",
+    "updated_at_fmt": "26.08.03 00:53",
+    "_updated_at_dt": "2026-08-03T00:53:44",
     "opinet_os_nm": "SK청남가스충전소",
     "opinet_gis_x": 353580.0,
     "opinet_gis_y": 444958.0,
@@ -4824,10 +4824,10 @@
         "product_code": "K015",
         "price_text": "1042원/L",
         "price_num": 1042,
-        "trade_dt": "20260802",
-        "trade_tm": "145333",
-        "updated_at_fmt": "26.08.02 14:53",
-        "_updated_at_dt": "2026-08-02T14:53:33"
+        "trade_dt": "20260803",
+        "trade_tm": "005344",
+        "updated_at_fmt": "26.08.03 00:53",
+        "_updated_at_dt": "2026-08-03T00:53:44"
       }
     },
     "primary_price_today": "1042원/L"
@@ -4851,27 +4851,27 @@
     "gasoline_price_today": "1834원/L",
     "price_num": 1834,
     "trade_dt": "20260802",
-    "trade_tm": "145924",
-    "updated_at_fmt": "26.08.02 14:59",
-    "_updated_at_dt": "2026-08-02T14:59:24",
+    "trade_tm": "205405",
+    "updated_at_fmt": "26.08.02 20:54",
+    "_updated_at_dt": "2026-08-02T20:54:05",
     "fuel_prices": {
       "휘발유": {
         "product_code": "B027",
         "price_text": "1834원/L",
         "price_num": 1834,
         "trade_dt": "20260802",
-        "trade_tm": "145924",
-        "updated_at_fmt": "26.08.02 14:59",
-        "_updated_at_dt": "2026-08-02T14:59:24"
+        "trade_tm": "205405",
+        "updated_at_fmt": "26.08.02 20:54",
+        "_updated_at_dt": "2026-08-02T20:54:05"
       },
       "경유": {
         "product_code": "D047",
         "price_text": "1834원/L",
         "price_num": 1834,
         "trade_dt": "20260802",
-        "trade_tm": "144715",
-        "updated_at_fmt": "26.08.02 14:47",
-        "_updated_at_dt": "2026-08-02T14:47:15"
+        "trade_tm": "201345",
+        "updated_at_fmt": "26.08.02 20:13",
+        "_updated_at_dt": "2026-08-02T20:13:45"
       }
     },
     "primary_price_today": "1834원/L"
@@ -4939,18 +4939,18 @@
     "gasoline_price_today": "",
     "price_num": 1103,
     "trade_dt": "20260802",
-    "trade_tm": "145844",
-    "updated_at_fmt": "26.08.02 14:58",
-    "_updated_at_dt": "2026-08-02T14:58:44",
+    "trade_tm": "215042",
+    "updated_at_fmt": "26.08.02 21:50",
+    "_updated_at_dt": "2026-08-02T21:50:42",
     "fuel_prices": {
       "LPG": {
         "product_code": "K015",
         "price_text": "1103원/L",
         "price_num": 1103,
         "trade_dt": "20260802",
-        "trade_tm": "145844",
-        "updated_at_fmt": "26.08.02 14:58",
-        "_updated_at_dt": "2026-08-02T14:58:44"
+        "trade_tm": "215042",
+        "updated_at_fmt": "26.08.02 21:50",
+        "_updated_at_dt": "2026-08-02T21:50:42"
       }
     },
     "primary_price_today": "1103원/L"
